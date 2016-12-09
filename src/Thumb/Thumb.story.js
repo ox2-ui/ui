@@ -30,6 +30,9 @@ storiesOf('Thumb', module)
   .add('icon placeholder', () => (
     <Thumb icon="user" width={60} height={60} />
   ))
+  .add('icon placeholder small', () => (
+    <Thumb icon="user" width={30} height={30} />
+  ))
   .add('square image 80', () => (
     <Thumb image={image1} width={80} height={80} />
   ))

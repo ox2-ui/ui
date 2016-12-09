@@ -10,7 +10,7 @@ const Thumb = (props) => {
   const { className: classNameProp, image, icon, width, height, offlineEnabled, localImg } = props;
 
   const className = classNames(
-    'display:flex flex:items-center flex:content-center',
+    'display:flex flex:items-center flex:content-center color:neutral border:rounded',
     classNameProp
   );
 
@@ -21,10 +21,10 @@ const Thumb = (props) => {
           if (offlineEnabled && localImg) {
             <ImageOffline remoteLink={image} localImg={localImg} className="w:100p border:rounded" />;
           } else {
-            <img src={image} className="w:100p border:rounded" />;
+            <img src={image} className="w:100p" />;
           }
         } else {
-          <Icon icon={icon} size={`${height - 20}px`} className="text-color:neutral-faded" />;
+          <Icon icon={icon} size={`${height - (height * 0.3)}px`} className="text-color:white" />;
         }
       }}
     </div>
