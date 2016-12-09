@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 0.0.3 - 2016-12-09
+### Added
+- [npm] Added missing `classnames` dependency.
+
 ## 0.0.2 - 2016-12-09
 ### Added
 - [Thumb] Changed placeholder icon background to grey.
