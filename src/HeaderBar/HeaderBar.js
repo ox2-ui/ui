@@ -31,7 +31,7 @@ const HeaderBar = (props) => {
             />;
           }
         }}
-      {/* Title */}
+        {/* Title */}
         <div className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">{title}</div>
         {/* Buttons */}
         {do {
