@@ -21,7 +21,7 @@ const Thumb = (props) => {
           if (offlineEnabled && localImg) {
             <ImageOffline remoteLink={image} localImg={localImg} className="w:100p border:rounded" />;
           } else {
-            <img src={image} className="w:100p" />;
+            <img src={image} className="w:100p border:rounded" />;
           }
         } else {
           <Icon icon={icon} size={`${height - (height * 0.3)}px`} className="text-color:white" />;
