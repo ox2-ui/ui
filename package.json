@@ -85,6 +85,8 @@
     "@ox2/button": "^1.0.0",
     "@ox2/icon": "^1.0.0",
     "@ox2/image": "^0.0.1",
-    "classnames": "^2.2.5"
+    "@ox2/scroller": "^1.0.0",
+    "classnames": "^2.2.5",
+    "styled-components": "^1.2.1"
   }
 }
