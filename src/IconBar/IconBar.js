@@ -41,6 +41,10 @@ class IconBar extends Component {
      */
     onUpdate: PropTypes.func,
     /**
+     * Override the inline-styles of the root element.
+     */
+    style: PropTypes.object,
+    /**
      * Value to select
      */
     value: PropTypes.string.isRequired,
@@ -64,23 +68,20 @@ class IconBar extends Component {
   };
 
   render() {
-    const { className: classNameProp, items } = this.props;
-
-    const className = classNames(
-      'color:backdrop-alt',
-      classNameProp
-    );
+    const { className, style, items } = this.props;
 
     return (
-      <StyledScroller className={className}>
+      <StyledScroller className={className} style={style}>
         {items.map((item, i) => {
           return (
-            <Item onClick={() => this.handleClick(item.value)}>
+            <Item
+              key={i}
+              onClick={() => this.handleClick(item.value)}
+            >
               {this.state.value === item.value &&
                 <SelectIndicator className="color:neutral-faded" />
               }
               <Thumb
-                key={i}
                 image={item.image}
                 width={35}
                 height={35}
