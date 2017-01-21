@@ -39,7 +39,7 @@ class IconBar extends Component {
     /**
      * Callback function fired when the menu item is selected
      */
-    onUpdate: PropTypes.func,
+    onUpdate: PropTypes.func.isRequired,
     /**
      * Override the inline-styles of the root element.
      */
