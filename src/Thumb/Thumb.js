@@ -7,10 +7,11 @@ import ImageOffline from '@ox2/image/ImageOffline';
  * Thumb Component
  */
 const Thumb = (props) => {
-  const { className: classNameProp, image, icon, width, height, offlineEnabled, localImg } = props;
+  const { className: classNameProp, image, icon, color, iconColor, width, height, offlineEnabled, localImg } = props;
 
   const className = classNames(
-    'display:flex flex:items-center flex:content-center color:neutral border:rounded',
+    'display:flex flex:items-center flex:content-center border:rounded',
+    `color:${color || 'neutral'}`,
     classNameProp
   );
 
@@ -24,7 +25,7 @@ const Thumb = (props) => {
             <img src={image} className="w:100p border:rounded" />;
           }
         } else {
-          <Icon icon={icon} size={`${height - (height * 0.3)}px`} className="text-color:white" />;
+          <Icon icon={icon} size={`${height - (height * 0.3)}px`} className={`text-color:${iconColor || 'white'}`} />;
         }
       }}
     </div>
@@ -37,6 +38,10 @@ Thumb.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Background color
+   */
+  color: PropTypes.string,
+  /**
    * Thumb height in pixels
    */
   height: PropTypes.number,
@@ -44,6 +49,10 @@ Thumb.propTypes = {
    * Icon id
    */
   icon: PropTypes.string,
+  /**
+   * Icon color
+   */
+  iconColor: PropTypes.string,
   /**
    * Image url
    */
