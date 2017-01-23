@@ -1,6 +1,8 @@
 import React from 'react';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf } from '@kadira/storybook';
 import HeaderBar from './HeaderBar';
+
+const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-console
 
 
 storiesOf('HeaderBar', module)
@@ -20,7 +22,7 @@ storiesOf('HeaderBar', module)
     <HeaderBar
       title="Cactus settings"
       icon="cactus"
-      buttonHandler={action('button clicked')}
+      buttonHandler={handleOnClick}
       buttonLabel={'Filter'}
     />
   ));

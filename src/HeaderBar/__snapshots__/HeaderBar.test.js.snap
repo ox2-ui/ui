@@ -1,0 +1,42 @@
+exports[`test renders correctly 1`] = `
+<HeaderBar
+  buttonHandler={[Function]}
+  buttonLabel="Filter"
+  icon="cactus"
+  title="Cactus settings">
+  <div
+    className="display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2">
+    <div
+      className="display:flex flex:items-center flex:44px padding-x:7">
+      <Icon
+        className="text-color:brand"
+        icon="cactus"
+        size="25px">
+        <span
+          className="icon-cactus text-color:brand"
+          style={
+            Object {
+              "color": undefined,
+              "fontSize": "25px",
+            }
+          } />
+      </Icon>
+      <div
+        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">
+        Cactus settings
+      </div>
+      <Button
+        btn="header-button small raised"
+        className="flex:0-auto"
+        onClick={[Function]}>
+        <button
+          className="flex:0-auto"
+          data-btn="header-button small raised"
+          onClick={[Function]}>
+          Filter
+        </button>
+      </Button>
+    </div>
+  </div>
+</HeaderBar>
+`;

@@ -1,0 +1,8 @@
+exports[`test renders correctly 1`] = `
+<SelectIndicator>
+  <styled.div>
+    <div
+      className="iscjpC" />
+  </styled.div>
+</SelectIndicator>
+`;
