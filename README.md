@@ -1,5 +1,6 @@
 # ui
-![NPM version](https://img.shields.io/npm/v/@ox2/ui.svg?style=flat)
+![NPM version](https://img.shields.io/badge/npm-private-orange.svg?style=flat)
+<!-- ![NPM version](https://img.shields.io/npm/v/@ox2/ui.svg?style=flat) -->
 
 UI component library.
 
