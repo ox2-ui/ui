@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
-## 0.1.6 - 2017-01-22
+## 0.2.0 - 2017-01-23
+### Added
+- [ListItem] new component
+
+## 0.1.6 - 2017-01-23
 ### Added
 - Jest snapshot testing
 - News Docs
