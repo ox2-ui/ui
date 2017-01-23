@@ -1,0 +1,61 @@
+exports[`test renders correctly 1`] = `
+<ListItem
+  _id="1nNKyP6h6pMMjAyTMK"
+  icon="user"
+  onClick={[Function]}
+  subtitle="Ox2 Limited"
+  subtitle2="Marketing Manager"
+  title="Jane Sanders">
+  <div
+    className="border:bottom border:2 border-color:neutral-faded">
+    <div
+      className="font:roboto-condensed display:flex flex:items-center color:white padding:10 select:none cursor:pointer"
+      onClick={[Function]}>
+      <Thumb
+        height={60}
+        icon="user"
+        width={60}>
+        <div
+          className="display:flex flex:items-center flex:content-center border:rounded color:neutral"
+          style={
+            Object {
+              "WebkitFlex": "0 0 60px",
+              "flex": "0 0 60px",
+              "height": "60px",
+              "width": "60px",
+            }
+          }>
+          <Icon
+            className="text-color:white"
+            icon="user"
+            size="42px">
+            <span
+              className="icon-user text-color:white"
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": "42px",
+                }
+              } />
+          </Icon>
+        </div>
+      </Thumb>
+      <div
+        className="display:flex flex:column flex:content-center margin-l:10 min-w:0 line-h:130p">
+        <div
+          className="size:18 line-h:120p text:truncate text-color:brand">
+          Jane Sanders
+        </div>
+        <div
+          className="size:16 line-h:115p text:truncate text-color:neutral">
+          Ox2 Limited
+        </div>
+        <div
+          className="size:16 line-h:115p text:truncate text-color:neutral">
+          Marketing Manager
+        </div>
+      </div>
+    </div>
+  </div>
+</ListItem>
+`;
