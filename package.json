@@ -18,7 +18,7 @@
     "docs:copy-to-public": "bash ./scripts/copy_docs.sh",
     "lint": "eslint src scripts && echo \"eslint: NO LINT ERRORS\"; exit 0",
     "prebuild": "npm run clean:build && npm run lint && npm run test",
-    "storybook": "start-storybook -p 60066 -s ./public",
+    "storybook": "start-storybook -p 55009 -s ./public",
     "test": "jest",
     "test:update": "yarn test -- -u"
   },
