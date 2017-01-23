@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import classNames from 'classnames';
 import Thumb from '../Thumb';
 import SelectIndicator from '../SelectIndicator';
 import Scroller from '@ox2/scroller/Scroller';

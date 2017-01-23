@@ -20,7 +20,12 @@ const HeaderBar = (props) => {
         {/* Picture */}
         {do {
           if (icon) {
-            <Icon size={'25px'} onClick={onIconClick} icon={icon} className="text-color:brand" />;
+            <Icon
+              size={'25px'}
+              onClick={onIconClick}
+              icon={icon}
+              className="text-color:brand"
+            />;
           } else if (image) {
             <img
               src={image}
@@ -50,10 +55,18 @@ const HeaderBar = (props) => {
 };
 
 HeaderBar.propTypes = {
+  button2Handler: PropTypes.func,
+  button2Label: PropTypes.string,
+  buttonHandler: PropTypes.func,
+  buttonLabel: PropTypes.string,
   /**
    * The css class name of the root element.
    */
   className: PropTypes.string,
+  icon: PropTypes.string,
+  image: PropTypes.string,
+  onIconClick: PropTypes.func,
+  title: PropTypes.string,
 };
 
 export default HeaderBar;
