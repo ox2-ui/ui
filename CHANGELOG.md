@@ -6,6 +6,31 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 0.1.6 - 2017-01-22
+### Added
+- Jest snapshot testing
+- News Docs
+
+### Changed
+- Fixed lint errors
+
+## 0.1.5 - 2017-01-22
+### Added
+- [Thumb] add coloring option
+
+## 0.1.4 - 2017-01-22
+### Changed
+- [IconBar] fix propTypes
+- Updated dependencies
+
+## 0.1.2 - 2017-01-19
+### Added
+- [IconBar] New component.
+- [SelectIndicator] New component.
+
+### Changed
+- [Thumb] fix border radius
+
 ## 0.0.3 - 2016-12-09
 ### Added
 - [npm] Added missing `classnames` dependency.
