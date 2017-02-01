@@ -24,58 +24,6 @@ exports[`test renders correctly 1`] = `
         className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">
         Cactus settings
       </div>
-      <div
-        className="display:flex">
-        <HeaderButton
-          className="margin-r:7"
-          label="Search"
-          onClick={[Function]}>
-          <Button
-            btn="header-button small raised"
-            className="margin-r:7"
-            onClick={[Function]}
-            style={
-              Object {
-                "flex": "0 0 auto",
-              }
-            }>
-            <button
-              className="margin-r:7"
-              data-btn="header-button small raised"
-              onClick={[Function]}
-              style={
-                Object {
-                  "flex": "0 0 auto",
-                }
-              }>
-              Search
-            </button>
-          </Button>
-        </HeaderButton>
-        <HeaderButton
-          label="Filter"
-          onClick={[Function]}>
-          <Button
-            btn="header-button small raised"
-            onClick={[Function]}
-            style={
-              Object {
-                "flex": "0 0 auto",
-              }
-            }>
-            <button
-              data-btn="header-button small raised"
-              onClick={[Function]}
-              style={
-                Object {
-                  "flex": "0 0 auto",
-                }
-              }>
-              Filter
-            </button>
-          </Button>
-        </HeaderButton>
-      </div>
     </div>
   </div>
 </HeaderBar>

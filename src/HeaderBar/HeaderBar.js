@@ -6,7 +6,7 @@ import Icon from '@ox2/icon/Icon';
  * HeaderBar Component
  */
 const HeaderBar = (props) => {
-  const { className: classNameProp, icon, image, title, onIconClick, widget, widgetBottom } = props;
+  const { className: classNameProp, icon, image, title, onIconClick, children, widgetBottom } = props;
 
   const className = classNames(
     'display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2',
@@ -37,7 +37,7 @@ const HeaderBar = (props) => {
         }}
         {/* Title */}
         <div className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">{title}</div>
-        {widget && widget(props)}
+        {children}
       </div>
       {widgetBottom && widgetBottom(props)}
     </div>
@@ -49,6 +49,7 @@ HeaderBar.propTypes = {
   button2Label: PropTypes.string,
   buttonHandler: PropTypes.func,
   buttonLabel: PropTypes.string,
+  children: PropTypes.node,
   /**
    * The css class name of the root element.
    */

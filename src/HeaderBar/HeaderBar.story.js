@@ -8,16 +8,6 @@ const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-conso
 
 const handleOnClickBottom = () => console.log('💋'); // eslint-disable-line no-console
 
-
-const widget = () => {
-  return (
-    <div className="display:flex">
-      <HeaderButton onClick={handleOnClick} className="margin-r:7" label="Search" />
-      <HeaderButton onClick={handleOnClick} label="Filter" />
-    </div>
-  );
-};
-
 const widgetBottom = () => {
   return (
     <div className="display:flex flex:content-center padding-x:10 padding-b:7">
@@ -40,12 +30,14 @@ storiesOf('HeaderBar', module)
       icon="cactus"
     />
   ))
-  .add('with widget', () => (
+  .add('with buttons', () => (
     <HeaderBar
       title="Cactus settings"
       icon="cactus"
-      widget={widget}
-    />
+    >
+      <HeaderButton onClick={handleOnClick} className="margin-r:7" label="Search" />
+      <HeaderButton onClick={handleOnClick} label="Filter" />
+    </HeaderBar>
   ))
   .add('with widgetBottom', () => (
     <HeaderBar
