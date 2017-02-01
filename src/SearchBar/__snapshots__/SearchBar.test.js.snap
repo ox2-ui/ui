@@ -1,0 +1,27 @@
+exports[`test renders correctly 1`] = `
+<SearchBar
+  onChange={[Function]}
+  placeholder="Search this...">
+  <Styled(Search)
+    onChange={[Function]}
+    placeholder="Search this..."
+    throttle={100}>
+    <Search
+      caseSensitive={false}
+      className="gIOtJu"
+      fuzzy={false}
+      onChange={[Function]}
+      placeholder="Search this..."
+      throttle={100}>
+      <div
+        className="gIOtJu">
+        <input
+          onChange={[Function]}
+          placeholder="Search this..."
+          type="search"
+          value="" />
+      </div>
+    </Search>
+  </Styled(Search)>
+</SearchBar>
+`;

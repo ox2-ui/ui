@@ -5412,6 +5412,12 @@ react-modal@^1.2.0, react-modal@^1.2.1:
     exenv "1.2.0"
     lodash.assign "^4.2.0"
 
+react-search-input@^0.10.4:
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/react-search-input/-/react-search-input-0.10.4.tgz#5bd1b39766e02d6e9b2d3f313b8882d73b487f25"
+  dependencies:
+    fuse.js "^2.2.0"
+
 react-simple-di@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/react-simple-di/-/react-simple-di-1.2.0.tgz#dde0e5bf689f391ef2ab02c9043b213fe239c6d0"
