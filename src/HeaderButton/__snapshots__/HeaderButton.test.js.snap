@@ -1,0 +1,25 @@
+exports[`test renders correctly 1`] = `
+<HeaderButton
+  label="Add"
+  onClick={[Function]}>
+  <Button
+    btn="header-button small raised"
+    onClick={[Function]}
+    style={
+      Object {
+        "flex": "0 0 auto",
+      }
+    }>
+    <button
+      data-btn="header-button small raised"
+      onClick={[Function]}
+      style={
+        Object {
+          "flex": "0 0 auto",
+        }
+      }>
+      Add
+    </button>
+  </Button>
+</HeaderButton>
+`;
