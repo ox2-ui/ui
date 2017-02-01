@@ -1,0 +1,10 @@
+exports[`test renders correctly 1`] = `
+<HeaderControls>
+  <div
+    className="padding-x:7 padding-b:7 border-color:brand border:bottom border:2">
+    <div>
+      sample text
+    </div>
+  </div>
+</HeaderControls>
+`;
