@@ -4,7 +4,7 @@ import HeaderControls from './HeaderControls';
 
 storiesOf('HeaderControls', module)
   .add('default', () => (
-    <HeaderControls >
+    <HeaderControls>
       <div>sample text</div>
     </HeaderControls>
   ));
