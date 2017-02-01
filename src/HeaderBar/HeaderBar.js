@@ -6,10 +6,11 @@ import Icon from '@ox2/icon/Icon';
  * HeaderBar Component
  */
 const HeaderBar = (props) => {
-  const { className: classNameProp, icon, image, title, onIconClick, children, widgetBottom } = props;
+  const { className: classNameProp, icon, image, title, onIconClick, children, hideBorder } = props;
 
   const className = classNames(
-    'display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2',
+    'display:flex flex:column flex:0-auto color:white',
+    { 'border-color:brand border:bottom border:2': !hideBorder },
     classNameProp
   );
 
@@ -39,27 +40,21 @@ const HeaderBar = (props) => {
         <div className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">{title}</div>
         {children}
       </div>
-      {widgetBottom && widgetBottom(props)}
     </div>
   );
 };
 
 HeaderBar.propTypes = {
-  button2Handler: PropTypes.func,
-  button2Label: PropTypes.string,
-  buttonHandler: PropTypes.func,
-  buttonLabel: PropTypes.string,
   children: PropTypes.node,
   /**
    * The css class name of the root element.
    */
   className: PropTypes.string,
+  hideBorder: PropTypes.bool,
   icon: PropTypes.string,
   image: PropTypes.string,
   onIconClick: PropTypes.func,
   title: PropTypes.string,
-  widget: PropTypes.func,
-  widgetBottom: PropTypes.func,
 };
 
 export default HeaderBar;
