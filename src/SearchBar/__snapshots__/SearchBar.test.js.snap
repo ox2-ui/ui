@@ -8,13 +8,13 @@ exports[`test renders correctly 1`] = `
     throttle={100}>
     <Search
       caseSensitive={false}
-      className="gIOtJu"
+      className="dfnEEL"
       fuzzy={false}
       onChange={[Function]}
       placeholder="Search this..."
       throttle={100}>
       <div
-        className="gIOtJu">
+        className="dfnEEL">
         <input
           onChange={[Function]}
           placeholder="Search this..."

@@ -5,14 +5,15 @@ import styled from 'styled-components';
 const StyledSearchInput = styled(SearchInput)`
   input {
     width: 100%;
-    font-size: 14px;
+    font-size: 15px;
     border: 1px solid #c6c6c6;
     border-radius: 3px;
     line-height: 22px;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
     height: 32px;
     -webkit-appearance: none;
+    font-family: Roboto Condensed
   }
 
   input:focus {
