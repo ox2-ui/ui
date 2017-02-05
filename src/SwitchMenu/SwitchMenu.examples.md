@@ -1,0 +1,3 @@
+### SwitchMenu
+
+    <SwitchMenu/>
