@@ -1,0 +1,90 @@
+exports[`test renders correctly 1`] = `
+<HeaderDesktop
+  onHomeClick={[Function]}
+  onSwitchClick={[Function]}
+  onUserClick={[Function]}>
+  <div
+    className="pos:absolute-0 display:flex padding-x:7">
+    <div
+      className="flex:2 display:flex flex:items-center flex:content-start">
+      <Button
+        btn="large raised brand"
+        className="margin-r:10"
+        onClick={[Function]}>
+        <button
+          className="margin-r:10"
+          data-btn="large raised brand"
+          onClick={[Function]}>
+          <Icon
+            icon="cactus">
+            <span
+              className="icon-cactus"
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": undefined,
+                }
+              } />
+          </Icon>
+        </button>
+      </Button>
+      <Thumb
+        height={35}
+        image="http://imgur.com/abQ9EaG.png"
+        width={35}>
+        <div
+          className="display:flex flex:items-center flex:content-center border:rounded color:neutral"
+          style={
+            Object {
+              "WebkitFlex": "0 0 35px",
+              "flex": "0 0 35px",
+              "height": "35px",
+              "width": "35px",
+            }
+          }>
+          <img
+            className="w:100p border:rounded"
+            src="http://imgur.com/abQ9EaG.png" />
+        </div>
+      </Thumb>
+      <div
+        className="size:14 text-color:white font:roboto margin-l:10">
+        Some App Name
+      </div>
+      <Button
+        btn="tiny neutral-dark"
+        className="margin-l:10"
+        onClick={[Function]}>
+        <button
+          className="margin-l:10"
+          data-btn="tiny neutral-dark"
+          onClick={[Function]}>
+          Switch
+        </button>
+      </Button>
+    </div>
+    <div
+      className="flex:1 display:flex flex:items-center flex:content-end">
+      <Button
+        btn="transparent large white"
+        onClick={[Function]}>
+        <button
+          data-btn="transparent large white"
+          onClick={[Function]}>
+          <Icon
+            icon="user">
+            <span
+              className="icon-user"
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": undefined,
+                }
+              } />
+          </Icon>
+        </button>
+      </Button>
+    </div>
+  </div>
+</HeaderDesktop>
+`;
