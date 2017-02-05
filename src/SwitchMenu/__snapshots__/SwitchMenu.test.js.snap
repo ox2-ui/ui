@@ -1,0 +1,20 @@
+exports[`test renders correctly 1`] = `
+<SwitchMenu
+  onDismiss={[Function]}>
+  <div
+    className="padding-b:40">
+    <Button
+      btn="raised action"
+      onClick={[Function]}>
+      <button
+        data-btn="raised action"
+        onClick={[Function]}>
+        Done
+      </button>
+    </Button>
+    <div>
+      SWITCH Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, sequi? Consequuntur inventore nulla ratione vitae obcaecati voluptatem animi molestiae ipsam et adipisci illo reiciendis saepe doloremque, quae perspiciatis iure vero.
+    </div>
+  </div>
+</SwitchMenu>
+`;
