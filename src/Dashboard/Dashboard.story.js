@@ -6,7 +6,5 @@ const handler = () => console.log('🍇'); // eslint-disable-line no-console
 
 storiesOf('Dashboard', module)
   .add('default', () => (
-    <Dashboard
-      onDismiss={handler}
-    />
+    <Dashboard onDismiss={handler} />
   ));

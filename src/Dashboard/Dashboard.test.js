@@ -7,9 +7,7 @@ const testHandler = () => true;
 
 it('renders correctly', () => {
   const wrapper = mount(
-    <Dashboard
-      onDismiss={testHandler}
-    />
+    <Dashboard onDismiss={testHandler} />
   );
 
   expect(wrapper).toMatchSnapshot();
