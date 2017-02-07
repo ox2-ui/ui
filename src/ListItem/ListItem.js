@@ -28,9 +28,9 @@ const ListItem = (props) => {
         }
         {/* class min-w:0 added to fix Flex child truncate issue */}
         <div className="display:flex flex:column flex:content-center margin-l:10 min-w:0 line-h:130p">
-          <div className="size:18 line-h:120p text:truncate text-color:brand">{title}</div>
-          <div className="size:16 line-h:115p text:truncate text-color:neutral">{subtitle}</div>
-          <div className="size:16 line-h:115p text:truncate text-color:neutral">{subtitle2}</div>
+          <div className="select:text size:18 line-h:120p text:truncate text-color:brand">{title}</div>
+          <div className="select:text size:16 line-h:115p text:truncate text-color:neutral">{subtitle}</div>
+          <div className="select:text size:16 line-h:115p text:truncate text-color:neutral">{subtitle2}</div>
         </div>
         { widget &&
           <div className="margin-l:auto flex:0-auto">
