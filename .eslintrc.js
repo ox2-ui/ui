@@ -61,7 +61,7 @@ module.exports = {
     'no-extra-semi': 'error',
     'no-extra-boolean-cast': 'error',
     'no-trailing-spaces': 'error',
-    'no-underscore-dangle': 'error',
+    'no-underscore-dangle': 'off',
     'no-unneeded-ternary': 'error',
     'no-unreachable': 'error',
     'no-var': 'error',
