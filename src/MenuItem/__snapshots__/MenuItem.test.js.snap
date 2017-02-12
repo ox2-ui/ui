@@ -1,0 +1,56 @@
+exports[`test renders correctly 1`] = `
+<MenuItem
+  _id="1nNKyP6h6pMMjAyTMK"
+  icon="user"
+  iconColor="brand"
+  onClick={[Function]}
+  pictureBgColor="white"
+  subtitle1="Ox2 Limited"
+  subtitle2="Marketing Manager"
+  title="Jane Sanders">
+  <div>
+    <div
+      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+      onClick={[Function]}>
+      <Thumb
+        color="white"
+        height={28}
+        icon="user"
+        iconColor="brand"
+        width={28}>
+        <div
+          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+          style={
+            Object {
+              "WebkitFlex": "0 0 28px",
+              "flex": "0 0 28px",
+              "height": "28px",
+              "width": "28px",
+            }
+          }>
+          <Icon
+            className="text-color:brand"
+            icon="user"
+            size="19.6px">
+            <span
+              className="icon-user text-color:brand"
+              style={
+                Object {
+                  "color": undefined,
+                  "fontSize": "19.6px",
+                }
+              } />
+          </Icon>
+        </div>
+      </Thumb>
+      <div
+        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+        <div
+          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+          Jane Sanders
+        </div>
+      </div>
+    </div>
+  </div>
+</MenuItem>
+`;
