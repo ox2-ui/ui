@@ -9,10 +9,10 @@ it('renders correctly', () => {
   const wrapper = mount(
     <MenuItem
       _id={'1nNKyP6h6pMMjAyTMK'}
-      title={'Jane Sanders'}
+      title={'Settings'}
       subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
-      icon={'user'}
+      icon={'cog'}
       iconColor={'brand'}
       pictureBgColor={'white'}
       onClick={handler}
