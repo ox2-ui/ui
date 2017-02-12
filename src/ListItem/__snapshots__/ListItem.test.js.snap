@@ -3,7 +3,7 @@ exports[`test renders correctly 1`] = `
   _id="1nNKyP6h6pMMjAyTMK"
   icon="user"
   onClick={[Function]}
-  subtitle="Ox2 Limited"
+  subtitle1="Ox2 Limited"
   subtitle2="Marketing Manager"
   title="Jane Sanders">
   <div
@@ -47,11 +47,11 @@ exports[`test renders correctly 1`] = `
           Jane Sanders
         </div>
         <div
-          className="select:text size:16 line-h:115p text:truncate text-color:neutral">
+          className="select:text size:16 line-h:115p text:truncate text-color:neutral-dim">
           Ox2 Limited
         </div>
         <div
-          className="select:text size:16 line-h:115p text:truncate text-color:neutral">
+          className="select:text size:16 line-h:115p text:truncate text-color:neutral-dim">
           Marketing Manager
         </div>
       </div>

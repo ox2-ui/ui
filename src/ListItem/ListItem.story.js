@@ -4,9 +4,9 @@ import ListItem from './ListItem';
 import Icon from '@ox2/icon/Icon';
 import Button from '@ox2/button/Button';
 
-const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-console
+const handler = () => console.log('🍇'); // eslint-disable-line no-console
 
-const handleOnClickButtons = () => console.log('💋'); // eslint-disable-line no-console
+const handlerButtons = () => console.log('💋'); // eslint-disable-line no-console
 
 const widget = () => {
   return <Icon icon={'server'} size={'20px'} className={'text-color:critical margin:7'} />;
@@ -15,8 +15,8 @@ const widget = () => {
 const widgetBottom = () => {
   return (
     <div className="display:flex flex:content-end padding-x:10 padding-b:7">
-      <Button onClick={handleOnClickButtons} btn="tiny outline neutral-dim" className="margin-r:7"> Duplicate </Button>
-      <Button onClick={handleOnClickButtons} btn="tiny outline neutral-dim"> Preview </Button>
+      <Button onClick={handlerButtons} btn="tiny outline neutral-dim" className="margin-r:7"> Duplicate </Button>
+      <Button onClick={handlerButtons} btn="tiny outline neutral-dim"> Preview </Button>
     </div>
   );
 };
@@ -29,7 +29,7 @@ storiesOf('ListItem', module)
       subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
     />
   ))
   .add('one subtitle', () => (
@@ -38,7 +38,7 @@ storiesOf('ListItem', module)
       title={'Jane Sanders'}
       subtitle1={'Ox2 Limited'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
     />
   ))
   .add('no subtitle', () => (
@@ -46,7 +46,7 @@ storiesOf('ListItem', module)
       _id={'1nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
     />
   ))
   .add('colored icon', () => (
@@ -58,7 +58,7 @@ storiesOf('ListItem', module)
       icon={'user'}
       pictureBgColor={'white'}
       iconColor={'neutral-light'}
-      onClick={handleOnClick}
+      onClick={handler}
     />
   ))
   .add('image', () => (
@@ -69,7 +69,7 @@ storiesOf('ListItem', module)
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
     />
   ))
   .add('widget', () => (
@@ -80,7 +80,7 @@ storiesOf('ListItem', module)
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
       widget={widget}
     />
   ))
@@ -92,7 +92,7 @@ storiesOf('ListItem', module)
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
       widgetBottom={widgetBottom}
     />
   ))
@@ -104,7 +104,7 @@ storiesOf('ListItem', module)
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
       widget={widget}
       widgetBottom={widgetBottom}
     />

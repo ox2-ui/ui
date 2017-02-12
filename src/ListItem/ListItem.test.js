@@ -3,7 +3,7 @@ import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import ListItem from './ListItem';
 
-const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-console
+const handler = () => console.log('🍇'); // eslint-disable-line no-console
 
 
 it('renders correctly', () => {
@@ -11,10 +11,10 @@ it('renders correctly', () => {
     <ListItem
       _id={'1nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       icon={'user'}
-      onClick={handleOnClick}
+      onClick={handler}
     />
   );
 
