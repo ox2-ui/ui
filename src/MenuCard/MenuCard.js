@@ -73,12 +73,16 @@ MenuCard.propTypes = {
    * The css class name of the root element.
    */
   className: PropTypes.string,
+  image: PropTypes.string,
+  imageLandscape: PropTypes.bool,
   items: PropTypes.array.isRequired,
   onItemClick: PropTypes.func.isRequired,
-  style: PropTypes.object,
+  onSwitchClick: PropTypes.func,
+  selectedValue: PropTypes.string,
   /**
    * Override the inline-styles of the root element.
    */
+  style: PropTypes.object,
   title: PropTypes.string.isRequired,
 };
 
