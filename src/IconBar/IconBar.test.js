@@ -2,15 +2,18 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import IconBar from './IconBar';
-import { items } from '../../data/MenuItems';
+import Immutable from 'immutable';
+import { items } from '../../data/Apps';
 
 const handleUpdate = (value) => console.log('🐳', value); // eslint-disable-line no-console
+
+const list = Immutable.List.of(...items);
 
 it('renders correctly', () => {
   const wrapper = mount(
     <IconBar
-      value="@ox2/button"
-      items={items}
+      value="3nNKyP6h6pMMjAyTMK"
+      items={list}
       onUpdate={handleUpdate}
     />
   );

@@ -3,6 +3,7 @@ import Thumb from '../Thumb';
 import SelectIndicator from '../SelectIndicator';
 import Scroller from '@ox2/scroller/Scroller';
 import styled from 'styled-components';
+import Immutable from 'immutable';
 
 const Item = styled.div`
   position: relative;
@@ -34,7 +35,7 @@ class IconBar extends Component {
     /**
      * Menu items to render
      */
-    items: PropTypes.array.isRequired,
+    items: PropTypes.instanceOf(Immutable.List).isRequired,
     /**
      * Callback function fired when the menu item is selected
      */
@@ -49,25 +50,12 @@ class IconBar extends Component {
     value: PropTypes.string.isRequired,
   };
 
-  state = {
-    value: this.props.value,
-  };
-
-  componentWillReceiveProps = (nextProps) => {
-    if (nextProps.value !== this.state.value) {
-      this.setState({ value: nextProps.value });
-    }
+  shouldComponentUpdate(nextProps) {
+    return !Immutable.is(this.props.items, nextProps.items);
   }
 
-  handleClick = (value) => {
-    this.props.onUpdate(value);
-    this.setState({
-      value: value,
-    });
-  };
-
   render() {
-    const { className, style, items } = this.props;
+    const { className, style, items, onUpdate, value } = this.props;
 
     return (
       <StyledScroller className={className} style={style}>
@@ -75,13 +63,13 @@ class IconBar extends Component {
           return (
             <Item
               key={i}
-              onClick={() => this.handleClick(item.value)}
+              onClick={() => onUpdate(item._id)}
             >
-              {this.state.value === item.value &&
+              {value === item._id &&
                 <SelectIndicator className="color:neutral-faded" />
               }
               <Thumb
-                image={item.image}
+                image={item.logo}
                 width={35}
                 height={35}
               />

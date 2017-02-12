@@ -69,6 +69,7 @@
     "@ox2/image": "^0.0.1",
     "@ox2/scroller": "^1.2.0",
     "classnames": "^2.2.5",
+    "immutable": "^3.8.1",
     "react-search-input": "^0.10.4",
     "styled-components": "^1.4.3"
   },

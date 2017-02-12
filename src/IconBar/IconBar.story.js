@@ -1,15 +1,18 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import IconBar from './IconBar';
-import { items } from '../../data/MenuItems';
+import Immutable from 'immutable';
+import { items } from '../../data/Apps';
 
 const handleUpdate = (value) => console.log('🐳', value); // eslint-disable-line no-console
+
+const list = Immutable.List.of(...items);
 
 storiesOf('IconBar', module)
   .add('default', () => (
     <IconBar
-      value="@ox2/button"
-      items={items}
+      value="3nNKyP6h6pMMjAyTMK"
+      items={list}
       onUpdate={handleUpdate}
     />
   ));
