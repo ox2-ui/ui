@@ -6,7 +6,7 @@ import Thumb from '../Thumb';
  * ListItem Component
  */
 const ListItem = (props) => {
-  const { className: classNameProp, title, subtitle, subtitle2, image, imageBgColor, icon, iconColor, imageWidth, imageHeight, onClick, _id, hidePicture, style, widget, widgetBottom } = props;
+  const { className: classNameProp, title, subtitle1, subtitle2, image, pictureBgColor, icon, iconColor, pictureWidth, pictureHeight, onClick, _id, hidePicture, style, widget, widgetBottom } = props;
 
   const className = classNames(
     'border:bottom border:2 border-color:neutral-faded',
@@ -20,17 +20,23 @@ const ListItem = (props) => {
           <Thumb
             image={image}
             icon={icon || 'cactus'}
-            width={imageWidth | 60}
-            height={imageHeight | 60}
-            color={imageBgColor}
+            width={pictureWidth | 60}
+            height={pictureHeight | 60}
+            color={pictureBgColor}
             iconColor={iconColor}
           />
         }
         {/* class min-w:0 added to fix Flex child truncate issue */}
         <div className="display:flex flex:column flex:content-center margin-l:10 min-w:0 line-h:130p">
+          { title &&
           <div className="select:text size:18 line-h:120p text:truncate text-color:brand">{title}</div>
-          <div className="select:text size:16 line-h:115p text:truncate text-color:neutral">{subtitle}</div>
-          <div className="select:text size:16 line-h:115p text:truncate text-color:neutral">{subtitle2}</div>
+          }
+          { subtitle1 &&
+          <div className="select:text size:16 line-h:115p text:truncate text-color:neutral-dim">{subtitle1}</div>
+          }
+          { subtitle2 &&
+          <div className="select:text size:16 line-h:115p text:truncate text-color:neutral-dim">{subtitle2}</div>
+          }
         </div>
         { widget &&
           <div className="margin-l:auto flex:0-auto">
@@ -57,12 +63,12 @@ ListItem.propTypes = {
   icon: PropTypes.string,
   iconColor: PropTypes.string,
   image: PropTypes.string,
-  imageBgColor: PropTypes.string,
-  imageHeight: PropTypes.number,
-  imageWidth: PropTypes.number,
   onClick: PropTypes.func.isRequired,
+  pictureBgColor: PropTypes.string,
+  pictureHeight: PropTypes.number,
+  pictureWidth: PropTypes.number,
   style: PropTypes.object,
-  subtitle: PropTypes.string,
+  subtitle1: PropTypes.string,
   subtitle2: PropTypes.string,
   title: PropTypes.string,
   widget: PropTypes.func,

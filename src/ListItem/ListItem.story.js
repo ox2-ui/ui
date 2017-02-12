@@ -26,7 +26,7 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'1nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       icon={'user'}
       onClick={handleOnClick}
@@ -36,7 +36,7 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'1nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       icon={'user'}
       onClick={handleOnClick}
     />
@@ -53,10 +53,10 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'1nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       icon={'user'}
-      imageBgColor={'white'}
+      pictureBgColor={'white'}
       iconColor={'neutral-light'}
       onClick={handleOnClick}
     />
@@ -65,7 +65,7 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'2nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
@@ -76,7 +76,7 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'2nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
@@ -88,7 +88,7 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'2nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
@@ -100,7 +100,7 @@ storiesOf('ListItem', module)
     <ListItem
       _id={'2nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
-      subtitle={'Ox2 Limited'}
+      subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       image={'https://randomuser.me/api/portraits/women/21.jpg'}
       icon={'user'}
