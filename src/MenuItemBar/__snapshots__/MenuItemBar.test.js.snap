@@ -1,0 +1,666 @@
+exports[`test renders correctly 1`] = `
+<IconBar
+  items={
+    Array [
+      Object {
+        "_id": "1nNKyP6h6pMMjAyTMK",
+        "idTag": "smartup",
+        "logo": "http://imgur.com/BC6B8Bc.png",
+        "title": "Smartup Visuals",
+      },
+      Object {
+        "_id": "2nNKyP6h6pMMjAyTMK",
+        "idTag": "aci",
+        "logo": "http://imgur.com/N2LoYmv.png",
+        "title": "ACI Events",
+      },
+      Object {
+        "_id": "3nNKyP6h6pMMjAyTMK",
+        "idTag": "aircraft",
+        "logo": "http://imgur.com/abQ9EaG.png",
+        "title": "Aircraft Commerce",
+      },
+      Object {
+        "_id": "4nNKyP6h6pMMjAyTMK",
+        "idTag": "icc",
+        "logo": "http://imgur.com/UmS4Irj.png",
+        "title": "ICC Events",
+      },
+      Object {
+        "_id": "5nNKyP6h6pMMjAyTMK",
+        "idTag": "smartup",
+        "logo": "http://imgur.com/BC6B8Bc.png",
+        "title": "Smartup Visuals",
+      },
+      Object {
+        "_id": "6nNKyP6h6pMMjAyTMK",
+        "idTag": "aci",
+        "logo": "http://imgur.com/N2LoYmv.png",
+        "title": "ACI Events",
+      },
+      Object {
+        "_id": "7nNKyP6h6pMMjAyTMK",
+        "idTag": "aircraft",
+        "logo": "http://imgur.com/abQ9EaG.png",
+        "title": "Aircraft Commerce",
+      },
+      Object {
+        "_id": "8nNKyP6h6pMMjAyTMK",
+        "idTag": "icc",
+        "logo": "http://imgur.com/UmS4Irj.png",
+        "title": "ICC Events",
+      },
+      Object {
+        "_id": "9nNKyP6h6pMMjAyTMK",
+        "idTag": "smartup",
+        "logo": "http://imgur.com/BC6B8Bc.png",
+        "title": "Smartup Visuals",
+      },
+      Object {
+        "_id": "10nNKyP6h6pMMjAyTMK",
+        "idTag": "aci",
+        "logo": "http://imgur.com/N2LoYmv.png",
+        "title": "ACI Events",
+      },
+      Object {
+        "_id": "11nNKyP6h6pMMjAyTMK",
+        "idTag": "aircraft",
+        "logo": "http://imgur.com/abQ9EaG.png",
+        "title": "Aircraft Commerce",
+      },
+      Object {
+        "_id": "12nNKyP6h6pMMjAyTMK",
+        "idTag": "icc",
+        "logo": "http://imgur.com/UmS4Irj.png",
+        "title": "ICC Events",
+      },
+    ]
+  }
+  onUpdate={[Function]}
+  value="3nNKyP6h6pMMjAyTMK">
+  <Styled(Scroller)>
+    <Scroller
+      className="hHsXqK">
+      <div
+        className="hHsXqK"
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "WebkitOverflowScrolling": "touch",
+            "backgroundColor": "transparent",
+            "bottom": "0",
+            "left": "0",
+            "overflowX": "hidden",
+            "overflowY": "auto",
+            "paddingBottom": "40px",
+            "position": "absolute",
+            "right": "0",
+            "top": "0",
+          }
+        }>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/BC6B8Bc.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="Smartup Visuals"
+            value="1nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/BC6B8Bc.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/BC6B8Bc.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    Smartup Visuals
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/N2LoYmv.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="ACI Events"
+            value="2nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/N2LoYmv.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/N2LoYmv.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    ACI Events
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <SelectIndicator
+            className="color:neutral-dim">
+            <styled.div
+              className="color:neutral-dim">
+              <div
+                className="color:neutral-dim iscjpC" />
+            </styled.div>
+          </SelectIndicator>
+          <MenuItem
+            image="http://imgur.com/abQ9EaG.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="Aircraft Commerce"
+            value="3nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/abQ9EaG.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/abQ9EaG.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    Aircraft Commerce
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/UmS4Irj.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="ICC Events"
+            value="4nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/UmS4Irj.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/UmS4Irj.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    ICC Events
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/BC6B8Bc.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="Smartup Visuals"
+            value="5nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/BC6B8Bc.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/BC6B8Bc.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    Smartup Visuals
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/N2LoYmv.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="ACI Events"
+            value="6nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/N2LoYmv.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/N2LoYmv.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    ACI Events
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/abQ9EaG.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="Aircraft Commerce"
+            value="7nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/abQ9EaG.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/abQ9EaG.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    Aircraft Commerce
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/UmS4Irj.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="ICC Events"
+            value="8nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/UmS4Irj.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/UmS4Irj.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    ICC Events
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/BC6B8Bc.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="Smartup Visuals"
+            value="9nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/BC6B8Bc.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/BC6B8Bc.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    Smartup Visuals
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/N2LoYmv.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="ACI Events"
+            value="10nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/N2LoYmv.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/N2LoYmv.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    ACI Events
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/abQ9EaG.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="Aircraft Commerce"
+            value="11nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/abQ9EaG.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/abQ9EaG.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    Aircraft Commerce
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+        <div
+          className="display:flex pos:relative padding-l:7">
+          <MenuItem
+            image="http://imgur.com/UmS4Irj.png"
+            onClick={[Function]}
+            pictureBgColor="white"
+            pictureHeight={35}
+            pictureWidth={35}
+            title="ICC Events"
+            value="12nNKyP6h6pMMjAyTMK">
+            <div>
+              <div
+                className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                onClick={[Function]}>
+                <Thumb
+                  color="white"
+                  height={35}
+                  icon="cactus"
+                  image="http://imgur.com/UmS4Irj.png"
+                  width={35}>
+                  <div
+                    className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                    style={
+                      Object {
+                        "WebkitFlex": "0 0 35px",
+                        "flex": "0 0 35px",
+                        "height": "35px",
+                        "width": "35px",
+                      }
+                    }>
+                    <img
+                      className="w:100p border:rounded"
+                      src="http://imgur.com/UmS4Irj.png" />
+                  </div>
+                </Thumb>
+                <div
+                  className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                  <div
+                    className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                    ICC Events
+                  </div>
+                </div>
+              </div>
+            </div>
+          </MenuItem>
+        </div>
+      </div>
+    </Scroller>
+  </Styled(Scroller)>
+</IconBar>
+`;
