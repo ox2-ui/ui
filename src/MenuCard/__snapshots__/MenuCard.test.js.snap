@@ -1,0 +1,1026 @@
+exports[`test renders correctly 1`] = `
+<MenuCard
+  items={
+    Array [
+      Object {
+        "icon": "speed-fast",
+        "moduleGroup": "system",
+        "title": "Status",
+        "value": "/system/status",
+      },
+      Object {
+        "icon": "laptop-phone",
+        "moduleGroup": "system",
+        "title": "Apps",
+        "value": "/system/apps",
+      },
+      Object {
+        "icon": "server",
+        "moduleGroup": "system",
+        "title": "Servers",
+        "value": "/system/servers",
+      },
+      Object {
+        "icon": "site-map",
+        "moduleGroup": "system",
+        "title": "Versions",
+        "value": "/system/versions",
+      },
+      Object {
+        "icon": "user-lock",
+        "moduleGroup": "system",
+        "title": "Roles",
+        "value": "/system/roles",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  title="System">
+  <div
+    className="font:roboto-condensed border:all border-color:neutral-faded"
+    style={
+      Object {
+        "borderRadius": "12px",
+      }
+    }>
+    <div
+      className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+      System
+    </div>
+    <div
+      className="padding:5 overflow:hidden display:flex flex:items-center"
+      style={
+        Object {
+          "borderRadius": "12px",
+        }
+      }>
+      <div>
+        <MenuItem
+          icon="speed-fast"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Status"
+          value="/system/status">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="speed-fast"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="speed-fast"
+                    size="19.6px">
+                    <span
+                      className="icon-speed-fast text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Status
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="laptop-phone"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Apps"
+          value="/system/apps">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="laptop-phone"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="laptop-phone"
+                    size="19.6px">
+                    <span
+                      className="icon-laptop-phone text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Apps
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="server"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Servers"
+          value="/system/servers">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="server"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="server"
+                    size="19.6px">
+                    <span
+                      className="icon-server text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Servers
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="site-map"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Versions"
+          value="/system/versions">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="site-map"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="site-map"
+                    size="19.6px">
+                    <span
+                      className="icon-site-map text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Versions
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="user-lock"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Roles"
+          value="/system/roles">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="user-lock"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="user-lock"
+                    size="19.6px">
+                    <span
+                      className="icon-user-lock text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Roles
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+      </div>
+    </div>
+  </div>
+</MenuCard>
+`;
+
+exports[`test renders selected 1`] = `
+<MenuCard
+  items={
+    Array [
+      Object {
+        "icon": "speed-fast",
+        "moduleGroup": "system",
+        "title": "Status",
+        "value": "/system/status",
+      },
+      Object {
+        "icon": "laptop-phone",
+        "moduleGroup": "system",
+        "title": "Apps",
+        "value": "/system/apps",
+      },
+      Object {
+        "icon": "server",
+        "moduleGroup": "system",
+        "title": "Servers",
+        "value": "/system/servers",
+      },
+      Object {
+        "icon": "site-map",
+        "moduleGroup": "system",
+        "title": "Versions",
+        "value": "/system/versions",
+      },
+      Object {
+        "icon": "user-lock",
+        "moduleGroup": "system",
+        "title": "Roles",
+        "value": "/system/roles",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  selectedValue="/system/apps"
+  title="System">
+  <div
+    className="font:roboto-condensed border:all border-color:neutral-faded"
+    style={
+      Object {
+        "borderRadius": "12px",
+      }
+    }>
+    <div
+      className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+      System
+    </div>
+    <div
+      className="padding:5 overflow:hidden display:flex flex:items-center"
+      style={
+        Object {
+          "borderRadius": "12px",
+        }
+      }>
+      <div>
+        <MenuItem
+          icon="speed-fast"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Status"
+          value="/system/status">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="speed-fast"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="speed-fast"
+                    size="19.6px">
+                    <span
+                      className="icon-speed-fast text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Status
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="laptop-phone"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="brand"
+          title="Apps"
+          value="/system/apps">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="laptop-phone"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="laptop-phone"
+                    size="19.6px">
+                    <span
+                      className="icon-laptop-phone text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:brand">
+                  Apps
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="server"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Servers"
+          value="/system/servers">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="server"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="server"
+                    size="19.6px">
+                    <span
+                      className="icon-server text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Servers
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="site-map"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Versions"
+          value="/system/versions">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="site-map"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="site-map"
+                    size="19.6px">
+                    <span
+                      className="icon-site-map text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Versions
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="user-lock"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Roles"
+          value="/system/roles">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="user-lock"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="user-lock"
+                    size="19.6px">
+                    <span
+                      className="icon-user-lock text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Roles
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+      </div>
+    </div>
+  </div>
+</MenuCard>
+`;
+
+exports[`test renders with context switch 1`] = `
+<MenuCard
+  image="http://imgur.com/abQ9EaG.png"
+  items={
+    Array [
+      Object {
+        "icon": "speed-fast",
+        "moduleGroup": "system",
+        "title": "Status",
+        "value": "/system/status",
+      },
+      Object {
+        "icon": "laptop-phone",
+        "moduleGroup": "system",
+        "title": "Apps",
+        "value": "/system/apps",
+      },
+      Object {
+        "icon": "server",
+        "moduleGroup": "system",
+        "title": "Servers",
+        "value": "/system/servers",
+      },
+      Object {
+        "icon": "site-map",
+        "moduleGroup": "system",
+        "title": "Versions",
+        "value": "/system/versions",
+      },
+      Object {
+        "icon": "user-lock",
+        "moduleGroup": "system",
+        "title": "Roles",
+        "value": "/system/roles",
+      },
+    ]
+  }
+  onItemClick={[Function]}
+  onSwitchClick={[Function]}
+  title="System">
+  <div
+    className="font:roboto-condensed border:all border-color:neutral-faded"
+    style={
+      Object {
+        "borderRadius": "12px",
+      }
+    }>
+    <div
+      className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+      System
+    </div>
+    <div
+      className="padding:5 overflow:hidden display:flex flex:items-center"
+      style={
+        Object {
+          "borderRadius": "12px",
+        }
+      }>
+      <div>
+        <MenuItem
+          icon="speed-fast"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Status"
+          value="/system/status">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="speed-fast"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="speed-fast"
+                    size="19.6px">
+                    <span
+                      className="icon-speed-fast text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Status
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="laptop-phone"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Apps"
+          value="/system/apps">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="laptop-phone"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="laptop-phone"
+                    size="19.6px">
+                    <span
+                      className="icon-laptop-phone text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Apps
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="server"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Servers"
+          value="/system/servers">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="server"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="server"
+                    size="19.6px">
+                    <span
+                      className="icon-server text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Servers
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="site-map"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Versions"
+          value="/system/versions">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="site-map"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="site-map"
+                    size="19.6px">
+                    <span
+                      className="icon-site-map text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Versions
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+        <MenuItem
+          icon="user-lock"
+          iconColor="brand"
+          onClick={[Function]}
+          pictureBgColor="white"
+          textColor="backdrop-alt"
+          title="Roles"
+          value="/system/roles">
+          <div>
+            <div
+              className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+              onClick={[Function]}>
+              <Thumb
+                color="white"
+                height={28}
+                icon="user-lock"
+                iconColor="brand"
+                width={28}>
+                <div
+                  className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                  style={
+                    Object {
+                      "WebkitFlex": "0 0 28px",
+                      "flex": "0 0 28px",
+                      "height": "28px",
+                      "width": "28px",
+                    }
+                  }>
+                  <Icon
+                    className="text-color:brand"
+                    icon="user-lock"
+                    size="19.6px">
+                    <span
+                      className="icon-user-lock text-color:brand"
+                      style={
+                        Object {
+                          "color": undefined,
+                          "fontSize": "19.6px",
+                        }
+                      } />
+                  </Icon>
+                </div>
+              </Thumb>
+              <div
+                className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                <div
+                  className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                  Roles
+                </div>
+              </div>
+            </div>
+          </div>
+        </MenuItem>
+      </div>
+      <div
+        className="display:flex flex:column flex:items-center border:all border-color:neutral-faded margin:0-auto padding:10"
+        style={
+          Object {
+            "borderRadius": "12px",
+          }
+        }>
+        <Thumb
+          className="padding-x:10 padding-b:10"
+          color="white"
+          height={70}
+          image="http://imgur.com/abQ9EaG.png"
+          width={70}>
+          <div
+            className="display:flex flex:items-center flex:content-center border:rounded color:white padding-x:10 padding-b:10"
+            style={
+              Object {
+                "WebkitFlex": "0 0 70px",
+                "flex": "0 0 70px",
+                "height": "70px",
+                "width": "70px",
+              }
+            }>
+            <img
+              className="w:100p border:rounded"
+              src="http://imgur.com/abQ9EaG.png" />
+          </div>
+        </Thumb>
+        <div>
+          <Button
+            btn="neutral outline small raised"
+            onClick={[Function]}>
+            <button
+              data-btn="neutral outline small raised"
+              onClick={[Function]}>
+              Switch
+            </button>
+          </Button>
+        </div>
+      </div>
+    </div>
+  </div>
+</MenuCard>
+`;
