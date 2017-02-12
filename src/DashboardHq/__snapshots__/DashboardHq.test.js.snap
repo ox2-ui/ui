@@ -1,0 +1,2384 @@
+exports[`test renders correctly 1`] = `
+<DashboardHq
+  activeApp="3nNKyP6h6pMMjAyTMK"
+  menuItems={
+    Array [
+      Object {
+        "icon": "speed-fast",
+        "moduleGroup": "system",
+        "title": "Status",
+        "value": "/system/status",
+      },
+      Object {
+        "icon": "laptop-phone",
+        "moduleGroup": "system",
+        "title": "Apps",
+        "value": "/system/apps",
+      },
+      Object {
+        "icon": "server",
+        "moduleGroup": "system",
+        "title": "Servers",
+        "value": "/system/servers",
+      },
+      Object {
+        "icon": "site-map",
+        "moduleGroup": "system",
+        "title": "Versions",
+        "value": "/system/versions",
+      },
+      Object {
+        "icon": "user-lock",
+        "moduleGroup": "system",
+        "title": "Roles",
+        "value": "/system/roles",
+      },
+      Object {
+        "icon": "chart-growth",
+        "moduleGroup": "business",
+        "title": "Business",
+        "value": "/business/status",
+      },
+      Object {
+        "icon": "file-charts",
+        "moduleGroup": "business",
+        "title": "Reports",
+        "value": "/business/reports",
+      },
+      Object {
+        "icon": "briefcase",
+        "moduleGroup": "business",
+        "title": "Clients",
+        "value": "/business/clients",
+      },
+      Object {
+        "icon": "cashier",
+        "moduleGroup": "business",
+        "title": "Accounting",
+        "value": "/business/accounting",
+      },
+      Object {
+        "icon": "feather2",
+        "moduleGroup": "business",
+        "title": "Partners",
+        "value": "/business/partners",
+      },
+      Object {
+        "icon": "palette",
+        "moduleGroup": "templates",
+        "title": "Themes",
+        "value": "/templates/themes",
+      },
+      Object {
+        "icon": "screen",
+        "moduleGroup": "templates",
+        "title": "Screens",
+        "value": "/templates/screens",
+      },
+      Object {
+        "icon": "qrcode",
+        "moduleGroup": "templates",
+        "title": "Badges",
+        "value": "/templates/badges",
+      },
+      Object {
+        "icon": "cog",
+        "moduleGroup": "app",
+        "title": "Settings",
+        "value": "/app/settings",
+      },
+      Object {
+        "icon": "file-charts",
+        "moduleGroup": "app",
+        "title": "Assets",
+        "value": "/app/assets",
+      },
+      Object {
+        "icon": "palette",
+        "moduleGroup": "app",
+        "title": "Themes",
+        "value": "/app/themes",
+      },
+      Object {
+        "icon": "screen",
+        "moduleGroup": "app",
+        "title": "Screens",
+        "value": "/app/screens",
+      },
+      Object {
+        "icon": "qrcode",
+        "moduleGroup": "app",
+        "title": "Badges",
+        "value": "/app/badges",
+      },
+      Object {
+        "icon": "receipt",
+        "moduleGroup": "client",
+        "title": "Invoices",
+        "value": "/client/invoices",
+      },
+      Object {
+        "icon": "profile",
+        "moduleGroup": "client",
+        "title": "Contacts",
+        "value": "/client/contacts",
+      },
+      Object {
+        "icon": "cube",
+        "moduleGroup": "client",
+        "title": "Branding",
+        "value": "/client/branding",
+      },
+      Object {
+        "icon": "smartphone",
+        "moduleGroup": "client",
+        "title": "Apps",
+        "value": "/client/apps",
+      },
+    ]
+  }
+  onAppItemClick={[Function]}
+  onMenuItemClick={[Function]}
+  recentApps={
+    Array [
+      Object {
+        "_id": "1nNKyP6h6pMMjAyTMK",
+        "idTag": "smartup",
+        "logo": "http://imgur.com/BC6B8Bc.png",
+        "title": "Smartup Visuals",
+      },
+      Object {
+        "_id": "2nNKyP6h6pMMjAyTMK",
+        "idTag": "aci",
+        "logo": "http://imgur.com/N2LoYmv.png",
+        "title": "ACI Events",
+      },
+      Object {
+        "_id": "3nNKyP6h6pMMjAyTMK",
+        "idTag": "aircraft",
+        "logo": "http://imgur.com/abQ9EaG.png",
+        "title": "Aircraft Commerce",
+      },
+      Object {
+        "_id": "4nNKyP6h6pMMjAyTMK",
+        "idTag": "icc",
+        "logo": "http://imgur.com/UmS4Irj.png",
+        "title": "ICC Events",
+      },
+      Object {
+        "_id": "5nNKyP6h6pMMjAyTMK",
+        "idTag": "smartup",
+        "logo": "http://imgur.com/BC6B8Bc.png",
+        "title": "Smartup Visuals",
+      },
+      Object {
+        "_id": "6nNKyP6h6pMMjAyTMK",
+        "idTag": "aci",
+        "logo": "http://imgur.com/N2LoYmv.png",
+        "title": "ACI Events",
+      },
+      Object {
+        "_id": "7nNKyP6h6pMMjAyTMK",
+        "idTag": "aircraft",
+        "logo": "http://imgur.com/abQ9EaG.png",
+        "title": "Aircraft Commerce",
+      },
+      Object {
+        "_id": "8nNKyP6h6pMMjAyTMK",
+        "idTag": "icc",
+        "logo": "http://imgur.com/UmS4Irj.png",
+        "title": "ICC Events",
+      },
+      Object {
+        "_id": "9nNKyP6h6pMMjAyTMK",
+        "idTag": "smartup",
+        "logo": "http://imgur.com/BC6B8Bc.png",
+        "title": "Smartup Visuals",
+      },
+      Object {
+        "_id": "10nNKyP6h6pMMjAyTMK",
+        "idTag": "aci",
+        "logo": "http://imgur.com/N2LoYmv.png",
+        "title": "ACI Events",
+      },
+      Object {
+        "_id": "11nNKyP6h6pMMjAyTMK",
+        "idTag": "aircraft",
+        "logo": "http://imgur.com/abQ9EaG.png",
+        "title": "Aircraft Commerce",
+      },
+      Object {
+        "_id": "12nNKyP6h6pMMjAyTMK",
+        "idTag": "icc",
+        "logo": "http://imgur.com/UmS4Irj.png",
+        "title": "ICC Events",
+      },
+    ]
+  }>
+  <div
+    className="display:flex">
+    <div
+      className="flex:1 pos:relative">
+      <IconBar
+        items={
+          Array [
+            Object {
+              "_id": "1nNKyP6h6pMMjAyTMK",
+              "idTag": "smartup",
+              "logo": "http://imgur.com/BC6B8Bc.png",
+              "title": "Smartup Visuals",
+            },
+            Object {
+              "_id": "2nNKyP6h6pMMjAyTMK",
+              "idTag": "aci",
+              "logo": "http://imgur.com/N2LoYmv.png",
+              "title": "ACI Events",
+            },
+            Object {
+              "_id": "3nNKyP6h6pMMjAyTMK",
+              "idTag": "aircraft",
+              "logo": "http://imgur.com/abQ9EaG.png",
+              "title": "Aircraft Commerce",
+            },
+            Object {
+              "_id": "4nNKyP6h6pMMjAyTMK",
+              "idTag": "icc",
+              "logo": "http://imgur.com/UmS4Irj.png",
+              "title": "ICC Events",
+            },
+            Object {
+              "_id": "5nNKyP6h6pMMjAyTMK",
+              "idTag": "smartup",
+              "logo": "http://imgur.com/BC6B8Bc.png",
+              "title": "Smartup Visuals",
+            },
+            Object {
+              "_id": "6nNKyP6h6pMMjAyTMK",
+              "idTag": "aci",
+              "logo": "http://imgur.com/N2LoYmv.png",
+              "title": "ACI Events",
+            },
+            Object {
+              "_id": "7nNKyP6h6pMMjAyTMK",
+              "idTag": "aircraft",
+              "logo": "http://imgur.com/abQ9EaG.png",
+              "title": "Aircraft Commerce",
+            },
+            Object {
+              "_id": "8nNKyP6h6pMMjAyTMK",
+              "idTag": "icc",
+              "logo": "http://imgur.com/UmS4Irj.png",
+              "title": "ICC Events",
+            },
+            Object {
+              "_id": "9nNKyP6h6pMMjAyTMK",
+              "idTag": "smartup",
+              "logo": "http://imgur.com/BC6B8Bc.png",
+              "title": "Smartup Visuals",
+            },
+            Object {
+              "_id": "10nNKyP6h6pMMjAyTMK",
+              "idTag": "aci",
+              "logo": "http://imgur.com/N2LoYmv.png",
+              "title": "ACI Events",
+            },
+            Object {
+              "_id": "11nNKyP6h6pMMjAyTMK",
+              "idTag": "aircraft",
+              "logo": "http://imgur.com/abQ9EaG.png",
+              "title": "Aircraft Commerce",
+            },
+            Object {
+              "_id": "12nNKyP6h6pMMjAyTMK",
+              "idTag": "icc",
+              "logo": "http://imgur.com/UmS4Irj.png",
+              "title": "ICC Events",
+            },
+          ]
+        }
+        onUpdate={[Function]}
+        value="3nNKyP6h6pMMjAyTMK">
+        <Styled(Scroller)>
+          <Scroller
+            className="hHsXqK">
+            <div
+              className="hHsXqK"
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "WebkitOverflowScrolling": "touch",
+                  "backgroundColor": "transparent",
+                  "bottom": "0",
+                  "left": "0",
+                  "overflowX": "hidden",
+                  "overflowY": "auto",
+                  "paddingBottom": "40px",
+                  "position": "absolute",
+                  "right": "0",
+                  "top": "0",
+                }
+              }>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/BC6B8Bc.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="Smartup Visuals"
+                  value="1nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/BC6B8Bc.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/BC6B8Bc.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Smartup Visuals
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/N2LoYmv.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="ACI Events"
+                  value="2nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/N2LoYmv.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/N2LoYmv.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          ACI Events
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <SelectIndicator
+                  className="color:neutral-dim">
+                  <styled.div
+                    className="color:neutral-dim">
+                    <div
+                      className="color:neutral-dim iscjpC" />
+                  </styled.div>
+                </SelectIndicator>
+                <MenuItem
+                  image="http://imgur.com/abQ9EaG.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="Aircraft Commerce"
+                  value="3nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/abQ9EaG.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/abQ9EaG.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Aircraft Commerce
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/UmS4Irj.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="ICC Events"
+                  value="4nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/UmS4Irj.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/UmS4Irj.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          ICC Events
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/BC6B8Bc.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="Smartup Visuals"
+                  value="5nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/BC6B8Bc.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/BC6B8Bc.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Smartup Visuals
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/N2LoYmv.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="ACI Events"
+                  value="6nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/N2LoYmv.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/N2LoYmv.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          ACI Events
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/abQ9EaG.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="Aircraft Commerce"
+                  value="7nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/abQ9EaG.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/abQ9EaG.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Aircraft Commerce
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/UmS4Irj.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="ICC Events"
+                  value="8nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/UmS4Irj.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/UmS4Irj.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          ICC Events
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/BC6B8Bc.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="Smartup Visuals"
+                  value="9nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/BC6B8Bc.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/BC6B8Bc.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Smartup Visuals
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/N2LoYmv.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="ACI Events"
+                  value="10nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/N2LoYmv.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/N2LoYmv.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          ACI Events
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/abQ9EaG.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="Aircraft Commerce"
+                  value="11nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/abQ9EaG.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/abQ9EaG.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Aircraft Commerce
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+              <div
+                className="display:flex pos:relative padding-l:7">
+                <MenuItem
+                  image="http://imgur.com/UmS4Irj.png"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  pictureHeight={35}
+                  pictureWidth={35}
+                  title="ICC Events"
+                  value="12nNKyP6h6pMMjAyTMK">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={35}
+                        icon="cactus"
+                        image="http://imgur.com/UmS4Irj.png"
+                        width={35}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 35px",
+                              "flex": "0 0 35px",
+                              "height": "35px",
+                              "width": "35px",
+                            }
+                          }>
+                          <img
+                            className="w:100p border:rounded"
+                            src="http://imgur.com/UmS4Irj.png" />
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          ICC Events
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+            </div>
+          </Scroller>
+        </Styled(Scroller)>
+      </IconBar>
+    </div>
+    <div
+      className="flex:3 display:flex flex:wrap">
+      <div
+        className="margin:10"
+        style={
+          Object {
+            "width": "330px",
+          }
+        }>
+        <MenuCard
+          items={
+            Array [
+              Object {
+                "icon": "cog",
+                "moduleGroup": "app",
+                "title": "Settings",
+                "value": "/app/settings",
+              },
+              Object {
+                "icon": "file-charts",
+                "moduleGroup": "app",
+                "title": "Assets",
+                "value": "/app/assets",
+              },
+              Object {
+                "icon": "palette",
+                "moduleGroup": "app",
+                "title": "Themes",
+                "value": "/app/themes",
+              },
+              Object {
+                "icon": "screen",
+                "moduleGroup": "app",
+                "title": "Screens",
+                "value": "/app/screens",
+              },
+              Object {
+                "icon": "qrcode",
+                "moduleGroup": "app",
+                "title": "Badges",
+                "value": "/app/badges",
+              },
+            ]
+          }
+          onItemClick={[Function]}
+          title="App">
+          <div
+            className="font:roboto-condensed border:all border-color:neutral-faded"
+            style={
+              Object {
+                "borderRadius": "12px",
+              }
+            }>
+            <div
+              className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+              App
+            </div>
+            <div
+              className="padding:5 overflow:hidden display:flex flex:items-center"
+              style={
+                Object {
+                  "borderRadius": "12px",
+                }
+              }>
+              <div>
+                <MenuItem
+                  icon="cog"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Settings"
+                  value="/app/settings">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="cog"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="cog"
+                            size="19.6px">
+                            <span
+                              className="icon-cog text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Settings
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="file-charts"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Assets"
+                  value="/app/assets">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="file-charts"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="file-charts"
+                            size="19.6px">
+                            <span
+                              className="icon-file-charts text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Assets
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="palette"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Themes"
+                  value="/app/themes">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="palette"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="palette"
+                            size="19.6px">
+                            <span
+                              className="icon-palette text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Themes
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="screen"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Screens"
+                  value="/app/screens">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="screen"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="screen"
+                            size="19.6px">
+                            <span
+                              className="icon-screen text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Screens
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="qrcode"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Badges"
+                  value="/app/badges">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="qrcode"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="qrcode"
+                            size="19.6px">
+                            <span
+                              className="icon-qrcode text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Badges
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+            </div>
+          </div>
+        </MenuCard>
+      </div>
+      <div
+        className="margin:10"
+        style={
+          Object {
+            "width": "330px",
+          }
+        }>
+        <MenuCard
+          items={
+            Array [
+              Object {
+                "icon": "receipt",
+                "moduleGroup": "client",
+                "title": "Invoices",
+                "value": "/client/invoices",
+              },
+              Object {
+                "icon": "profile",
+                "moduleGroup": "client",
+                "title": "Contacts",
+                "value": "/client/contacts",
+              },
+              Object {
+                "icon": "cube",
+                "moduleGroup": "client",
+                "title": "Branding",
+                "value": "/client/branding",
+              },
+              Object {
+                "icon": "smartphone",
+                "moduleGroup": "client",
+                "title": "Apps",
+                "value": "/client/apps",
+              },
+            ]
+          }
+          onItemClick={[Function]}
+          title="Client">
+          <div
+            className="font:roboto-condensed border:all border-color:neutral-faded"
+            style={
+              Object {
+                "borderRadius": "12px",
+              }
+            }>
+            <div
+              className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+              Client
+            </div>
+            <div
+              className="padding:5 overflow:hidden display:flex flex:items-center"
+              style={
+                Object {
+                  "borderRadius": "12px",
+                }
+              }>
+              <div>
+                <MenuItem
+                  icon="receipt"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Invoices"
+                  value="/client/invoices">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="receipt"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="receipt"
+                            size="19.6px">
+                            <span
+                              className="icon-receipt text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Invoices
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="profile"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Contacts"
+                  value="/client/contacts">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="profile"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="profile"
+                            size="19.6px">
+                            <span
+                              className="icon-profile text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Contacts
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="cube"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Branding"
+                  value="/client/branding">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="cube"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="cube"
+                            size="19.6px">
+                            <span
+                              className="icon-cube text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Branding
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="smartphone"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Apps"
+                  value="/client/apps">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="smartphone"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="smartphone"
+                            size="19.6px">
+                            <span
+                              className="icon-smartphone text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Apps
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+            </div>
+          </div>
+        </MenuCard>
+      </div>
+      <div
+        className="margin:10"
+        style={
+          Object {
+            "width": "220px",
+          }
+        }>
+        <MenuCard
+          items={
+            Array [
+              Object {
+                "icon": "speed-fast",
+                "moduleGroup": "system",
+                "title": "Status",
+                "value": "/system/status",
+              },
+              Object {
+                "icon": "laptop-phone",
+                "moduleGroup": "system",
+                "title": "Apps",
+                "value": "/system/apps",
+              },
+              Object {
+                "icon": "server",
+                "moduleGroup": "system",
+                "title": "Servers",
+                "value": "/system/servers",
+              },
+              Object {
+                "icon": "site-map",
+                "moduleGroup": "system",
+                "title": "Versions",
+                "value": "/system/versions",
+              },
+              Object {
+                "icon": "user-lock",
+                "moduleGroup": "system",
+                "title": "Roles",
+                "value": "/system/roles",
+              },
+            ]
+          }
+          onItemClick={[Function]}
+          title="System">
+          <div
+            className="font:roboto-condensed border:all border-color:neutral-faded"
+            style={
+              Object {
+                "borderRadius": "12px",
+              }
+            }>
+            <div
+              className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+              System
+            </div>
+            <div
+              className="padding:5 overflow:hidden display:flex flex:items-center"
+              style={
+                Object {
+                  "borderRadius": "12px",
+                }
+              }>
+              <div>
+                <MenuItem
+                  icon="speed-fast"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Status"
+                  value="/system/status">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="speed-fast"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="speed-fast"
+                            size="19.6px">
+                            <span
+                              className="icon-speed-fast text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Status
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="laptop-phone"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Apps"
+                  value="/system/apps">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="laptop-phone"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="laptop-phone"
+                            size="19.6px">
+                            <span
+                              className="icon-laptop-phone text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Apps
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="server"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Servers"
+                  value="/system/servers">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="server"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="server"
+                            size="19.6px">
+                            <span
+                              className="icon-server text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Servers
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="site-map"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Versions"
+                  value="/system/versions">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="site-map"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="site-map"
+                            size="19.6px">
+                            <span
+                              className="icon-site-map text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Versions
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="user-lock"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Roles"
+                  value="/system/roles">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="user-lock"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="user-lock"
+                            size="19.6px">
+                            <span
+                              className="icon-user-lock text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Roles
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+            </div>
+          </div>
+        </MenuCard>
+      </div>
+      <div
+        className="margin:10"
+        style={
+          Object {
+            "width": "220px",
+          }
+        }>
+        <MenuCard
+          items={
+            Array [
+              Object {
+                "icon": "chart-growth",
+                "moduleGroup": "business",
+                "title": "Business",
+                "value": "/business/status",
+              },
+              Object {
+                "icon": "file-charts",
+                "moduleGroup": "business",
+                "title": "Reports",
+                "value": "/business/reports",
+              },
+              Object {
+                "icon": "briefcase",
+                "moduleGroup": "business",
+                "title": "Clients",
+                "value": "/business/clients",
+              },
+              Object {
+                "icon": "cashier",
+                "moduleGroup": "business",
+                "title": "Accounting",
+                "value": "/business/accounting",
+              },
+              Object {
+                "icon": "feather2",
+                "moduleGroup": "business",
+                "title": "Partners",
+                "value": "/business/partners",
+              },
+            ]
+          }
+          onItemClick={[Function]}
+          title="Business">
+          <div
+            className="font:roboto-condensed border:all border-color:neutral-faded"
+            style={
+              Object {
+                "borderRadius": "12px",
+              }
+            }>
+            <div
+              className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+              Business
+            </div>
+            <div
+              className="padding:5 overflow:hidden display:flex flex:items-center"
+              style={
+                Object {
+                  "borderRadius": "12px",
+                }
+              }>
+              <div>
+                <MenuItem
+                  icon="chart-growth"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Business"
+                  value="/business/status">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="chart-growth"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="chart-growth"
+                            size="19.6px">
+                            <span
+                              className="icon-chart-growth text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Business
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="file-charts"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Reports"
+                  value="/business/reports">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="file-charts"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="file-charts"
+                            size="19.6px">
+                            <span
+                              className="icon-file-charts text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Reports
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="briefcase"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Clients"
+                  value="/business/clients">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="briefcase"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="briefcase"
+                            size="19.6px">
+                            <span
+                              className="icon-briefcase text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Clients
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="cashier"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Accounting"
+                  value="/business/accounting">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="cashier"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="cashier"
+                            size="19.6px">
+                            <span
+                              className="icon-cashier text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Accounting
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="feather2"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Partners"
+                  value="/business/partners">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="feather2"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="feather2"
+                            size="19.6px">
+                            <span
+                              className="icon-feather2 text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Partners
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+            </div>
+          </div>
+        </MenuCard>
+      </div>
+      <div
+        className="margin:10"
+        style={
+          Object {
+            "width": "220px",
+          }
+        }>
+        <MenuCard
+          items={
+            Array [
+              Object {
+                "icon": "palette",
+                "moduleGroup": "templates",
+                "title": "Themes",
+                "value": "/templates/themes",
+              },
+              Object {
+                "icon": "screen",
+                "moduleGroup": "templates",
+                "title": "Screens",
+                "value": "/templates/screens",
+              },
+              Object {
+                "icon": "qrcode",
+                "moduleGroup": "templates",
+                "title": "Badges",
+                "value": "/templates/badges",
+              },
+            ]
+          }
+          onItemClick={[Function]}
+          title="Templates">
+          <div
+            className="font:roboto-condensed border:all border-color:neutral-faded"
+            style={
+              Object {
+                "borderRadius": "12px",
+              }
+            }>
+            <div
+              className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+              Templates
+            </div>
+            <div
+              className="padding:5 overflow:hidden display:flex flex:items-center"
+              style={
+                Object {
+                  "borderRadius": "12px",
+                }
+              }>
+              <div>
+                <MenuItem
+                  icon="palette"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Themes"
+                  value="/templates/themes">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="palette"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="palette"
+                            size="19.6px">
+                            <span
+                              className="icon-palette text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Themes
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="screen"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Screens"
+                  value="/templates/screens">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="screen"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="screen"
+                            size="19.6px">
+                            <span
+                              className="icon-screen text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Screens
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+                <MenuItem
+                  icon="qrcode"
+                  iconColor="brand"
+                  onClick={[Function]}
+                  pictureBgColor="white"
+                  textColor="backdrop-alt"
+                  title="Badges"
+                  value="/templates/badges">
+                  <div>
+                    <div
+                      className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+                      onClick={[Function]}>
+                      <Thumb
+                        color="white"
+                        height={28}
+                        icon="qrcode"
+                        iconColor="brand"
+                        width={28}>
+                        <div
+                          className="display:flex flex:items-center flex:content-center border:rounded color:white"
+                          style={
+                            Object {
+                              "WebkitFlex": "0 0 28px",
+                              "flex": "0 0 28px",
+                              "height": "28px",
+                              "width": "28px",
+                            }
+                          }>
+                          <Icon
+                            className="text-color:brand"
+                            icon="qrcode"
+                            size="19.6px">
+                            <span
+                              className="icon-qrcode text-color:brand"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                  "fontSize": "19.6px",
+                                }
+                              } />
+                          </Icon>
+                        </div>
+                      </Thumb>
+                      <div
+                        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+                        <div
+                          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+                          Badges
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </MenuItem>
+              </div>
+            </div>
+          </div>
+        </MenuCard>
+      </div>
+    </div>
+    <div
+      className="flex:1 pos:relative">
+      3
+    </div>
+  </div>
+</DashboardHq>
+`;
