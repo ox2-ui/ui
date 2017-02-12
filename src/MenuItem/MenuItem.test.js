@@ -8,7 +8,7 @@ const handler = () => true;
 it('renders correctly', () => {
   const wrapper = mount(
     <MenuItem
-      _id={'1nNKyP6h6pMMjAyTMK'}
+      value={'/system/status'}
       title={'Settings'}
       subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
