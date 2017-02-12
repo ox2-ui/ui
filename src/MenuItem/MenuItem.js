@@ -11,8 +11,8 @@ const MenuItem = ({ value, title, className, style, onClick, hidePicture, image,
         <Thumb
           image={image}
           icon={icon || 'cactus'}
-          width={pictureWidth | 28}
-          height={pictureHeight | 28}
+          width={pictureWidth || 28}
+          height={pictureHeight || 28}
           color={pictureBgColor}
           iconColor={iconColor}
         />
@@ -37,6 +37,7 @@ MenuItem.propTypes = {
   pictureHeight: PropTypes.number,
   pictureWidth: PropTypes.number,
   style: PropTypes.object,
+  textColor: PropTypes.string,
   title: PropTypes.string,
   value: PropTypes.string.isRequired,
 };

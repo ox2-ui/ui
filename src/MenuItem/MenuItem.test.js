@@ -10,8 +10,6 @@ it('renders correctly', () => {
     <MenuItem
       value={'/system/status'}
       title={'Settings'}
-      subtitle1={'Ox2 Limited'}
-      subtitle2={'Marketing Manager'}
       icon={'cog'}
       iconColor={'brand'}
       pictureBgColor={'white'}

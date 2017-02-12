@@ -4,8 +4,6 @@ exports[`test renders correctly 1`] = `
   iconColor="brand"
   onClick={[Function]}
   pictureBgColor="white"
-  subtitle1="Ox2 Limited"
-  subtitle2="Marketing Manager"
   title="Settings"
   value="/system/status">
   <div>
