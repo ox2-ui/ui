@@ -15,6 +15,7 @@ it('renders correctly', () => {
   const wrapper = mount(
     <DashboardHq
       activeApp={'3nNKyP6h6pMMjAyTMK'}
+      currentPath={'/'}
       recentApps={appList}
       onAppItemClick={handler}
       menuItems={menuItems}

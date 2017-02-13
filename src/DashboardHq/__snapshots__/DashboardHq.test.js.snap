@@ -1,6 +1,7 @@
 exports[`test renders correctly 1`] = `
 <DashboardHq
   activeApp="3nNKyP6h6pMMjAyTMK"
+  currentPath="/"
   menuItems={
     Array [
       Object {
@@ -929,6 +930,7 @@ exports[`test renders correctly 1`] = `
             ]
           }
           onItemClick={[Function]}
+          selectedValue="/"
           title="App">
           <div
             className="font:roboto-condensed border:all border-color:neutral-faded"
@@ -1256,6 +1258,7 @@ exports[`test renders correctly 1`] = `
             ]
           }
           onItemClick={[Function]}
+          selectedValue="/"
           title="Client">
           <div
             className="font:roboto-condensed border:all border-color:neutral-faded"
@@ -1536,6 +1539,7 @@ exports[`test renders correctly 1`] = `
             ]
           }
           onItemClick={[Function]}
+          selectedValue="/"
           title="System">
           <div
             className="font:roboto-condensed border:all border-color:neutral-faded"
@@ -1869,6 +1873,7 @@ exports[`test renders correctly 1`] = `
             ]
           }
           onItemClick={[Function]}
+          selectedValue="/"
           title="Business">
           <div
             className="font:roboto-condensed border:all border-color:neutral-faded"
@@ -2190,6 +2195,7 @@ exports[`test renders correctly 1`] = `
             ]
           }
           onItemClick={[Function]}
+          selectedValue="/"
           title="Templates">
           <div
             className="font:roboto-condensed border:all border-color:neutral-faded"
