@@ -19,8 +19,8 @@ storiesOf('MenuCard', module)
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      selectedValue={'/system/apps'}
       items={menuItems.filter(x => x.moduleGroup === 'system')}
+      selectedValue={'/system/apps'}
     />
   ))
   .add('with context switch - app', () => (

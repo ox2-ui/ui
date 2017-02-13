@@ -8,7 +8,7 @@ import Immutable from 'immutable';
  * DashboardHq Component
  */
 const DashboardHq = (props) => {
-  const { className: classNameProp, style, menuItems, onMenuItemClick, activeApp, recentApps, onAppItemClick } = props;
+  const { className: classNameProp, style, menuItems, onMenuItemClick, activeApp, recentApps, onAppItemClick, currentPath } = props;
   const className = classNames(
     'display:flex',
     classNameProp
@@ -27,6 +27,7 @@ const DashboardHq = (props) => {
         <div className="margin:10" style={{width: '330px'}}>
           <MenuCard
             title={'App'}
+            selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             items={menuItems.filter(x => x.moduleGroup === 'app')}
           />
@@ -34,6 +35,7 @@ const DashboardHq = (props) => {
         <div className="margin:10" style={{width: '330px'}}>
           <MenuCard
             title={'Client'}
+            selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             items={menuItems.filter(x => x.moduleGroup === 'client')}
           />
@@ -41,6 +43,7 @@ const DashboardHq = (props) => {
         <div className="margin:10" style={{width: '220px'}}>
           <MenuCard
             title={'System'}
+            selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             items={menuItems.filter(x => x.moduleGroup === 'system')}
           />
@@ -48,6 +51,7 @@ const DashboardHq = (props) => {
         <div className="margin:10" style={{width: '220px'}}>
           <MenuCard
             title={'Business'}
+            selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             items={menuItems.filter(x => x.moduleGroup === 'business')}
           />
@@ -55,6 +59,7 @@ const DashboardHq = (props) => {
         <div className="margin:10" style={{width: '220px'}}>
           <MenuCard
             title={'Templates'}
+            selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             items={menuItems.filter(x => x.moduleGroup === 'templates')}
           />
@@ -74,6 +79,7 @@ DashboardHq.propTypes = {
    */
   activeApp: PropTypes.string.isRequired,
   className: PropTypes.string,
+  currentPath: PropTypes.string.isRequired,
   menuItems: PropTypes.array.isRequired,
   onAppItemClick: PropTypes.func.isRequired,
   onMenuItemClick: PropTypes.func.isRequired,
