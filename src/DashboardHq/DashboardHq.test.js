@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import DashboardHq from './DashboardHq';
-import { menuItems } from '../../data/MenuItems';
+import { items as menuItems } from '../../data/Menu';
 import { items as appItems } from '../../data/Apps';
 import Immutable from 'immutable';
 

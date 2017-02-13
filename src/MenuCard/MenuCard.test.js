@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
 import MenuCard from './MenuCard';
-import { menuItems } from '../../data/MenuItems';
+import { items } from '../../data/Menu';
 
 const handler = () => true;
 
@@ -11,7 +11,7 @@ it('renders correctly', () => {
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
     />
   );
 
@@ -24,7 +24,7 @@ it('renders selected', () => {
       title={'System'}
       onItemClick={handler}
       selectedValue={'/system/apps'}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
     />
   );
 
@@ -36,7 +36,7 @@ it('renders with context switch', () => {
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
       image={'http://imgur.com/abQ9EaG.png'}
       onSwitchClick={handler}
     />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import MenuCard from './MenuCard';
-import { menuItems } from '../../data/MenuItems';
+import { items } from '../../data/Menu';
 
 const handler = (value) => console.log('🍇', value); // eslint-disable-line no-console
 
@@ -12,14 +12,14 @@ storiesOf('MenuCard', module)
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
     />
   ))
   .add('selected', () => (
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
       selectedValue={'/system/apps'}
     />
   ))
@@ -27,7 +27,7 @@ storiesOf('MenuCard', module)
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
       image={'http://imgur.com/abQ9EaG.png'}
       onSwitchClick={handlerSwitch}
     />
@@ -36,7 +36,7 @@ storiesOf('MenuCard', module)
     <MenuCard
       title={'System'}
       onItemClick={handler}
-      items={menuItems.filter(x => x.moduleGroup === 'system')}
+      items={items.filter(x => x.moduleGroup === 'system')}
       imageLandscape={true}
       image={'https://imgur.com/BCWOb1Y.jpg'}
       onSwitchClick={handlerSwitch}
