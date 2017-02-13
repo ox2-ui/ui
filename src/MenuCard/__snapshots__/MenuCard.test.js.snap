@@ -4,30 +4,35 @@ exports[`test renders correctly 1`] = `
     Array [
       Object {
         "icon": "speed-fast",
+        "module": "status",
         "moduleGroup": "system",
         "title": "Status",
         "value": "/system/status",
       },
       Object {
         "icon": "laptop-phone",
+        "module": "apps",
         "moduleGroup": "system",
         "title": "Apps",
         "value": "/system/apps",
       },
       Object {
         "icon": "server",
+        "module": "servers",
         "moduleGroup": "system",
         "title": "Servers",
         "value": "/system/servers",
       },
       Object {
         "icon": "site-map",
+        "module": "versions",
         "moduleGroup": "system",
         "title": "Versions",
         "value": "/system/versions",
       },
       Object {
         "icon": "user-lock",
+        "module": "roles",
         "moduleGroup": "system",
         "title": "Roles",
         "value": "/system/roles",
@@ -58,6 +63,8 @@ exports[`test renders correctly 1`] = `
         <MenuItem
           icon="speed-fast"
           iconColor="brand"
+          module="status"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -111,6 +118,8 @@ exports[`test renders correctly 1`] = `
         <MenuItem
           icon="laptop-phone"
           iconColor="brand"
+          module="apps"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -164,6 +173,8 @@ exports[`test renders correctly 1`] = `
         <MenuItem
           icon="server"
           iconColor="brand"
+          module="servers"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -217,6 +228,8 @@ exports[`test renders correctly 1`] = `
         <MenuItem
           icon="site-map"
           iconColor="brand"
+          module="versions"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -270,6 +283,8 @@ exports[`test renders correctly 1`] = `
         <MenuItem
           icon="user-lock"
           iconColor="brand"
+          module="roles"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -332,30 +347,35 @@ exports[`test renders selected 1`] = `
     Array [
       Object {
         "icon": "speed-fast",
+        "module": "status",
         "moduleGroup": "system",
         "title": "Status",
         "value": "/system/status",
       },
       Object {
         "icon": "laptop-phone",
+        "module": "apps",
         "moduleGroup": "system",
         "title": "Apps",
         "value": "/system/apps",
       },
       Object {
         "icon": "server",
+        "module": "servers",
         "moduleGroup": "system",
         "title": "Servers",
         "value": "/system/servers",
       },
       Object {
         "icon": "site-map",
+        "module": "versions",
         "moduleGroup": "system",
         "title": "Versions",
         "value": "/system/versions",
       },
       Object {
         "icon": "user-lock",
+        "module": "roles",
         "moduleGroup": "system",
         "title": "Roles",
         "value": "/system/roles",
@@ -387,6 +407,8 @@ exports[`test renders selected 1`] = `
         <MenuItem
           icon="speed-fast"
           iconColor="brand"
+          module="status"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -440,6 +462,8 @@ exports[`test renders selected 1`] = `
         <MenuItem
           icon="laptop-phone"
           iconColor="brand"
+          module="apps"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="brand"
@@ -493,6 +517,8 @@ exports[`test renders selected 1`] = `
         <MenuItem
           icon="server"
           iconColor="brand"
+          module="servers"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -546,6 +572,8 @@ exports[`test renders selected 1`] = `
         <MenuItem
           icon="site-map"
           iconColor="brand"
+          module="versions"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -599,6 +627,8 @@ exports[`test renders selected 1`] = `
         <MenuItem
           icon="user-lock"
           iconColor="brand"
+          module="roles"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -662,30 +692,35 @@ exports[`test renders with context switch 1`] = `
     Array [
       Object {
         "icon": "speed-fast",
+        "module": "status",
         "moduleGroup": "system",
         "title": "Status",
         "value": "/system/status",
       },
       Object {
         "icon": "laptop-phone",
+        "module": "apps",
         "moduleGroup": "system",
         "title": "Apps",
         "value": "/system/apps",
       },
       Object {
         "icon": "server",
+        "module": "servers",
         "moduleGroup": "system",
         "title": "Servers",
         "value": "/system/servers",
       },
       Object {
         "icon": "site-map",
+        "module": "versions",
         "moduleGroup": "system",
         "title": "Versions",
         "value": "/system/versions",
       },
       Object {
         "icon": "user-lock",
+        "module": "roles",
         "moduleGroup": "system",
         "title": "Roles",
         "value": "/system/roles",
@@ -717,6 +752,8 @@ exports[`test renders with context switch 1`] = `
         <MenuItem
           icon="speed-fast"
           iconColor="brand"
+          module="status"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -770,6 +807,8 @@ exports[`test renders with context switch 1`] = `
         <MenuItem
           icon="laptop-phone"
           iconColor="brand"
+          module="apps"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -823,6 +862,8 @@ exports[`test renders with context switch 1`] = `
         <MenuItem
           icon="server"
           iconColor="brand"
+          module="servers"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -876,6 +917,8 @@ exports[`test renders with context switch 1`] = `
         <MenuItem
           icon="site-map"
           iconColor="brand"
+          module="versions"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"
@@ -929,6 +972,8 @@ exports[`test renders with context switch 1`] = `
         <MenuItem
           icon="user-lock"
           iconColor="brand"
+          module="roles"
+          moduleGroup="system"
           onClick={[Function]}
           pictureBgColor="white"
           textColor="backdrop-alt"

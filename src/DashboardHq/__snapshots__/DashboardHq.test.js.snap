@@ -6,132 +6,154 @@ exports[`test renders correctly 1`] = `
     Array [
       Object {
         "icon": "speed-fast",
+        "module": "status",
         "moduleGroup": "system",
         "title": "Status",
         "value": "/system/status",
       },
       Object {
         "icon": "laptop-phone",
+        "module": "apps",
         "moduleGroup": "system",
         "title": "Apps",
         "value": "/system/apps",
       },
       Object {
         "icon": "server",
+        "module": "servers",
         "moduleGroup": "system",
         "title": "Servers",
         "value": "/system/servers",
       },
       Object {
         "icon": "site-map",
+        "module": "versions",
         "moduleGroup": "system",
         "title": "Versions",
         "value": "/system/versions",
       },
       Object {
         "icon": "user-lock",
+        "module": "roles",
         "moduleGroup": "system",
         "title": "Roles",
         "value": "/system/roles",
       },
       Object {
         "icon": "chart-growth",
+        "module": "status",
         "moduleGroup": "business",
         "title": "Business",
         "value": "/business/status",
       },
       Object {
         "icon": "file-charts",
+        "module": "reports",
         "moduleGroup": "business",
         "title": "Reports",
         "value": "/business/reports",
       },
       Object {
         "icon": "briefcase",
+        "module": "clients",
         "moduleGroup": "business",
         "title": "Clients",
         "value": "/business/clients",
       },
       Object {
         "icon": "cashier",
+        "module": "accounting",
         "moduleGroup": "business",
         "title": "Accounting",
         "value": "/business/accounting",
       },
       Object {
         "icon": "feather2",
+        "module": "partners",
         "moduleGroup": "business",
         "title": "Partners",
         "value": "/business/partners",
       },
       Object {
         "icon": "palette",
+        "module": "themes",
         "moduleGroup": "templates",
         "title": "Themes",
         "value": "/templates/themes",
       },
       Object {
         "icon": "screen",
+        "module": "screens",
         "moduleGroup": "templates",
         "title": "Screens",
         "value": "/templates/screens",
       },
       Object {
         "icon": "qrcode",
+        "module": "badges",
         "moduleGroup": "templates",
         "title": "Badges",
         "value": "/templates/badges",
       },
       Object {
         "icon": "cog",
+        "module": "settings",
         "moduleGroup": "app",
         "title": "Settings",
         "value": "/app/settings",
       },
       Object {
         "icon": "file-charts",
+        "module": "assets",
         "moduleGroup": "app",
         "title": "Assets",
         "value": "/app/assets",
       },
       Object {
         "icon": "palette",
+        "module": "themes",
         "moduleGroup": "app",
         "title": "Themes",
         "value": "/app/themes",
       },
       Object {
         "icon": "screen",
+        "module": "screens",
         "moduleGroup": "app",
         "title": "Screens",
         "value": "/app/screens",
       },
       Object {
         "icon": "qrcode",
+        "module": "badges",
         "moduleGroup": "app",
         "title": "Badges",
         "value": "/app/badges",
       },
       Object {
         "icon": "receipt",
+        "module": "invoices",
         "moduleGroup": "client",
         "title": "Invoices",
         "value": "/client/invoices",
       },
       Object {
         "icon": "profile",
+        "module": "contacts",
         "moduleGroup": "client",
         "title": "Contacts",
         "value": "/client/contacts",
       },
       Object {
         "icon": "cube",
+        "module": "branding",
         "moduleGroup": "client",
         "title": "Branding",
         "value": "/client/branding",
       },
       Object {
         "icon": "smartphone",
+        "module": "apps",
         "moduleGroup": "client",
         "title": "Apps",
         "value": "/client/apps",
@@ -899,36 +921,42 @@ exports[`test renders correctly 1`] = `
             Array [
               Object {
                 "icon": "cog",
+                "module": "settings",
                 "moduleGroup": "app",
                 "title": "Settings",
                 "value": "/app/settings",
               },
               Object {
                 "icon": "file-charts",
+                "module": "assets",
                 "moduleGroup": "app",
                 "title": "Assets",
                 "value": "/app/assets",
               },
               Object {
                 "icon": "palette",
+                "module": "themes",
                 "moduleGroup": "app",
                 "title": "Themes",
                 "value": "/app/themes",
               },
               Object {
                 "icon": "screen",
+                "module": "screens",
                 "moduleGroup": "app",
                 "title": "Screens",
                 "value": "/app/screens",
               },
               Object {
                 "icon": "qrcode",
+                "module": "badges",
                 "moduleGroup": "app",
                 "title": "Badges",
                 "value": "/app/badges",
               },
             ]
           }
+          moduleId="3nNKyP6h6pMMjAyTMK"
           onItemClick={[Function]}
           selectedValue="/"
           title="App">
@@ -954,6 +982,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="cog"
                   iconColor="brand"
+                  module="settings"
+                  moduleGroup="app"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1007,6 +1038,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="file-charts"
                   iconColor="brand"
+                  module="assets"
+                  moduleGroup="app"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1060,6 +1094,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="palette"
                   iconColor="brand"
+                  module="themes"
+                  moduleGroup="app"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1113,6 +1150,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="screen"
                   iconColor="brand"
+                  module="screens"
+                  moduleGroup="app"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1166,6 +1206,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="qrcode"
                   iconColor="brand"
+                  module="badges"
+                  moduleGroup="app"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1233,24 +1276,28 @@ exports[`test renders correctly 1`] = `
             Array [
               Object {
                 "icon": "receipt",
+                "module": "invoices",
                 "moduleGroup": "client",
                 "title": "Invoices",
                 "value": "/client/invoices",
               },
               Object {
                 "icon": "profile",
+                "module": "contacts",
                 "moduleGroup": "client",
                 "title": "Contacts",
                 "value": "/client/contacts",
               },
               Object {
                 "icon": "cube",
+                "module": "branding",
                 "moduleGroup": "client",
                 "title": "Branding",
                 "value": "/client/branding",
               },
               Object {
                 "icon": "smartphone",
+                "module": "apps",
                 "moduleGroup": "client",
                 "title": "Apps",
                 "value": "/client/apps",
@@ -1282,6 +1329,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="receipt"
                   iconColor="brand"
+                  module="invoices"
+                  moduleGroup="client"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1335,6 +1384,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="profile"
                   iconColor="brand"
+                  module="contacts"
+                  moduleGroup="client"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1388,6 +1439,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="cube"
                   iconColor="brand"
+                  module="branding"
+                  moduleGroup="client"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1441,6 +1494,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="smartphone"
                   iconColor="brand"
+                  module="apps"
+                  moduleGroup="client"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1508,36 +1563,42 @@ exports[`test renders correctly 1`] = `
             Array [
               Object {
                 "icon": "speed-fast",
+                "module": "status",
                 "moduleGroup": "system",
                 "title": "Status",
                 "value": "/system/status",
               },
               Object {
                 "icon": "laptop-phone",
+                "module": "apps",
                 "moduleGroup": "system",
                 "title": "Apps",
                 "value": "/system/apps",
               },
               Object {
                 "icon": "server",
+                "module": "servers",
                 "moduleGroup": "system",
                 "title": "Servers",
                 "value": "/system/servers",
               },
               Object {
                 "icon": "site-map",
+                "module": "versions",
                 "moduleGroup": "system",
                 "title": "Versions",
                 "value": "/system/versions",
               },
               Object {
                 "icon": "user-lock",
+                "module": "roles",
                 "moduleGroup": "system",
                 "title": "Roles",
                 "value": "/system/roles",
               },
             ]
           }
+          moduleId="3nNKyP6h6pMMjAyTMK"
           onItemClick={[Function]}
           selectedValue="/"
           title="System">
@@ -1563,6 +1624,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="speed-fast"
                   iconColor="brand"
+                  module="status"
+                  moduleGroup="system"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1616,6 +1680,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="laptop-phone"
                   iconColor="brand"
+                  module="apps"
+                  moduleGroup="system"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1669,6 +1736,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="server"
                   iconColor="brand"
+                  module="servers"
+                  moduleGroup="system"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1722,6 +1792,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="site-map"
                   iconColor="brand"
+                  module="versions"
+                  moduleGroup="system"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1775,6 +1848,9 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="user-lock"
                   iconColor="brand"
+                  module="roles"
+                  moduleGroup="system"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1842,30 +1918,35 @@ exports[`test renders correctly 1`] = `
             Array [
               Object {
                 "icon": "chart-growth",
+                "module": "status",
                 "moduleGroup": "business",
                 "title": "Business",
                 "value": "/business/status",
               },
               Object {
                 "icon": "file-charts",
+                "module": "reports",
                 "moduleGroup": "business",
                 "title": "Reports",
                 "value": "/business/reports",
               },
               Object {
                 "icon": "briefcase",
+                "module": "clients",
                 "moduleGroup": "business",
                 "title": "Clients",
                 "value": "/business/clients",
               },
               Object {
                 "icon": "cashier",
+                "module": "accounting",
                 "moduleGroup": "business",
                 "title": "Accounting",
                 "value": "/business/accounting",
               },
               Object {
                 "icon": "feather2",
+                "module": "partners",
                 "moduleGroup": "business",
                 "title": "Partners",
                 "value": "/business/partners",
@@ -1897,6 +1978,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="chart-growth"
                   iconColor="brand"
+                  module="status"
+                  moduleGroup="business"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -1950,6 +2033,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="file-charts"
                   iconColor="brand"
+                  module="reports"
+                  moduleGroup="business"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2003,6 +2088,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="briefcase"
                   iconColor="brand"
+                  module="clients"
+                  moduleGroup="business"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2056,6 +2143,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="cashier"
                   iconColor="brand"
+                  module="accounting"
+                  moduleGroup="business"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2109,6 +2198,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="feather2"
                   iconColor="brand"
+                  module="partners"
+                  moduleGroup="business"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2176,18 +2267,21 @@ exports[`test renders correctly 1`] = `
             Array [
               Object {
                 "icon": "palette",
+                "module": "themes",
                 "moduleGroup": "templates",
                 "title": "Themes",
                 "value": "/templates/themes",
               },
               Object {
                 "icon": "screen",
+                "module": "screens",
                 "moduleGroup": "templates",
                 "title": "Screens",
                 "value": "/templates/screens",
               },
               Object {
                 "icon": "qrcode",
+                "module": "badges",
                 "moduleGroup": "templates",
                 "title": "Badges",
                 "value": "/templates/badges",
@@ -2219,6 +2313,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="palette"
                   iconColor="brand"
+                  module="themes"
+                  moduleGroup="templates"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2272,6 +2368,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="screen"
                   iconColor="brand"
+                  module="screens"
+                  moduleGroup="templates"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2325,6 +2423,8 @@ exports[`test renders correctly 1`] = `
                 <MenuItem
                   icon="qrcode"
                   iconColor="brand"
+                  module="badges"
+                  moduleGroup="templates"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
