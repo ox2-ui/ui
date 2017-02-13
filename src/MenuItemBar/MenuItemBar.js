@@ -42,7 +42,13 @@ class IconBar extends Component {
   };
 
   shouldComponentUpdate(nextProps) {
-    return !Immutable.is(this.props.items, nextProps.items);
+    if (this.props.items !== nextProps.value) {
+      return true;
+    } else if (!Immutable.is(this.props.items, nextProps.items)) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   render() {
