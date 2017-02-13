@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import classNames from 'classnames';
 import MenuCard from '../MenuCard';
 import MenuItemBar from '../MenuItemBar';
+import Immutable from 'immutable';
 
 /**
  * DashboardHq Component
@@ -71,12 +72,12 @@ DashboardHq.propTypes = {
   /**
    * The css class name of the root element.
    */
-  activeApp: PropTypes.string,
+  activeApp: PropTypes.string.isRequired,
   className: PropTypes.string,
   menuItems: PropTypes.array.isRequired,
   onAppItemClick: PropTypes.func.isRequired,
   onMenuItemClick: PropTypes.func.isRequired,
-  recentApps: PropTypes.array,
+  recentApps: PropTypes.instanceOf(Immutable.List).isRequired,
   style: PropTypes.object,
 };
 
