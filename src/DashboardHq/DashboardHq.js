@@ -71,9 +71,12 @@ DashboardHq.propTypes = {
   /**
    * The css class name of the root element.
    */
+  activeApp: PropTypes.string,
   className: PropTypes.string,
   menuItems: PropTypes.array.isRequired,
+  onAppItemClick: PropTypes.func.isRequired,
   onMenuItemClick: PropTypes.func.isRequired,
+  recentApps: PropTypes.array,
   style: PropTypes.object,
 };
 
