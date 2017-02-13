@@ -4,9 +4,9 @@ import Thumb from '../Thumb';
 /**
  * MenuItem Component
  */
-const MenuItem = ({ value, title, className, style, onClick, hidePicture, image, icon, pictureWidth, pictureHeight, pictureBgColor, iconColor, textColor }) => (
+const MenuItem = ({ value, title, className, style, onClick, hidePicture, image, icon, pictureWidth, pictureHeight, pictureBgColor, iconColor, textColor, moduleId, moduleGroup, module }) => (
   <div className={className} style={style}>
-    <div onClick={() => onClick(value)} className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer">
+    <div onClick={() => moduleId ? onClick(`/${moduleGroup}/${moduleId}/${module}`) : onClick(value)} className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer">
       { !hidePicture &&
         <Thumb
           image={image}
@@ -32,6 +32,9 @@ MenuItem.propTypes = {
   icon: PropTypes.string,
   iconColor: PropTypes.string,
   image: PropTypes.string,
+  module: PropTypes.string,
+  moduleGroup: PropTypes.string,
+  moduleId: PropTypes.string,
   onClick: PropTypes.func.isRequired,
   pictureBgColor: PropTypes.string,
   pictureHeight: PropTypes.number,

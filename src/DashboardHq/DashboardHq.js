@@ -29,6 +29,7 @@ const DashboardHq = (props) => {
             title={'App'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
+            moduleId={activeApp}
             items={menuItems.filter(x => x.moduleGroup === 'app')}
           />
         </div>
@@ -45,6 +46,7 @@ const DashboardHq = (props) => {
             title={'System'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
+            moduleId={activeApp}
             items={menuItems.filter(x => x.moduleGroup === 'system')}
           />
         </div>

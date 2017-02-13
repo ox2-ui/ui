@@ -14,7 +14,7 @@ const styles = {
  * MenuCard Component
  */
 const MenuCard = (props) => {
-  const { className: classNameProp, style, title, onItemClick, items, image, onSwitchClick, selectedValue, imageLandscape } = props;
+  const { className: classNameProp, style, title, onItemClick, items, image, onSwitchClick, selectedValue, imageLandscape, moduleId } = props;
   const className = classNames(
     'font:roboto-condensed border:all border-color:neutral-faded',
     classNameProp
@@ -37,10 +37,13 @@ const MenuCard = (props) => {
                 onClick={onItemClick}
                 title={item.title}
                 icon={item.icon}
+                module={item.module}
+                moduleGroup={item.moduleGroup}
                 iconColor={'brand'}
                 textColor={selectedValue === item.value ? 'brand' : 'backdrop-alt'}
                 pictureBgColor={'white'}
                 value={item.value}
+                moduleId={moduleId}
               />
             );
           })}
@@ -76,6 +79,7 @@ MenuCard.propTypes = {
   image: PropTypes.string,
   imageLandscape: PropTypes.bool,
   items: PropTypes.array.isRequired,
+  moduleId: PropTypes.string,
   onItemClick: PropTypes.func.isRequired,
   onSwitchClick: PropTypes.func,
   selectedValue: PropTypes.string,
