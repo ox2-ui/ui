@@ -14,10 +14,10 @@ const StyledScroller = styled(Scroller)`
 `;
 
 /**
- * IconBar Component
+ * MenuItemBar Component
  */
 
-class IconBar extends Component {
+class MenuItemBar extends Component {
   static propTypes = {
     /**
      * The css class name of the root element.
@@ -79,4 +79,4 @@ class IconBar extends Component {
   }
 }
 
-export default IconBar;
+export default MenuItemBar;
