@@ -37,12 +37,12 @@ const MenuCard = (props) => {
                 onClick={onItemClick}
                 title={item.title}
                 icon={item.icon}
-                module={item.module}
-                moduleGroup={item.moduleGroup}
                 iconColor={'brand'}
                 textColor={selectedValue === item.value ? 'brand' : 'backdrop-alt'}
                 pictureBgColor={'white'}
                 value={item.value}
+                module={item.module}
+                moduleGroup={item.moduleGroup}
                 moduleId={moduleId}
               />
             );
