@@ -11,7 +11,7 @@ const Thumb = (props) => {
 
   const className = classNames(
     'display:flex flex:items-center flex:content-center border:rounded',
-    `color:${color || 'neutral'}`,
+    `color:${color || 'transparent'}`,
     classNameProp
   );
 
@@ -25,7 +25,7 @@ const Thumb = (props) => {
             <img src={image} className="w:100p border:rounded" />;
           }
         } else {
-          <Icon icon={icon} size={`${height - (height * 0.3)}px`} className={`text-color:${iconColor || 'white'}`} />;
+          <Icon icon={icon} size={`${height - (height * 0.3)}px`} className={`text-color:${iconColor || 'neutral-light'}`} />;
         }
       }}
     </div>

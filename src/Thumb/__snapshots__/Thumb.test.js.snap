@@ -4,7 +4,7 @@ exports[`test renders correctly as landscape 1`] = `
   image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rohde_%26_Schwarz_Logo.svg/800px-Rohde_%26_Schwarz_Logo.svg.png"
   width={120}>
   <div
-    className="display:flex flex:items-center flex:content-center border:rounded color:neutral"
+    className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
     style={
       Object {
         "WebkitFlex": "0 0 120px",
@@ -26,7 +26,7 @@ exports[`test renders correctly as square 1`] = `
   image="https://randomuser.me/api/portraits/women/50.jpg"
   width={60}>
   <div
-    className="display:flex flex:items-center flex:content-center border:rounded color:neutral"
+    className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
     style={
       Object {
         "WebkitFlex": "0 0 60px",

@@ -49,15 +49,15 @@ storiesOf('ListItem', module)
       onClick={handler}
     />
   ))
-  .add('colored icon', () => (
+  .add('dark background', () => (
     <ListItem
       _id={'1nNKyP6h6pMMjAyTMK'}
       title={'Jane Sanders'}
       subtitle1={'Ox2 Limited'}
       subtitle2={'Marketing Manager'}
       icon={'user'}
-      pictureBgColor={'white'}
-      iconColor={'neutral-light'}
+      iconColor={'white'}
+      pictureBgColor={'neutral'}
       onClick={handler}
     />
   ))

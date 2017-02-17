@@ -16,7 +16,7 @@ exports[`test renders correctly 1`] = `
         icon="user"
         width={60}>
         <div
-          className="display:flex flex:items-center flex:content-center border:rounded color:neutral"
+          className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
           style={
             Object {
               "WebkitFlex": "0 0 60px",
@@ -26,11 +26,11 @@ exports[`test renders correctly 1`] = `
             }
           }>
           <Icon
-            className="text-color:white"
+            className="text-color:neutral-light"
             icon="user"
             size="42px">
             <span
-              className="icon-user text-color:white"
+              className="icon-user text-color:neutral-light"
               style={
                 Object {
                   "color": undefined,

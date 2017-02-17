@@ -33,7 +33,7 @@ exports[`test renders correctly 1`] = `
         image="http://imgur.com/abQ9EaG.png"
         width={35}>
         <div
-          className="display:flex flex:items-center flex:content-center border:rounded color:neutral"
+          className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
           style={
             Object {
               "WebkitFlex": "0 0 35px",
