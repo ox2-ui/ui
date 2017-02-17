@@ -242,7 +242,7 @@ exports[`test renders correctly 1`] = `
     className="display:flex">
     <div
       className="flex:1 pos:relative">
-      <IconBar
+      <MenuItemBar
         items={
           Array [
             Object {
@@ -905,7 +905,7 @@ exports[`test renders correctly 1`] = `
             </div>
           </Scroller>
         </Styled(Scroller)>
-      </IconBar>
+      </MenuItemBar>
     </div>
     <div
       className="flex:3 display:flex flex:wrap">
@@ -1953,6 +1953,7 @@ exports[`test renders correctly 1`] = `
               },
             ]
           }
+          moduleId="3nNKyP6h6pMMjAyTMK"
           onItemClick={[Function]}
           selectedValue="/"
           title="Business">
@@ -1980,6 +1981,7 @@ exports[`test renders correctly 1`] = `
                   iconColor="brand"
                   module="status"
                   moduleGroup="business"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2035,6 +2037,7 @@ exports[`test renders correctly 1`] = `
                   iconColor="brand"
                   module="reports"
                   moduleGroup="business"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2090,6 +2093,7 @@ exports[`test renders correctly 1`] = `
                   iconColor="brand"
                   module="clients"
                   moduleGroup="business"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2145,6 +2149,7 @@ exports[`test renders correctly 1`] = `
                   iconColor="brand"
                   module="accounting"
                   moduleGroup="business"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"
@@ -2200,6 +2205,7 @@ exports[`test renders correctly 1`] = `
                   iconColor="brand"
                   module="partners"
                   moduleGroup="business"
+                  moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
                   textColor="backdrop-alt"

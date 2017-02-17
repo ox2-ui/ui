@@ -55,6 +55,7 @@ const DashboardHq = (props) => {
             title={'Business'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
+            moduleId={activeApp}
             items={menuItems.filter(x => x.moduleGroup === 'business')}
           />
         </div>
