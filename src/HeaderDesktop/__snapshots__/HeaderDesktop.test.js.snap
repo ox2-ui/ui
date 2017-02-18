@@ -1,5 +1,6 @@
 exports[`test renders correctly 1`] = `
 <HeaderDesktop
+  image="http://imgur.com/abQ9EaG.png"
   onHomeClick={[Function]}
   onSwitchClick={[Function]}
   onUserClick={[Function]}>
@@ -28,40 +29,43 @@ exports[`test renders correctly 1`] = `
           </Icon>
         </button>
       </Button>
-      <Thumb
-        height={35}
-        image="http://imgur.com/abQ9EaG.png"
-        width={35}>
-        <div
-          className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
-          style={
-            Object {
-              "WebkitFlex": "0 0 35px",
-              "flex": "0 0 35px",
-              "height": "35px",
-              "width": "35px",
-            }
-          }>
-          <img
-            className="w:100p border:rounded"
-            src="http://imgur.com/abQ9EaG.png" />
-        </div>
-      </Thumb>
       <div
-        className="size:14 text-color:white font:roboto margin-l:10">
-        Some App Name
-      </div>
-      <Button
-        btn="tiny neutral-dark"
-        className="margin-l:10"
-        onClick={[Function]}>
-        <button
+        className="display:flex flex:items-center">
+        <Thumb
+          height={35}
+          image="http://imgur.com/abQ9EaG.png"
+          width={35}>
+          <div
+            className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
+            style={
+              Object {
+                "WebkitFlex": "0 0 35px",
+                "flex": "0 0 35px",
+                "height": "35px",
+                "width": "35px",
+              }
+            }>
+            <img
+              className="w:100p border:rounded"
+              src="http://imgur.com/abQ9EaG.png" />
+          </div>
+        </Thumb>
+        <div
+          className="size:14 text-color:white font:roboto margin-l:10">
+          Some App Name
+        </div>
+        <Button
+          btn="tiny neutral-dark"
           className="margin-l:10"
-          data-btn="tiny neutral-dark"
           onClick={[Function]}>
-          Switch
-        </button>
-      </Button>
+          <button
+            className="margin-l:10"
+            data-btn="tiny neutral-dark"
+            onClick={[Function]}>
+            Switch
+          </button>
+        </Button>
+      </div>
     </div>
     <div
       className="flex:1 display:flex flex:items-center flex:content-end">

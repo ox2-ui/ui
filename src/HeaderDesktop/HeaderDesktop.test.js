@@ -8,6 +8,7 @@ const handler = () => true;
 it('renders correctly', () => {
   const wrapper = mount(
     <HeaderDesktop
+      image={'http://imgur.com/abQ9EaG.png'}
       onHomeClick={handler}
       onSwitchClick={handler}
       onUserClick={handler}
