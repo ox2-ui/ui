@@ -9,6 +9,7 @@ it('renders correctly', () => {
   const wrapper = mount(
     <HeaderDesktop
       image={'http://imgur.com/abQ9EaG.png'}
+      title={'Some title'}
       onHomeClick={handler}
       onSwitchClick={handler}
       onUserClick={handler}

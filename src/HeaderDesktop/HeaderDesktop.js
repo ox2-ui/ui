@@ -8,7 +8,7 @@ import Thumb from '../Thumb';
  * HeaderDesktop Component
  */
 const HeaderDesktop = (props) => {
-  const { className: classNameProp, onSwitchClick, onUserClick, onHomeClick, image } = props;
+  const { className: classNameProp, onSwitchClick, onUserClick, onHomeClick, image, title, showSwitchMenu } = props;
 
   const className = classNames(
     'pos:absolute-0 display:flex padding-x:7',
@@ -19,14 +19,14 @@ const HeaderDesktop = (props) => {
     <div className={className}>
       <div className="flex:2 display:flex flex:items-center flex:content-start">
         <Button onClick={onHomeClick} btn="large raised brand" className="margin-r:10"><Icon icon="cactus" /></Button>
-        { onSwitchClick &&
+        { showSwitchMenu &&
           <div className="display:flex flex:items-center">
             <Thumb
               image={image}
               width={35}
               height={35}
             />
-            <div className="size:14 text-color:white font:roboto margin-l:10">Some App Name</div>
+            <div className="size:14 text-color:white font:roboto margin-l:10">{title}</div>
             <Button onClick={onSwitchClick} btn="tiny neutral-dark" className="margin-l:10">Switch</Button>
           </div>
         }
@@ -45,8 +45,10 @@ HeaderDesktop.propTypes = {
   className: PropTypes.string,
   image: PropTypes.string.isRequired,
   onHomeClick: PropTypes.func.isRequired,
-  onSwitchClick: PropTypes.func.isRequired,
+  onSwitchClick: PropTypes.func,
   onUserClick: PropTypes.func.isRequired,
+  showSwitchMenu: PropTypes.bool,
+  title: PropTypes.string.isRequired,
 };
 
 export default HeaderDesktop;
