@@ -1,0 +1,18 @@
+exports[`test renders correctly 1`] = `
+<SelectFieldLabel
+  text="My label">
+  <styled.div>
+    <div
+      className="eWjddY">
+      <styled.div>
+        <div
+          className="fpAfxb">
+          My label
+        </div>
+      </styled.div>
+      <input
+        type="text" />
+    </div>
+  </styled.div>
+</SelectFieldLabel>
+`;
