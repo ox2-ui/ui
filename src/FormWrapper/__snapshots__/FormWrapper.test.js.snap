@@ -15,7 +15,7 @@ exports[`test renders correctly 1`] = `
     <form
       onSubmit={[Function]}>
       <div
-        className="display:flex flex:items-center padding-x:7 flex:content-between border-color:neutral-faded border:bottom border:2"
+        className="pos:absolute left:0 right:0 z:2 display:flex flex:items-center padding-x:7 flex:content-between border-color:neutral-faded border:bottom border:2"
         style={
           Object {
             "height": "44px",

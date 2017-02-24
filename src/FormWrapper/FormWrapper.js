@@ -11,7 +11,7 @@ const FormWrapper = ({ children, dirty, submitSucceeded, handleSubmit, promptWid
       (promptWidget({ dirty, submitSucceeded }))
     }
     <form onSubmit={handleSubmit}>
-      <div className="display:flex flex:items-center padding-x:7 flex:content-between border-color:neutral-faded border:bottom border:2" style={{ height: '44px' }}>
+      <div className="pos:absolute left:0 right:0 z:2 display:flex flex:items-center padding-x:7 flex:content-between border-color:neutral-faded border:bottom border:2" style={{ height: '44px' }}>
         <Button
           btn="action small"
           type="submit"
