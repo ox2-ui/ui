@@ -24,29 +24,25 @@ const StyledSearchInput = styled(SearchInput)`
 /**
  * SearchBar Component
  */
-const SearchBar = ({ className, style, onChange, placeholder }) => {
+const SearchBar = ({ className, style, onChange, placeholder, value }) => {
   return (
     <StyledSearchInput
       className={className}
-      style={style}
       onChange={onChange}
       placeholder={placeholder}
+      style={style}
       throttle={100}
+      value={value}
     />
   );
 };
 
 SearchBar.propTypes = {
-  /**
-   * The css class name of the root element.
-   */
   className: PropTypes.string,
   onChange: PropTypes.func,
   placeholder: PropTypes.string,
-  /**
-   * Override the inline-styles of the root element.
-   */
   style: PropTypes.object,
+  value: PropTypes.string,
 };
 
 export default SearchBar;

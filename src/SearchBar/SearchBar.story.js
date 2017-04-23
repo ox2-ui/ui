@@ -10,4 +10,11 @@ storiesOf('SearchBar', module)
       onChange={onSearchUpdate}
       placeholder={'Search this...'}
     />
+  ))
+  .add('controlled', () => (
+    <SearchBar
+      onChange={onSearchUpdate}
+      placeholder={'Search this...'}
+      value={'some'}
+    />
   ));
