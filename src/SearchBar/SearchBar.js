@@ -24,7 +24,7 @@ const StyledSearchInput = styled(SearchInput)`
 /**
  * SearchBar Component
  */
-const SearchBar = ({ className, style, onChange, placeholder, value }) => {
+const SearchBar = ({ className, style, onChange, placeholder, value, ...other }) => {
   return (
     <StyledSearchInput
       className={className}
@@ -33,6 +33,7 @@ const SearchBar = ({ className, style, onChange, placeholder, value }) => {
       style={style}
       throttle={100}
       value={value}
+      {...other}
     />
   );
 };

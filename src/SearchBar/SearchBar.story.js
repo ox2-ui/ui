@@ -17,4 +17,12 @@ storiesOf('SearchBar', module)
       placeholder={'Search this...'}
       value={'some'}
     />
+  ))
+  .add('autoFocus', () => (
+    <SearchBar
+      autoFocus={true}
+      onChange={onSearchUpdate}
+      placeholder={'Search this...'}
+      value={'some'}
+    />
   ));
