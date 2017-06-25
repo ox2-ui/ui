@@ -1,25 +1,32 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <SearchBar
   onChange={[Function]}
-  placeholder="Search this...">
+  placeholder="Search this..."
+>
   <Styled(Search)
     onChange={[Function]}
     placeholder="Search this..."
-    throttle={100}>
+    throttle={100}
+  >
     <Search
       caseSensitive={false}
       className="dfnEEL"
       fuzzy={false}
       onChange={[Function]}
       placeholder="Search this..."
-      throttle={100}>
+      throttle={100}
+    >
       <div
-        className="dfnEEL">
+        className="dfnEEL"
+      >
         <input
           onChange={[Function]}
           placeholder="Search this..."
           type="search"
-          value="" />
+          value=""
+        />
       </div>
     </Search>
   </Styled(Search)>

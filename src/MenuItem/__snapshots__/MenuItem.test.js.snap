@@ -1,21 +1,26 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <MenuItem
   icon="cog"
   iconColor="brand"
   onClick={[Function]}
   pictureBgColor="white"
   title="Settings"
-  value="/system/status">
+  value="/system/status"
+>
   <div>
     <div
       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <Thumb
         color="white"
         height={28}
         icon="cog"
         iconColor="brand"
-        width={28}>
+        width={28}
+      >
         <div
           className="display:flex flex:items-center flex:content-center border:rounded color:white"
           style={
@@ -25,11 +30,13 @@ exports[`test renders correctly 1`] = `
               "height": "28px",
               "width": "28px",
             }
-          }>
+          }
+        >
           <Icon
             className="text-color:brand"
             icon="cog"
-            size="19.6px">
+            size="19.6px"
+          >
             <span
               className="icon-cog text-color:brand"
               style={
@@ -37,14 +44,17 @@ exports[`test renders correctly 1`] = `
                   "color": undefined,
                   "fontSize": "19.6px",
                 }
-              } />
+              }
+            />
           </Icon>
         </div>
       </Thumb>
       <div
-        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
+        className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed"
+      >
         <div
-          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt">
+          className="select:text size:16 line-h:120p text:truncate text-color:backdrop-alt"
+        >
           Settings
         </div>
       </div>

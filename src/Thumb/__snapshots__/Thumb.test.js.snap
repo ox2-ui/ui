@@ -1,8 +1,11 @@
-exports[`test renders correctly as landscape 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly as landscape 1`] = `
 <Thumb
   height={60}
   image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rohde_%26_Schwarz_Logo.svg/800px-Rohde_%26_Schwarz_Logo.svg.png"
-  width={120}>
+  width={120}
+>
   <div
     className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
     style={
@@ -12,19 +15,22 @@ exports[`test renders correctly as landscape 1`] = `
         "height": "60px",
         "width": "120px",
       }
-    }>
+    }
+  >
     <img
       className="w:100p border:rounded"
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rohde_%26_Schwarz_Logo.svg/800px-Rohde_%26_Schwarz_Logo.svg.png" />
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rohde_%26_Schwarz_Logo.svg/800px-Rohde_%26_Schwarz_Logo.svg.png"
+    />
   </div>
 </Thumb>
 `;
 
-exports[`test renders correctly as square 1`] = `
+exports[`renders correctly as square 1`] = `
 <Thumb
   height={60}
   image="https://randomuser.me/api/portraits/women/50.jpg"
-  width={60}>
+  width={60}
+>
   <div
     className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
     style={
@@ -34,10 +40,12 @@ exports[`test renders correctly as square 1`] = `
         "height": "60px",
         "width": "60px",
       }
-    }>
+    }
+  >
     <img
       className="w:100p border:rounded"
-      src="https://randomuser.me/api/portraits/women/50.jpg" />
+      src="https://randomuser.me/api/portraits/women/50.jpg"
+    />
   </div>
 </Thumb>
 `;

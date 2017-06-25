@@ -1,8 +1,12 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <Dashboard
-  onDismiss={[Function]}>
+  onDismiss={[Function]}
+>
   <Scroller
-    className="padding-b:40">
+    className="padding-b:40"
+  >
     <div
       className="padding-b:40"
       onTouchMove={[Function]}
@@ -20,13 +24,16 @@ exports[`test renders correctly 1`] = `
           "right": "0",
           "top": "0",
         }
-      }>
+      }
+    >
       <Button
         btn="raised action"
-        onClick={[Function]}>
+        onClick={[Function]}
+      >
         <button
           data-btn="raised action"
-          onClick={[Function]}>
+          onClick={[Function]}
+        >
           Done
         </button>
       </Button>

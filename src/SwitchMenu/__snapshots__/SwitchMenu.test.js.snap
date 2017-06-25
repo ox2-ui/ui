@@ -1,14 +1,20 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <SwitchMenu
-  onDismiss={[Function]}>
+  onDismiss={[Function]}
+>
   <div
-    className="padding-b:40">
+    className="padding-b:40"
+  >
     <Button
       btn="raised action"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       <button
         data-btn="raised action"
-        onClick={[Function]}>
+        onClick={[Function]}
+      >
         Done
       </button>
     </Button>

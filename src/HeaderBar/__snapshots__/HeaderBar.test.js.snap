@@ -1,15 +1,21 @@
-exports[`test renders correctly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
 <HeaderBar
   icon="cactus"
-  title="Cactus settings">
+  title="Cactus settings"
+>
   <div
-    className="display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2">
+    className="display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2"
+  >
     <div
-      className="display:flex flex:items-center flex:44px padding-x:7">
+      className="display:flex flex:items-center flex:44px padding-x:7"
+    >
       <Icon
         className="text-color:brand"
         icon="cactus"
-        size="25px">
+        size="25px"
+      >
         <span
           className="icon-cactus text-color:brand"
           style={
@@ -17,10 +23,12 @@ exports[`test renders correctly 1`] = `
               "color": undefined,
               "fontSize": "25px",
             }
-          } />
+          }
+        />
       </Icon>
       <div
-        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">
+        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7"
+      >
         Cactus settings
       </div>
     </div>
@@ -28,18 +36,22 @@ exports[`test renders correctly 1`] = `
 </HeaderBar>
 `;
 
-exports[`test renders with buttons 1`] = `
+exports[`renders with buttons 1`] = `
 <HeaderBar
   icon="cactus"
-  title="Cactus settings">
+  title="Cactus settings"
+>
   <div
-    className="display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2">
+    className="display:flex flex:column flex:0-auto color:white border-color:brand border:bottom border:2"
+  >
     <div
-      className="display:flex flex:items-center flex:44px padding-x:7">
+      className="display:flex flex:items-center flex:44px padding-x:7"
+    >
       <Icon
         className="text-color:brand"
         icon="cactus"
-        size="25px">
+        size="25px"
+      >
         <span
           className="icon-cactus text-color:brand"
           style={
@@ -47,16 +59,19 @@ exports[`test renders with buttons 1`] = `
               "color": undefined,
               "fontSize": "25px",
             }
-          } />
+          }
+        />
       </Icon>
       <div
-        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">
+        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7"
+      >
         Cactus settings
       </div>
       <HeaderButton
         className="margin-r:7"
         label="Search"
-        onClick={[Function]}>
+        onClick={[Function]}
+      >
         <Button
           btn="header-button small raised"
           className="margin-r:7"
@@ -65,7 +80,8 @@ exports[`test renders with buttons 1`] = `
             Object {
               "flex": "0 0 auto",
             }
-          }>
+          }
+        >
           <button
             className="margin-r:7"
             data-btn="header-button small raised"
@@ -74,14 +90,16 @@ exports[`test renders with buttons 1`] = `
               Object {
                 "flex": "0 0 auto",
               }
-            }>
+            }
+          >
             Search
           </button>
         </Button>
       </HeaderButton>
       <HeaderButton
         label="Filter"
-        onClick={[Function]}>
+        onClick={[Function]}
+      >
         <Button
           btn="header-button small raised"
           onClick={[Function]}
@@ -89,7 +107,8 @@ exports[`test renders with buttons 1`] = `
             Object {
               "flex": "0 0 auto",
             }
-          }>
+          }
+        >
           <button
             data-btn="header-button small raised"
             onClick={[Function]}
@@ -97,7 +116,8 @@ exports[`test renders with buttons 1`] = `
               Object {
                 "flex": "0 0 auto",
               }
-            }>
+            }
+          >
             Filter
           </button>
         </Button>
@@ -107,19 +127,23 @@ exports[`test renders with buttons 1`] = `
 </HeaderBar>
 `;
 
-exports[`test renders with no border 1`] = `
+exports[`renders with no border 1`] = `
 <HeaderBar
   hideBorder={true}
   icon="cactus"
-  title="Cactus settings">
+  title="Cactus settings"
+>
   <div
-    className="display:flex flex:column flex:0-auto color:white">
+    className="display:flex flex:column flex:0-auto color:white"
+  >
     <div
-      className="display:flex flex:items-center flex:44px padding-x:7">
+      className="display:flex flex:items-center flex:44px padding-x:7"
+    >
       <Icon
         className="text-color:brand"
         icon="cactus"
-        size="25px">
+        size="25px"
+      >
         <span
           className="icon-cactus text-color:brand"
           style={
@@ -127,10 +151,12 @@ exports[`test renders with no border 1`] = `
               "color": undefined,
               "fontSize": "25px",
             }
-          } />
+          }
+        />
       </Icon>
       <div
-        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7">
+        className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7"
+      >
         Cactus settings
       </div>
     </div>
