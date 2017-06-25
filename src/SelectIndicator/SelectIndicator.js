@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import styled from 'styled-components';
 
 const Indicator = styled.div`
@@ -14,12 +15,10 @@ const Indicator = styled.div`
 /**
  * SelectIndicator Component
  */
-const SelectIndicator = (props) => {
+const SelectIndicator = props => {
   const { className, style } = props;
 
-  return (
-    <Indicator style={style} className={className} />
-  );
+  return <Indicator style={style} className={className} />;
 };
 
 SelectIndicator.propTypes = {

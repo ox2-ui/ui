@@ -1,12 +1,12 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import HeaderDesktop from './HeaderDesktop';
 
 const handler = () => console.log('🍇'); // eslint-disable-line no-console
 
 storiesOf('HeaderDesktop', module)
-  .add('default', () => (
-    <div style={{height: '64px', position: 'relative'}}>
+  .add('default', () =>
+    <div style={{ height: '64px', position: 'relative' }}>
       <HeaderDesktop
         className="color:backdrop-alt"
         image={'http://imgur.com/abQ9EaG.png'}
@@ -16,10 +16,10 @@ storiesOf('HeaderDesktop', module)
         onUserClick={handler}
         showSwitchMenu={true}
       />
-    </div>
-  ))
-  .add('no switch', () => (
-    <div style={{height: '64px', position: 'relative'}}>
+    </div>,
+  )
+  .add('no switch', () =>
+    <div style={{ height: '64px', position: 'relative' }}>
       <HeaderDesktop
         className="color:backdrop-alt"
         title={'Some title'}
@@ -27,5 +27,5 @@ storiesOf('HeaderDesktop', module)
         onHomeClick={handler}
         onUserClick={handler}
       />
-    </div>
-  ));
+    </div>,
+  );

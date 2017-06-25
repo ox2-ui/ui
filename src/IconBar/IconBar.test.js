@@ -5,7 +5,7 @@ import IconBar from './IconBar';
 import Immutable from 'immutable';
 import { items } from '../../data/Apps';
 
-const handleUpdate = (value) => console.log('🐳', value); // eslint-disable-line no-console
+const handleUpdate = value => console.log('🐳', value); // eslint-disable-line no-console
 
 const list = Immutable.List.of(...items);
 
@@ -15,7 +15,7 @@ it('renders correctly', () => {
       value="3nNKyP6h6pMMjAyTMK"
       items={list}
       onUpdate={handleUpdate}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

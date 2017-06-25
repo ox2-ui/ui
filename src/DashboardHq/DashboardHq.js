@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import classNames from 'classnames';
 import MenuCard from '../MenuCard';
 import MenuItemBar from '../MenuItemBar';
@@ -7,11 +8,20 @@ import Immutable from 'immutable';
 /**
  * DashboardHq Component
  */
-const DashboardHq = (props) => {
-  const { className: classNameProp, style, menuItems, onMenuItemClick, activeApp, recentApps, onAppItemClick, currentPath } = props;
+const DashboardHq = props => {
+  const {
+    className: classNameProp,
+    style,
+    menuItems,
+    onMenuItemClick,
+    activeApp,
+    recentApps,
+    onAppItemClick,
+    currentPath,
+  } = props;
   const className = classNames(
     'display:flex',
-    classNameProp
+    classNameProp,
   );
 
   return (
@@ -24,47 +34,72 @@ const DashboardHq = (props) => {
         />
       </div>
       <div className="flex:3 display:flex flex:wrap">
-        <div className="margin:10" style={{width: '330px'}}>
+        <div
+          className="margin:10"
+          style={{ width: '330px' }}
+        >
           <MenuCard
             title={'App'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             moduleId={activeApp}
-            items={menuItems.filter(x => x.moduleGroup === 'app')}
+            items={menuItems.filter(
+              x => x.moduleGroup === 'app',
+            )}
           />
         </div>
-        <div className="margin:10" style={{width: '330px'}}>
+        <div
+          className="margin:10"
+          style={{ width: '330px' }}
+        >
           <MenuCard
             title={'Client'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
-            items={menuItems.filter(x => x.moduleGroup === 'client')}
+            items={menuItems.filter(
+              x => x.moduleGroup === 'client',
+            )}
           />
         </div>
-        <div className="margin:10" style={{width: '220px'}}>
+        <div
+          className="margin:10"
+          style={{ width: '220px' }}
+        >
           <MenuCard
             title={'System'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             moduleId={activeApp}
-            items={menuItems.filter(x => x.moduleGroup === 'system')}
+            items={menuItems.filter(
+              x => x.moduleGroup === 'system',
+            )}
           />
         </div>
-        <div className="margin:10" style={{width: '220px'}}>
+        <div
+          className="margin:10"
+          style={{ width: '220px' }}
+        >
           <MenuCard
             title={'Business'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
             moduleId={activeApp}
-            items={menuItems.filter(x => x.moduleGroup === 'business')}
+            items={menuItems.filter(
+              x => x.moduleGroup === 'business',
+            )}
           />
         </div>
-        <div className="margin:10" style={{width: '220px'}}>
+        <div
+          className="margin:10"
+          style={{ width: '220px' }}
+        >
           <MenuCard
             title={'Templates'}
             selectedValue={currentPath}
             onItemClick={onMenuItemClick}
-            items={menuItems.filter(x => x.moduleGroup === 'templates')}
+            items={menuItems.filter(
+              x => x.moduleGroup === 'templates',
+            )}
           />
         </div>
       </div>
@@ -74,7 +109,6 @@ const DashboardHq = (props) => {
     </div>
   );
 };
-
 
 DashboardHq.propTypes = {
   /**
@@ -86,7 +120,8 @@ DashboardHq.propTypes = {
   menuItems: PropTypes.array.isRequired,
   onAppItemClick: PropTypes.func.isRequired,
   onMenuItemClick: PropTypes.func.isRequired,
-  recentApps: PropTypes.instanceOf(Immutable.List).isRequired,
+  recentApps: PropTypes.instanceOf(Immutable.List)
+    .isRequired,
   style: PropTypes.object,
 };
 

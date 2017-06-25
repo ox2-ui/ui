@@ -5,9 +5,9 @@ import HeaderControls from './HeaderControls';
 
 it('renders correctly', () => {
   const wrapper = mount(
-    <HeaderControls >
+    <HeaderControls>
       <div>sample text</div>
-    </HeaderControls>
+    </HeaderControls>,
   );
 
   expect(wrapper).toMatchSnapshot();

@@ -1,15 +1,20 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import classNames from 'classnames';
 
 /**
  * HeaderControls Component
  */
-const HeaderControls = (props) => {
-  const { className: classNameProp, style, children} = props;
+const HeaderControls = props => {
+  const {
+    className: classNameProp,
+    style,
+    children,
+  } = props;
 
   const className = classNames(
     'padding-x:7 padding-b:7 border-color:brand border:bottom border:2',
-    classNameProp
+    classNameProp,
   );
 
   return (

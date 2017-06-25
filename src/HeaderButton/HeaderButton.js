@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Button from '@ox2/button/Button';
 
 const styles = {
@@ -10,7 +11,12 @@ const styles = {
 /**
  * HeaderButton Component
  */
-const HeaderButton = ({ style, onClick, label, className }) => {
+const HeaderButton = ({
+  style,
+  onClick,
+  label,
+  className,
+}) => {
   const mergedStyles = {
     ...styles.button,
     ...style,
@@ -22,7 +28,9 @@ const HeaderButton = ({ style, onClick, label, className }) => {
       onClick={onClick}
       className={className}
       style={mergedStyles}
-    >{label}</Button>
+    >
+      {label}
+    </Button>
   );
 };
 

@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import SearchInput from 'react-search-input';
 import styled from 'styled-components';
 
@@ -24,7 +25,14 @@ const StyledSearchInput = styled(SearchInput)`
 /**
  * SearchBar Component
  */
-const SearchBar = ({ className, style, onChange, placeholder, value, ...other }) => {
+const SearchBar = ({
+  className,
+  style,
+  onChange,
+  placeholder,
+  value,
+  ...other
+}) => {
   return (
     <StyledSearchInput
       className={className}

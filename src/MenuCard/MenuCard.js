@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import classNames from 'classnames';
 import MenuItem from '../MenuItem';
 import Thumb from '../Thumb';
@@ -13,11 +14,22 @@ const styles = {
 /**
  * MenuCard Component
  */
-const MenuCard = (props) => {
-  const { className: classNameProp, style, title, onItemClick, items, image, onSwitchClick, selectedValue, imageLandscape, moduleId } = props;
+const MenuCard = props => {
+  const {
+    className: classNameProp,
+    style,
+    title,
+    onItemClick,
+    items,
+    image,
+    onSwitchClick,
+    selectedValue,
+    imageLandscape,
+    moduleId,
+  } = props;
   const className = classNames(
     'font:roboto-condensed border:all border-color:neutral-faded',
-    classNameProp
+    classNameProp,
   );
 
   const mergedStyles = {
@@ -27,8 +39,13 @@ const MenuCard = (props) => {
 
   return (
     <div className={className} style={mergedStyles}>
-      <div className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">{title}</div>
-      <div style={styles.wrapper} className="padding:5 overflow:hidden display:flex flex:items-center">
+      <div className="padding-y:5 padding-x:10 size:20 text-color:neutral-dim text:truncate border:bottom border-color:neutral-faded">
+        {title}
+      </div>
+      <div
+        style={styles.wrapper}
+        className="padding:5 overflow:hidden display:flex flex:items-center"
+      >
         <div>
           {items.map((item, i) => {
             return (
@@ -37,8 +54,13 @@ const MenuCard = (props) => {
                 onClick={onItemClick}
                 title={item.title}
                 icon={item.icon}
+                iconGroup={item.iconGroup}
                 iconColor={'brand'}
-                textColor={selectedValue === item.value ? 'brand' : 'backdrop-alt'}
+                textColor={
+                  selectedValue === item.value
+                    ? 'brand'
+                    : 'backdrop-alt'
+                }
                 pictureBgColor={'white'}
                 value={item.value}
                 module={item.module}
@@ -48,8 +70,11 @@ const MenuCard = (props) => {
             );
           })}
         </div>
-        { onSwitchClick &&
-          <div style={styles.wrapper} className="display:flex flex:column flex:items-center border:all border-color:neutral-faded margin:0-auto padding:10">
+        {onSwitchClick &&
+          <div
+            style={styles.wrapper}
+            className="display:flex flex:column flex:items-center border:all border-color:neutral-faded margin:0-auto padding:10"
+          >
             <Thumb
               className="padding-x:10 padding-b:10"
               image={image}
@@ -61,15 +86,15 @@ const MenuCard = (props) => {
               <Button
                 btn="neutral outline small raised"
                 onClick={onSwitchClick}
-              >Switch</Button>
+              >
+                Switch
+              </Button>
             </div>
-          </div>
-        }
+          </div>}
       </div>
     </div>
   );
 };
-
 
 MenuCard.propTypes = {
   /**

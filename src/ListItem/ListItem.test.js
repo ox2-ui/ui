@@ -5,7 +5,6 @@ import ListItem from './ListItem';
 
 const handler = () => console.log('🍇'); // eslint-disable-line no-console
 
-
 it('renders correctly', () => {
   const wrapper = mount(
     <ListItem
@@ -15,7 +14,7 @@ it('renders correctly', () => {
       subtitle2={'Marketing Manager'}
       icon={'user'}
       onClick={handler}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

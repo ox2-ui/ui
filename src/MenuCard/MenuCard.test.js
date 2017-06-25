@@ -12,7 +12,7 @@ it('renders correctly', () => {
       title={'System'}
       onItemClick={handler}
       items={items.filter(x => x.moduleGroup === 'system')}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();
@@ -25,7 +25,7 @@ it('renders selected', () => {
       onItemClick={handler}
       selectedValue={'/system/apps'}
       items={items.filter(x => x.moduleGroup === 'system')}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();
@@ -39,7 +39,7 @@ it('renders with context switch', () => {
       items={items.filter(x => x.moduleGroup === 'system')}
       image={'http://imgur.com/abQ9EaG.png'}
       onSwitchClick={handler}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

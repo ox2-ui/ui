@@ -13,7 +13,7 @@ it('renders correctly', () => {
       onHomeClick={handler}
       onSwitchClick={handler}
       onUserClick={handler}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

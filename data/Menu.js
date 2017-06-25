@@ -2,6 +2,7 @@ export const items = [
   // System
   {
     value: '/system/status',
+    iconGroup: 'linear',
     icon: 'speed-fast',
     title: 'Status',
     module: 'status',
@@ -9,6 +10,7 @@ export const items = [
   },
   {
     value: '/system/apps',
+    iconGroup: 'linear',
     icon: 'laptop-phone',
     title: 'Apps',
     module: 'apps',
@@ -16,6 +18,7 @@ export const items = [
   },
   {
     value: '/system/servers',
+    iconGroup: 'linear',
     icon: 'server',
     title: 'Servers',
     module: 'servers',
@@ -23,6 +26,7 @@ export const items = [
   },
   {
     value: '/system/versions',
+    iconGroup: 'linear',
     icon: 'site-map',
     title: 'Versions',
     module: 'versions',
@@ -30,6 +34,7 @@ export const items = [
   },
   {
     value: '/system/roles',
+    iconGroup: 'linear',
     icon: 'user-lock',
     title: 'Roles',
     module: 'roles',
@@ -38,6 +43,7 @@ export const items = [
   // Business
   {
     value: '/business/status',
+    iconGroup: 'linear',
     icon: 'chart-growth',
     title: 'Business',
     module: 'status',
@@ -45,6 +51,7 @@ export const items = [
   },
   {
     value: '/business/reports',
+    iconGroup: 'linear',
     icon: 'file-charts',
     title: 'Reports',
     module: 'reports',
@@ -52,6 +59,7 @@ export const items = [
   },
   {
     value: '/business/clients',
+    iconGroup: 'linear',
     icon: 'briefcase',
     title: 'Clients',
     module: 'clients',
@@ -59,6 +67,7 @@ export const items = [
   },
   {
     value: '/business/accounting',
+    iconGroup: 'linear',
     icon: 'cashier',
     title: 'Accounting',
     module: 'accounting',
@@ -66,6 +75,7 @@ export const items = [
   },
   {
     value: '/business/partners',
+    iconGroup: 'linear',
     icon: 'feather2',
     title: 'Partners',
     module: 'partners',
@@ -74,6 +84,7 @@ export const items = [
   // Templates
   {
     value: '/templates/themes',
+    iconGroup: 'linear',
     icon: 'palette',
     title: 'Themes',
     module: 'themes',
@@ -81,6 +92,7 @@ export const items = [
   },
   {
     value: '/templates/screens',
+    iconGroup: 'linear',
     icon: 'screen',
     title: 'Screens',
     module: 'screens',
@@ -88,6 +100,7 @@ export const items = [
   },
   {
     value: '/templates/badges',
+    iconGroup: 'moon',
     icon: 'qrcode',
     title: 'Badges',
     module: 'badges',
@@ -96,6 +109,7 @@ export const items = [
   // App
   {
     value: '/app/settings',
+    iconGroup: 'linear',
     icon: 'cog',
     title: 'Settings',
     module: 'settings',
@@ -103,6 +117,7 @@ export const items = [
   },
   {
     value: '/app/assets',
+    iconGroup: 'linear',
     icon: 'file-charts',
     title: 'Assets',
     module: 'assets',
@@ -110,6 +125,7 @@ export const items = [
   },
   {
     value: '/app/themes',
+    iconGroup: 'linear',
     icon: 'palette',
     title: 'Themes',
     module: 'themes',
@@ -117,6 +133,7 @@ export const items = [
   },
   {
     value: '/app/screens',
+    iconGroup: 'linear',
     icon: 'screen',
     title: 'Screens',
     module: 'screens',
@@ -124,6 +141,7 @@ export const items = [
   },
   {
     value: '/app/badges',
+    iconGroup: 'moon',
     icon: 'qrcode',
     title: 'Badges',
     module: 'badges',
@@ -132,6 +150,7 @@ export const items = [
   // Client
   {
     value: '/client/invoices',
+    iconGroup: 'linear',
     icon: 'receipt',
     title: 'Invoices',
     module: 'invoices',
@@ -139,6 +158,7 @@ export const items = [
   },
   {
     value: '/client/contacts',
+    iconGroup: 'linear',
     icon: 'profile',
     title: 'Contacts',
     module: 'contacts',
@@ -146,6 +166,7 @@ export const items = [
   },
   {
     value: '/client/branding',
+    iconGroup: 'linear',
     icon: 'cube',
     title: 'Branding',
     module: 'branding',
@@ -153,6 +174,7 @@ export const items = [
   },
   {
     value: '/client/apps',
+    iconGroup: 'linear',
     icon: 'smartphone',
     title: 'Apps',
     module: 'apps',

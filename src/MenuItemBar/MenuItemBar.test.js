@@ -15,7 +15,7 @@ it('renders correctly', () => {
       value="3nNKyP6h6pMMjAyTMK"
       items={list}
       onUpdate={handler}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

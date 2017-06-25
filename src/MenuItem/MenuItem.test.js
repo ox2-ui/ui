@@ -14,7 +14,7 @@ it('renders correctly', () => {
       iconColor={'brand'}
       pictureBgColor={'white'}
       onClick={handler}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

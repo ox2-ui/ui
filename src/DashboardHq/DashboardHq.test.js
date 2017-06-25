@@ -10,7 +10,6 @@ const handler = () => true;
 
 const appList = Immutable.List.of(...appItems);
 
-
 it('renders correctly', () => {
   const wrapper = mount(
     <DashboardHq
@@ -20,7 +19,7 @@ it('renders correctly', () => {
       onAppItemClick={handler}
       menuItems={menuItems}
       onMenuItemClick={handler}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

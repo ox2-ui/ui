@@ -1,8 +1,7 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import SelectIndicator from './SelectIndicator';
 
-storiesOf('SelectIndicator', module)
-  .add('default', () => (
-    <SelectIndicator />
-  ));
+storiesOf('SelectIndicator', module).add('default', () =>
+  <SelectIndicator />,
+);

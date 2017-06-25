@@ -10,7 +10,7 @@ it('renders correctly', () => {
     <SearchBar
       onChange={onSearchUpdate}
       placeholder={'Search this...'}
-    />
+    />,
   );
 
   expect(wrapper).toMatchSnapshot();

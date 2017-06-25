@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import SelectIndicator from '../SelectIndicator';
 import Scroller from '@ox2/scroller/Scroller';
 import styled from 'styled-components';
@@ -44,7 +45,9 @@ class MenuItemBar extends Component {
   shouldComponentUpdate(nextProps) {
     if (this.props.items !== nextProps.value) {
       return true;
-    } else if (!Immutable.is(this.props.items, nextProps.items)) {
+    } else if (
+      !Immutable.is(this.props.items, nextProps.items)
+    ) {
       return true;
     } else {
       return false;
@@ -52,16 +55,24 @@ class MenuItemBar extends Component {
   }
 
   render() {
-    const { className, style, items, onUpdate, value } = this.props;
+    const {
+      className,
+      style,
+      items,
+      onUpdate,
+      value,
+    } = this.props;
 
     return (
       <StyledScroller className={className} style={style}>
         {items.map((item, i) => {
           return (
-            <div key={i} className="display:flex pos:relative padding-l:7">
+            <div
+              key={i}
+              className="display:flex pos:relative padding-l:7"
+            >
               {value === item._id &&
-                <SelectIndicator className="color:neutral-dim" />
-              }
+                <SelectIndicator className="color:neutral-dim" />}
               <MenuItem
                 value={item._id}
                 title={item.title}

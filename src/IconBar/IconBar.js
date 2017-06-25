@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 import Thumb from '../Thumb';
 import SelectIndicator from '../SelectIndicator';
 import Scroller from '@ox2/scroller/Scroller';
@@ -53,7 +54,9 @@ class IconBar extends Component {
   shouldComponentUpdate(nextProps) {
     if (this.props.items !== nextProps.value) {
       return true;
-    } else if (!Immutable.is(this.props.items, nextProps.items)) {
+    } else if (
+      !Immutable.is(this.props.items, nextProps.items)
+    ) {
       return true;
     } else {
       return false;
@@ -61,7 +64,13 @@ class IconBar extends Component {
   }
 
   render() {
-    const { className, style, items, onUpdate, value } = this.props;
+    const {
+      className,
+      style,
+      items,
+      onUpdate,
+      value,
+    } = this.props;
 
     return (
       <StyledScroller className={className} style={style}>
@@ -72,8 +81,7 @@ class IconBar extends Component {
               onClick={() => onUpdate(item._id)}
             >
               {value === item._id &&
-                <SelectIndicator className="color:neutral-faded" />
-              }
+                <SelectIndicator className="color:neutral-faded" />}
               <Thumb
                 image={item.logo}
                 width={35}

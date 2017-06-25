@@ -1,36 +1,75 @@
-import React, { PropTypes } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import classNames from 'classnames';
-import Icon from '@ox2/icon/Icon';
+import FontIcon from '@ox2/icon/FontIcon';
 import ImageOffline from '@ox2/image/ImageOffline';
 
 /**
  * Thumb Component
  */
-const Thumb = (props) => {
-  const { className: classNameProp, image, icon, color, iconColor, width, height, offlineEnabled, localImg } = props;
+const Thumb = props => {
+  const {
+    className: classNameProp,
+    image,
+    icon,
+    color,
+    iconColor,
+    iconGroup,
+    width,
+    height,
+    offlineEnabled,
+    localImg,
+  } = props;
 
   const className = classNames(
     'display:flex flex:items-center flex:content-center border:rounded',
     `color:${color || 'transparent'}`,
-    classNameProp
+    classNameProp,
   );
 
   return (
-    <div className={className} style={{width: `${width}px`, height: `${height}px`, WebkitFlex: `0 0 ${width}px`, flex: `0 0 ${width}px`}}>
-      {do {
-        if (image) {
-          if (offlineEnabled && localImg) {
-            <ImageOffline remoteLink={image} localImg={localImg} className="w:100p border:rounded" />;
-          } else {
-            <img src={image} className="w:100p border:rounded" />;
-          }
-        } else {
-          <Icon icon={icon} size={`${height - (height * 0.3)}px`} className={`text-color:${iconColor || 'neutral-light'}`} />;
-        }
+    <div
+      className={className}
+      style={{
+        width: `${width}px`,
+        height: `${height}px`,
+        WebkitFlex: `0 0 ${width}px`,
+        flex: `0 0 ${width}px`,
       }}
+    >
+      {
+        do {
+          if (image) {
+            if (offlineEnabled && localImg) {
+              <ImageOffline
+                remoteLink={image}
+                localImg={localImg}
+                className="w:100p border:rounded"
+              />;
+            } else {
+              <img
+                src={image}
+                className="w:100p border:rounded"
+              />;
+            }
+          } else {
+            <FontIcon
+              icon={icon}
+              group={iconGroup}
+              size={`${height - height * 0.3}px`}
+              className={`text-color:${iconColor ||
+                'neutral-light'}`}
+            />;
+          }
+        }
+      }
     </div>
   );
 };
+
+Thumb.defaultProps = {
+  iconGroup: '',
+}
 
 Thumb.propTypes = {
   /**
