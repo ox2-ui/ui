@@ -69,7 +69,7 @@ const Thumb = props => {
 
 Thumb.defaultProps = {
   iconGroup: '',
-}
+};
 
 Thumb.propTypes = {
   /**

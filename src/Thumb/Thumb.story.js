@@ -31,7 +31,12 @@ storiesOf('Thumb', module)
     <Thumb image={image2} width={60} height={60} />,
   )
   .add('icon placeholder', () =>
-    <Thumb icon="user" iconGroup="linear" width={60} height={60} />,
+    <Thumb
+      icon="user"
+      iconGroup="linear"
+      width={60}
+      height={60}
+    />,
   )
   .add('icon placeholder colored', () =>
     <Thumb
@@ -53,11 +58,21 @@ storiesOf('Thumb', module)
     />,
   )
   .add('icon placeholder small', () =>
-    <Thumb icon="user" iconGroup="linear" width={30} height={30} />,
+    <Thumb
+      icon="user"
+      iconGroup="linear"
+      width={30}
+      height={30}
+    />,
   )
   .add('square image 80', () =>
     <Thumb image={image1} width={80} height={80} />,
   )
   .add('square 80 icon placeholder', () =>
-    <Thumb icon="user" iconGroup="linear" width={80} height={80} />,
+    <Thumb
+      icon="user"
+      iconGroup="linear"
+      width={80}
+      height={80}
+    />,
   );
