@@ -2,7 +2,11 @@
 
 exports[`renders correctly 1`] = `
 <HeaderBar
+  className=""
+  hideBorder={false}
   icon="cactus"
+  image=""
+  onIconClick={[Function]}
   title="Cactus settings"
 >
   <div
@@ -11,21 +15,26 @@ exports[`renders correctly 1`] = `
     <div
       className="display:flex flex:items-center flex:44px padding-x:7"
     >
-      <Icon
+      <FontIcon
         className="text-color:brand"
+        color=""
+        group="module"
         icon="cactus"
+        onClick={[Function]}
         size="25px"
+        style={Object {}}
       >
         <span
-          className="icon-cactus text-color:brand"
+          className="icon-module:cactus text-color:brand"
+          onClick={[Function]}
           style={
             Object {
-              "color": undefined,
+              "color": "",
               "fontSize": "25px",
             }
           }
         />
-      </Icon>
+      </FontIcon>
       <div
         className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7"
       >
@@ -38,7 +47,11 @@ exports[`renders correctly 1`] = `
 
 exports[`renders with buttons 1`] = `
 <HeaderBar
+  className=""
+  hideBorder={false}
   icon="cactus"
+  image=""
+  onIconClick={[Function]}
   title="Cactus settings"
 >
   <div
@@ -47,21 +60,26 @@ exports[`renders with buttons 1`] = `
     <div
       className="display:flex flex:items-center flex:44px padding-x:7"
     >
-      <Icon
+      <FontIcon
         className="text-color:brand"
+        color=""
+        group="module"
         icon="cactus"
+        onClick={[Function]}
         size="25px"
+        style={Object {}}
       >
         <span
-          className="icon-cactus text-color:brand"
+          className="icon-module:cactus text-color:brand"
+          onClick={[Function]}
           style={
             Object {
-              "color": undefined,
+              "color": "",
               "fontSize": "25px",
             }
           }
         />
-      </Icon>
+      </FontIcon>
       <div
         className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7"
       >
@@ -71,6 +89,7 @@ exports[`renders with buttons 1`] = `
         className="margin-r:7"
         label="Search"
         onClick={[Function]}
+        style={Object {}}
       >
         <Button
           btn="header-button small raised"
@@ -97,11 +116,14 @@ exports[`renders with buttons 1`] = `
         </Button>
       </HeaderButton>
       <HeaderButton
+        className=""
         label="Filter"
         onClick={[Function]}
+        style={Object {}}
       >
         <Button
           btn="header-button small raised"
+          className=""
           onClick={[Function]}
           style={
             Object {
@@ -110,6 +132,7 @@ exports[`renders with buttons 1`] = `
           }
         >
           <button
+            className=""
             data-btn="header-button small raised"
             onClick={[Function]}
             style={
@@ -129,8 +152,11 @@ exports[`renders with buttons 1`] = `
 
 exports[`renders with no border 1`] = `
 <HeaderBar
+  className=""
   hideBorder={true}
   icon="cactus"
+  image=""
+  onIconClick={[Function]}
   title="Cactus settings"
 >
   <div
@@ -139,21 +165,26 @@ exports[`renders with no border 1`] = `
     <div
       className="display:flex flex:items-center flex:44px padding-x:7"
     >
-      <Icon
+      <FontIcon
         className="text-color:brand"
+        color=""
+        group="module"
         icon="cactus"
+        onClick={[Function]}
         size="25px"
+        style={Object {}}
       >
         <span
-          className="icon-cactus text-color:brand"
+          className="icon-module:cactus text-color:brand"
+          onClick={[Function]}
           style={
             Object {
-              "color": undefined,
+              "color": "",
               "fontSize": "25px",
             }
           }
         />
-      </Icon>
+      </FontIcon>
       <div
         className="w:100p font:roboto-condensed text-color:neutral-dark size:14 text:left text:truncate text:uppercase padding-x:7"
       >

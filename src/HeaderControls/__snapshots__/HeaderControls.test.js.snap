@@ -1,9 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<HeaderControls>
+<HeaderControls
+  className=""
+  style={Object {}}
+>
   <div
     className="padding-x:7 padding-b:7 border-color:brand border:bottom border:2"
+    style={Object {}}
   >
     <div>
       sample text

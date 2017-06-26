@@ -6,6 +6,7 @@ exports[`renders correctly 1`] = `
 >
   <Scroller
     className="padding-b:40"
+    style={Object {}}
   >
     <div
       className="padding-b:40"
@@ -28,11 +29,15 @@ exports[`renders correctly 1`] = `
     >
       <Button
         btn="raised action"
+        className=""
         onClick={[Function]}
+        style={Object {}}
       >
         <button
+          className=""
           data-btn="raised action"
           onClick={[Function]}
+          style={Object {}}
         >
           Done
         </button>

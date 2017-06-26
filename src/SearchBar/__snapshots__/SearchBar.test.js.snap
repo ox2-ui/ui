@@ -2,33 +2,42 @@
 
 exports[`renders correctly 1`] = `
 <SearchBar
+  className=""
   onChange={[Function]}
   placeholder="Search this..."
+  style={Object {}}
+  value=""
 >
-  <Styled(Search)
+  <Styled(Component)
+    className=""
     onChange={[Function]}
     placeholder="Search this..."
+    style={Object {}}
     throttle={100}
+    value=""
   >
-    <Search
+    <Component
       caseSensitive={false}
-      className="dfnEEL"
+      className="sc-bdVaJa yRqTq"
       fuzzy={false}
       onChange={[Function]}
       placeholder="Search this..."
+      style={Object {}}
       throttle={100}
+      value=""
     >
       <div
-        className="dfnEEL"
+        className="sc-bdVaJa yRqTq"
       >
         <input
           onChange={[Function]}
           placeholder="Search this..."
+          style={Object {}}
           type="search"
           value=""
         />
       </div>
-    </Search>
-  </Styled(Search)>
+    </Component>
+  </Styled(Component)>
 </SearchBar>
 `;

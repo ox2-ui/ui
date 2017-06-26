@@ -2,10 +2,12 @@
 
 exports[`renders correctly 1`] = `
 <HeaderDesktop
+  className=""
   image="http://imgur.com/abQ9EaG.png"
   onHomeClick={[Function]}
   onSwitchClick={[Function]}
   onUserClick={[Function]}
+  showSwitchMenu={false}
   title="Some title"
 >
   <div
@@ -18,25 +20,32 @@ exports[`renders correctly 1`] = `
         btn="large raised brand"
         className="margin-r:10"
         onClick={[Function]}
+        style={Object {}}
       >
         <button
           className="margin-r:10"
           data-btn="large raised brand"
           onClick={[Function]}
+          style={Object {}}
         >
-          <Icon
+          <FontIcon
+            className=""
+            color=""
+            group="linear"
             icon="cactus"
+            size=""
+            style={Object {}}
           >
             <span
-              className="icon-cactus"
+              className="icon-linear:cactus"
               style={
                 Object {
-                  "color": undefined,
-                  "fontSize": undefined,
+                  "color": "",
+                  "fontSize": "",
                 }
               }
             />
-          </Icon>
+          </FontIcon>
         </button>
       </Button>
     </div>
@@ -45,25 +54,34 @@ exports[`renders correctly 1`] = `
     >
       <Button
         btn="transparent large white"
+        className=""
         onClick={[Function]}
+        style={Object {}}
       >
         <button
+          className=""
           data-btn="transparent large white"
           onClick={[Function]}
+          style={Object {}}
         >
-          <Icon
+          <FontIcon
+            className=""
+            color=""
+            group="linear"
             icon="user"
+            size=""
+            style={Object {}}
           >
             <span
-              className="icon-user"
+              className="icon-linear:user"
               style={
                 Object {
-                  "color": undefined,
-                  "fontSize": undefined,
+                  "color": "",
+                  "fontSize": "",
                 }
               }
             />
-          </Icon>
+          </FontIcon>
         </button>
       </Button>
     </div>

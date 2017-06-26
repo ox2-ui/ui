@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <MenuItemBar
+  className=""
   items={
     Immutable.List [
       Object {
@@ -79,14 +80,19 @@ exports[`renders correctly 1`] = `
     ]
   }
   onUpdate={[Function]}
+  style={Object {}}
   value="3nNKyP6h6pMMjAyTMK"
 >
-  <Styled(Scroller)>
+  <Styled(Scroller)
+    className=""
+    style={Object {}}
+  >
     <Scroller
-      className="hHsXqK"
+      className="sc-bwzfXH bXGpqz"
+      style={Object {}}
     >
       <div
-        className="hHsXqK"
+        className="sc-bwzfXH bXGpqz"
         onTouchMove={[Function]}
         onTouchStart={[Function]}
         style={
@@ -108,24 +114,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/BC6B8Bc.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="Smartup Visuals"
             value="1nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/BC6B8Bc.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -162,24 +186,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/N2LoYmv.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="ACI Events"
             value="2nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/N2LoYmv.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -217,34 +259,55 @@ exports[`renders correctly 1`] = `
         >
           <SelectIndicator
             className="color:neutral-dim"
+            style={Object {}}
           >
             <styled.div
               className="color:neutral-dim"
+              style={Object {}}
             >
               <div
-                className="color:neutral-dim iscjpC"
+                className="color:neutral-dim sc-bdVaJa gDTDPc"
+                style={Object {}}
               />
             </styled.div>
           </SelectIndicator>
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/abQ9EaG.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="Aircraft Commerce"
             value="3nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/abQ9EaG.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -281,24 +344,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/UmS4Irj.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="ICC Events"
             value="4nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/UmS4Irj.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -335,24 +416,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/BC6B8Bc.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="Smartup Visuals"
             value="5nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/BC6B8Bc.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -389,24 +488,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/N2LoYmv.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="ACI Events"
             value="6nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/N2LoYmv.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -443,24 +560,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/abQ9EaG.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="Aircraft Commerce"
             value="7nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/abQ9EaG.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -497,24 +632,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/UmS4Irj.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="ICC Events"
             value="8nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/UmS4Irj.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -551,24 +704,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/BC6B8Bc.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="Smartup Visuals"
             value="9nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/BC6B8Bc.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -605,24 +776,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/N2LoYmv.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="ACI Events"
             value="10nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/N2LoYmv.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -659,24 +848,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/abQ9EaG.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="Aircraft Commerce"
             value="11nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/abQ9EaG.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div
@@ -713,24 +920,42 @@ exports[`renders correctly 1`] = `
           className="display:flex pos:relative padding-l:7"
         >
           <MenuItem
+            className=""
+            hidePicture={false}
+            icon=""
+            iconColor=""
+            iconGroup=""
             image="http://imgur.com/UmS4Irj.png"
+            module=""
+            moduleGroup=""
+            moduleId=""
             onClick={[Function]}
             pictureBgColor="white"
             pictureHeight={35}
             pictureWidth={35}
+            style={Object {}}
+            textColor="backdrop-alt"
             title="ICC Events"
             value="12nNKyP6h6pMMjAyTMK"
           >
-            <div>
+            <div
+              className=""
+              style={Object {}}
+            >
               <div
                 className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                 onClick={[Function]}
               >
                 <Thumb
+                  className=""
                   color="white"
                   height={35}
-                  icon="cactus"
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/UmS4Irj.png"
+                  localImg=""
+                  offlineEnabled={false}
                   width={35}
                 >
                   <div

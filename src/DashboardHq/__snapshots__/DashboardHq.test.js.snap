@@ -3,158 +3,203 @@
 exports[`renders correctly 1`] = `
 <DashboardHq
   activeApp="3nNKyP6h6pMMjAyTMK"
+  className=""
   currentPath="/"
   menuItems={
     Array [
       Object {
+        "_id": "XxLPFMmmSW5hEQBxX",
         "icon": "speed-fast",
+        "iconGroup": "linear",
         "module": "status",
         "moduleGroup": "system",
         "title": "Status",
         "value": "/system/status",
       },
       Object {
+        "_id": "98uxp5y9GSHqrTbFC",
         "icon": "laptop-phone",
+        "iconGroup": "linear",
         "module": "apps",
         "moduleGroup": "system",
         "title": "Apps",
         "value": "/system/apps",
       },
       Object {
+        "_id": "joSBz8tdp3T5QNRx2",
         "icon": "server",
+        "iconGroup": "linear",
         "module": "servers",
         "moduleGroup": "system",
         "title": "Servers",
         "value": "/system/servers",
       },
       Object {
+        "_id": "NdAhGQgsSMFeSx6oW",
         "icon": "site-map",
+        "iconGroup": "linear",
         "module": "versions",
         "moduleGroup": "system",
         "title": "Versions",
         "value": "/system/versions",
       },
       Object {
+        "_id": "4mkgbqvSbq2FD3nkr",
         "icon": "user-lock",
+        "iconGroup": "linear",
         "module": "roles",
         "moduleGroup": "system",
         "title": "Roles",
         "value": "/system/roles",
       },
       Object {
+        "_id": "RtSRaHwxTLkcotjYj",
         "icon": "chart-growth",
+        "iconGroup": "linear",
         "module": "status",
         "moduleGroup": "business",
         "title": "Business",
         "value": "/business/status",
       },
       Object {
+        "_id": "hz2ZADmHDxeK5GjeM",
         "icon": "file-charts",
+        "iconGroup": "linear",
         "module": "reports",
         "moduleGroup": "business",
         "title": "Reports",
         "value": "/business/reports",
       },
       Object {
+        "_id": "tCjFbLAmFKpdbjz8k",
         "icon": "briefcase",
+        "iconGroup": "linear",
         "module": "clients",
         "moduleGroup": "business",
         "title": "Clients",
         "value": "/business/clients",
       },
       Object {
+        "_id": "qtx26TBKrD2JzgATW",
         "icon": "cashier",
+        "iconGroup": "linear",
         "module": "accounting",
         "moduleGroup": "business",
         "title": "Accounting",
         "value": "/business/accounting",
       },
       Object {
+        "_id": "oS2sEHbXWBvBfMkmK",
         "icon": "feather2",
+        "iconGroup": "linear",
         "module": "partners",
         "moduleGroup": "business",
         "title": "Partners",
         "value": "/business/partners",
       },
       Object {
+        "_id": "sBTpq5Jk97fsTM74b",
         "icon": "palette",
+        "iconGroup": "linear",
         "module": "themes",
         "moduleGroup": "templates",
         "title": "Themes",
         "value": "/templates/themes",
       },
       Object {
+        "_id": "qmpJSZ8byimAEAn6z",
         "icon": "screen",
+        "iconGroup": "linear",
         "module": "screens",
         "moduleGroup": "templates",
         "title": "Screens",
         "value": "/templates/screens",
       },
       Object {
+        "_id": "wduRhZzkjPFETNist",
         "icon": "qrcode",
+        "iconGroup": "moon",
         "module": "badges",
         "moduleGroup": "templates",
         "title": "Badges",
         "value": "/templates/badges",
       },
       Object {
+        "_id": "FfgtgHdcDoZS6dJdp",
         "icon": "cog",
+        "iconGroup": "linear",
         "module": "settings",
         "moduleGroup": "app",
         "title": "Settings",
         "value": "/app/settings",
       },
       Object {
+        "_id": "6kSfP4d6ro2YFa7WG",
         "icon": "file-charts",
+        "iconGroup": "linear",
         "module": "assets",
         "moduleGroup": "app",
         "title": "Assets",
         "value": "/app/assets",
       },
       Object {
+        "_id": "zB62e4WhCjZFwXeAJ",
         "icon": "palette",
+        "iconGroup": "linear",
         "module": "themes",
         "moduleGroup": "app",
         "title": "Themes",
         "value": "/app/themes",
       },
       Object {
+        "_id": "mjLFZWRLfdjm9SxMk",
         "icon": "screen",
+        "iconGroup": "linear",
         "module": "screens",
         "moduleGroup": "app",
         "title": "Screens",
         "value": "/app/screens",
       },
       Object {
+        "_id": "bAzLx6eHi6RPxpr6s",
         "icon": "qrcode",
+        "iconGroup": "moon",
         "module": "badges",
         "moduleGroup": "app",
         "title": "Badges",
         "value": "/app/badges",
       },
       Object {
+        "_id": "yzQAow5BeyHoC84hs",
         "icon": "receipt",
+        "iconGroup": "linear",
         "module": "invoices",
         "moduleGroup": "client",
         "title": "Invoices",
         "value": "/client/invoices",
       },
       Object {
+        "_id": "uW6CZodEQY93m8A62",
         "icon": "profile",
+        "iconGroup": "linear",
         "module": "contacts",
         "moduleGroup": "client",
         "title": "Contacts",
         "value": "/client/contacts",
       },
       Object {
+        "_id": "P47DYtByMWSZFxPia",
         "icon": "cube",
+        "iconGroup": "linear",
         "module": "branding",
         "moduleGroup": "client",
         "title": "Branding",
         "value": "/client/branding",
       },
       Object {
+        "_id": "nwPJTnPedC67ePMGR",
         "icon": "smartphone",
+        "iconGroup": "linear",
         "module": "apps",
         "moduleGroup": "client",
         "title": "Apps",
@@ -240,14 +285,17 @@ exports[`renders correctly 1`] = `
       },
     ]
   }
+  style={Object {}}
 >
   <div
     className="display:flex"
+    style={Object {}}
   >
     <div
       className="flex:1 pos:relative"
     >
       <MenuItemBar
+        className=""
         items={
           Immutable.List [
             Object {
@@ -325,14 +373,19 @@ exports[`renders correctly 1`] = `
           ]
         }
         onUpdate={[Function]}
+        style={Object {}}
         value="3nNKyP6h6pMMjAyTMK"
       >
-        <Styled(Scroller)>
+        <Styled(Scroller)
+          className=""
+          style={Object {}}
+        >
           <Scroller
-            className="hHsXqK"
+            className="sc-bwzfXH bXGpqz"
+            style={Object {}}
           >
             <div
-              className="hHsXqK"
+              className="sc-bwzfXH bXGpqz"
               onTouchMove={[Function]}
               onTouchStart={[Function]}
               style={
@@ -354,24 +407,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/BC6B8Bc.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="Smartup Visuals"
                   value="1nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/BC6B8Bc.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -408,24 +479,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/N2LoYmv.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="ACI Events"
                   value="2nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/N2LoYmv.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -463,34 +552,55 @@ exports[`renders correctly 1`] = `
               >
                 <SelectIndicator
                   className="color:neutral-dim"
+                  style={Object {}}
                 >
                   <styled.div
                     className="color:neutral-dim"
+                    style={Object {}}
                   >
                     <div
-                      className="color:neutral-dim iscjpC"
+                      className="color:neutral-dim sc-bdVaJa gDTDPc"
+                      style={Object {}}
                     />
                   </styled.div>
                 </SelectIndicator>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/abQ9EaG.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="Aircraft Commerce"
                   value="3nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/abQ9EaG.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -527,24 +637,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/UmS4Irj.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="ICC Events"
                   value="4nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/UmS4Irj.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -581,24 +709,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/BC6B8Bc.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="Smartup Visuals"
                   value="5nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/BC6B8Bc.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -635,24 +781,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/N2LoYmv.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="ACI Events"
                   value="6nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/N2LoYmv.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -689,24 +853,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/abQ9EaG.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="Aircraft Commerce"
                   value="7nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/abQ9EaG.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -743,24 +925,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/UmS4Irj.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="ICC Events"
                   value="8nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/UmS4Irj.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -797,24 +997,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/BC6B8Bc.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="Smartup Visuals"
                   value="9nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/BC6B8Bc.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -851,24 +1069,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/N2LoYmv.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="ACI Events"
                   value="10nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/N2LoYmv.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -905,24 +1141,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/abQ9EaG.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="Aircraft Commerce"
                   value="11nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/abQ9EaG.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -959,24 +1213,42 @@ exports[`renders correctly 1`] = `
                 className="display:flex pos:relative padding-l:7"
               >
                 <MenuItem
+                  className=""
+                  hidePicture={false}
+                  icon=""
+                  iconColor=""
+                  iconGroup=""
                   image="http://imgur.com/UmS4Irj.png"
+                  module=""
+                  moduleGroup=""
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
                   pictureHeight={35}
                   pictureWidth={35}
+                  style={Object {}}
+                  textColor="backdrop-alt"
                   title="ICC Events"
                   value="12nNKyP6h6pMMjAyTMK"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={35}
-                        icon="cactus"
+                        icon=""
+                        iconColor=""
+                        iconGroup=""
                         image="http://imgur.com/UmS4Irj.png"
+                        localImg=""
+                        offlineEnabled={false}
                         width={35}
                       >
                         <div
@@ -1026,38 +1298,51 @@ exports[`renders correctly 1`] = `
         }
       >
         <MenuCard
+          className=""
+          image=""
+          imageLandscape={false}
           items={
             Array [
               Object {
+                "_id": "FfgtgHdcDoZS6dJdp",
                 "icon": "cog",
+                "iconGroup": "linear",
                 "module": "settings",
                 "moduleGroup": "app",
                 "title": "Settings",
                 "value": "/app/settings",
               },
               Object {
+                "_id": "6kSfP4d6ro2YFa7WG",
                 "icon": "file-charts",
+                "iconGroup": "linear",
                 "module": "assets",
                 "moduleGroup": "app",
                 "title": "Assets",
                 "value": "/app/assets",
               },
               Object {
+                "_id": "zB62e4WhCjZFwXeAJ",
                 "icon": "palette",
+                "iconGroup": "linear",
                 "module": "themes",
                 "moduleGroup": "app",
                 "title": "Themes",
                 "value": "/app/themes",
               },
               Object {
+                "_id": "mjLFZWRLfdjm9SxMk",
                 "icon": "screen",
+                "iconGroup": "linear",
                 "module": "screens",
                 "moduleGroup": "app",
                 "title": "Screens",
                 "value": "/app/screens",
               },
               Object {
+                "_id": "bAzLx6eHi6RPxpr6s",
                 "icon": "qrcode",
+                "iconGroup": "moon",
                 "module": "badges",
                 "moduleGroup": "app",
                 "title": "Badges",
@@ -1067,7 +1352,10 @@ exports[`renders correctly 1`] = `
           }
           moduleId="3nNKyP6h6pMMjAyTMK"
           onItemClick={[Function]}
+          onSwitchClick={[Function]}
           selectedValue="/"
+          style={Object {}}
+          switchEnabled={false}
           title="App"
         >
           <div
@@ -1093,27 +1381,42 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="cog"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="settings"
                   moduleGroup="app"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Settings"
                   value="/app/settings"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="cog"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1127,21 +1430,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="cog"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-cog text-color:brand"
+                              className="icon-linear:cog text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1157,27 +1463,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="file-charts"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="assets"
                   moduleGroup="app"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Assets"
                   value="/app/assets"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="file-charts"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1191,21 +1512,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="file-charts"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-file-charts text-color:brand"
+                              className="icon-linear:file-charts text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1221,27 +1545,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="palette"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="themes"
                   moduleGroup="app"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Themes"
                   value="/app/themes"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="palette"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1255,21 +1594,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="palette"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-palette text-color:brand"
+                              className="icon-linear:palette text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1285,27 +1627,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="screen"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="screens"
                   moduleGroup="app"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Screens"
                   value="/app/screens"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="screen"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1319,21 +1676,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="screen"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-screen text-color:brand"
+                              className="icon-linear:screen text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1349,27 +1709,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="qrcode"
                   iconColor="brand"
+                  iconGroup="moon"
+                  image=""
                   module="badges"
                   moduleGroup="app"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Badges"
                   value="/app/badges"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="qrcode"
                         iconColor="brand"
+                        iconGroup="moon"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1383,21 +1758,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="moon"
                             icon="qrcode"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-qrcode text-color:brand"
+                              className="icon-moon:qrcode text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1426,31 +1804,42 @@ exports[`renders correctly 1`] = `
         }
       >
         <MenuCard
+          className=""
+          image=""
+          imageLandscape={false}
           items={
             Array [
               Object {
+                "_id": "yzQAow5BeyHoC84hs",
                 "icon": "receipt",
+                "iconGroup": "linear",
                 "module": "invoices",
                 "moduleGroup": "client",
                 "title": "Invoices",
                 "value": "/client/invoices",
               },
               Object {
+                "_id": "uW6CZodEQY93m8A62",
                 "icon": "profile",
+                "iconGroup": "linear",
                 "module": "contacts",
                 "moduleGroup": "client",
                 "title": "Contacts",
                 "value": "/client/contacts",
               },
               Object {
+                "_id": "P47DYtByMWSZFxPia",
                 "icon": "cube",
+                "iconGroup": "linear",
                 "module": "branding",
                 "moduleGroup": "client",
                 "title": "Branding",
                 "value": "/client/branding",
               },
               Object {
+                "_id": "nwPJTnPedC67ePMGR",
                 "icon": "smartphone",
+                "iconGroup": "linear",
                 "module": "apps",
                 "moduleGroup": "client",
                 "title": "Apps",
@@ -1458,8 +1847,12 @@ exports[`renders correctly 1`] = `
               },
             ]
           }
+          moduleId=""
           onItemClick={[Function]}
+          onSwitchClick={[Function]}
           selectedValue="/"
+          style={Object {}}
+          switchEnabled={false}
           title="Client"
         >
           <div
@@ -1485,26 +1878,42 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="receipt"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="invoices"
                   moduleGroup="client"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Invoices"
                   value="/client/invoices"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="receipt"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1518,21 +1927,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="receipt"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-receipt text-color:brand"
+                              className="icon-linear:receipt text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1548,26 +1960,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="profile"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="contacts"
                   moduleGroup="client"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Contacts"
                   value="/client/contacts"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="profile"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1581,21 +2009,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="profile"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-profile text-color:brand"
+                              className="icon-linear:profile text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1611,26 +2042,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="cube"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="branding"
                   moduleGroup="client"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Branding"
                   value="/client/branding"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="cube"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1644,21 +2091,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="cube"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-cube text-color:brand"
+                              className="icon-linear:cube text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1674,26 +2124,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="smartphone"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="apps"
                   moduleGroup="client"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Apps"
                   value="/client/apps"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="smartphone"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1707,21 +2173,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="smartphone"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-smartphone text-color:brand"
+                              className="icon-linear:smartphone text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1750,38 +2219,51 @@ exports[`renders correctly 1`] = `
         }
       >
         <MenuCard
+          className=""
+          image=""
+          imageLandscape={false}
           items={
             Array [
               Object {
+                "_id": "XxLPFMmmSW5hEQBxX",
                 "icon": "speed-fast",
+                "iconGroup": "linear",
                 "module": "status",
                 "moduleGroup": "system",
                 "title": "Status",
                 "value": "/system/status",
               },
               Object {
+                "_id": "98uxp5y9GSHqrTbFC",
                 "icon": "laptop-phone",
+                "iconGroup": "linear",
                 "module": "apps",
                 "moduleGroup": "system",
                 "title": "Apps",
                 "value": "/system/apps",
               },
               Object {
+                "_id": "joSBz8tdp3T5QNRx2",
                 "icon": "server",
+                "iconGroup": "linear",
                 "module": "servers",
                 "moduleGroup": "system",
                 "title": "Servers",
                 "value": "/system/servers",
               },
               Object {
+                "_id": "NdAhGQgsSMFeSx6oW",
                 "icon": "site-map",
+                "iconGroup": "linear",
                 "module": "versions",
                 "moduleGroup": "system",
                 "title": "Versions",
                 "value": "/system/versions",
               },
               Object {
+                "_id": "4mkgbqvSbq2FD3nkr",
                 "icon": "user-lock",
+                "iconGroup": "linear",
                 "module": "roles",
                 "moduleGroup": "system",
                 "title": "Roles",
@@ -1791,7 +2273,10 @@ exports[`renders correctly 1`] = `
           }
           moduleId="3nNKyP6h6pMMjAyTMK"
           onItemClick={[Function]}
+          onSwitchClick={[Function]}
           selectedValue="/"
+          style={Object {}}
+          switchEnabled={false}
           title="System"
         >
           <div
@@ -1817,27 +2302,42 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="speed-fast"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="status"
                   moduleGroup="system"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Status"
                   value="/system/status"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="speed-fast"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1851,21 +2351,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="speed-fast"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-speed-fast text-color:brand"
+                              className="icon-linear:speed-fast text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1881,27 +2384,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="laptop-phone"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="apps"
                   moduleGroup="system"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Apps"
                   value="/system/apps"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="laptop-phone"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1915,21 +2433,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="laptop-phone"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-laptop-phone text-color:brand"
+                              className="icon-linear:laptop-phone text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -1945,27 +2466,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="server"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="servers"
                   moduleGroup="system"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Servers"
                   value="/system/servers"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="server"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -1979,21 +2515,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="server"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-server text-color:brand"
+                              className="icon-linear:server text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2009,27 +2548,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="site-map"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="versions"
                   moduleGroup="system"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Versions"
                   value="/system/versions"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="site-map"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2043,21 +2597,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="site-map"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-site-map text-color:brand"
+                              className="icon-linear:site-map text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2073,27 +2630,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="user-lock"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="roles"
                   moduleGroup="system"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Roles"
                   value="/system/roles"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="user-lock"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2107,21 +2679,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="user-lock"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-user-lock text-color:brand"
+                              className="icon-linear:user-lock text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2150,38 +2725,51 @@ exports[`renders correctly 1`] = `
         }
       >
         <MenuCard
+          className=""
+          image=""
+          imageLandscape={false}
           items={
             Array [
               Object {
+                "_id": "RtSRaHwxTLkcotjYj",
                 "icon": "chart-growth",
+                "iconGroup": "linear",
                 "module": "status",
                 "moduleGroup": "business",
                 "title": "Business",
                 "value": "/business/status",
               },
               Object {
+                "_id": "hz2ZADmHDxeK5GjeM",
                 "icon": "file-charts",
+                "iconGroup": "linear",
                 "module": "reports",
                 "moduleGroup": "business",
                 "title": "Reports",
                 "value": "/business/reports",
               },
               Object {
+                "_id": "tCjFbLAmFKpdbjz8k",
                 "icon": "briefcase",
+                "iconGroup": "linear",
                 "module": "clients",
                 "moduleGroup": "business",
                 "title": "Clients",
                 "value": "/business/clients",
               },
               Object {
+                "_id": "qtx26TBKrD2JzgATW",
                 "icon": "cashier",
+                "iconGroup": "linear",
                 "module": "accounting",
                 "moduleGroup": "business",
                 "title": "Accounting",
                 "value": "/business/accounting",
               },
               Object {
+                "_id": "oS2sEHbXWBvBfMkmK",
                 "icon": "feather2",
+                "iconGroup": "linear",
                 "module": "partners",
                 "moduleGroup": "business",
                 "title": "Partners",
@@ -2191,7 +2779,10 @@ exports[`renders correctly 1`] = `
           }
           moduleId="3nNKyP6h6pMMjAyTMK"
           onItemClick={[Function]}
+          onSwitchClick={[Function]}
           selectedValue="/"
+          style={Object {}}
+          switchEnabled={false}
           title="Business"
         >
           <div
@@ -2217,27 +2808,42 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="chart-growth"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="status"
                   moduleGroup="business"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Business"
                   value="/business/status"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="chart-growth"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2251,21 +2857,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="chart-growth"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-chart-growth text-color:brand"
+                              className="icon-linear:chart-growth text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2281,27 +2890,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="file-charts"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="reports"
                   moduleGroup="business"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Reports"
                   value="/business/reports"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="file-charts"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2315,21 +2939,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="file-charts"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-file-charts text-color:brand"
+                              className="icon-linear:file-charts text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2345,27 +2972,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="briefcase"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="clients"
                   moduleGroup="business"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Clients"
                   value="/business/clients"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="briefcase"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2379,21 +3021,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="briefcase"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-briefcase text-color:brand"
+                              className="icon-linear:briefcase text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2409,27 +3054,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="cashier"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="accounting"
                   moduleGroup="business"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Accounting"
                   value="/business/accounting"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="cashier"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2443,21 +3103,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="cashier"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-cashier text-color:brand"
+                              className="icon-linear:cashier text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2473,27 +3136,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="feather2"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="partners"
                   moduleGroup="business"
                   moduleId="3nNKyP6h6pMMjAyTMK"
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Partners"
                   value="/business/partners"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="feather2"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2507,21 +3185,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="feather2"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-feather2 text-color:brand"
+                              className="icon-linear:feather2 text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2550,24 +3231,33 @@ exports[`renders correctly 1`] = `
         }
       >
         <MenuCard
+          className=""
+          image=""
+          imageLandscape={false}
           items={
             Array [
               Object {
+                "_id": "sBTpq5Jk97fsTM74b",
                 "icon": "palette",
+                "iconGroup": "linear",
                 "module": "themes",
                 "moduleGroup": "templates",
                 "title": "Themes",
                 "value": "/templates/themes",
               },
               Object {
+                "_id": "qmpJSZ8byimAEAn6z",
                 "icon": "screen",
+                "iconGroup": "linear",
                 "module": "screens",
                 "moduleGroup": "templates",
                 "title": "Screens",
                 "value": "/templates/screens",
               },
               Object {
+                "_id": "wduRhZzkjPFETNist",
                 "icon": "qrcode",
+                "iconGroup": "moon",
                 "module": "badges",
                 "moduleGroup": "templates",
                 "title": "Badges",
@@ -2575,8 +3265,12 @@ exports[`renders correctly 1`] = `
               },
             ]
           }
+          moduleId=""
           onItemClick={[Function]}
+          onSwitchClick={[Function]}
           selectedValue="/"
+          style={Object {}}
+          switchEnabled={false}
           title="Templates"
         >
           <div
@@ -2602,26 +3296,42 @@ exports[`renders correctly 1`] = `
             >
               <div>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="palette"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="themes"
                   moduleGroup="templates"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Themes"
                   value="/templates/themes"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="palette"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2635,21 +3345,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="palette"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-palette text-color:brand"
+                              className="icon-linear:palette text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2665,26 +3378,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="screen"
                   iconColor="brand"
+                  iconGroup="linear"
+                  image=""
                   module="screens"
                   moduleGroup="templates"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Screens"
                   value="/templates/screens"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="screen"
                         iconColor="brand"
+                        iconGroup="linear"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2698,21 +3427,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="linear"
                             icon="screen"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-screen text-color:brand"
+                              className="icon-linear:screen text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div
@@ -2728,26 +3460,42 @@ exports[`renders correctly 1`] = `
                   </div>
                 </MenuItem>
                 <MenuItem
+                  className=""
+                  hidePicture={false}
                   icon="qrcode"
                   iconColor="brand"
+                  iconGroup="moon"
+                  image=""
                   module="badges"
                   moduleGroup="templates"
+                  moduleId=""
                   onClick={[Function]}
                   pictureBgColor="white"
+                  pictureHeight={28}
+                  pictureWidth={28}
+                  style={Object {}}
                   textColor="backdrop-alt"
                   title="Badges"
                   value="/templates/badges"
                 >
-                  <div>
+                  <div
+                    className=""
+                    style={Object {}}
+                  >
                     <div
                       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
                       onClick={[Function]}
                     >
                       <Thumb
+                        className=""
                         color="white"
                         height={28}
                         icon="qrcode"
                         iconColor="brand"
+                        iconGroup="moon"
+                        image=""
+                        localImg=""
+                        offlineEnabled={false}
                         width={28}
                       >
                         <div
@@ -2761,21 +3509,24 @@ exports[`renders correctly 1`] = `
                             }
                           }
                         >
-                          <Icon
+                          <FontIcon
                             className="text-color:brand"
+                            color=""
+                            group="moon"
                             icon="qrcode"
-                            size="19.6px"
+                            size="19.599999999999998px"
+                            style={Object {}}
                           >
                             <span
-                              className="icon-qrcode text-color:brand"
+                              className="icon-moon:qrcode text-color:brand"
                               style={
                                 Object {
-                                  "color": undefined,
-                                  "fontSize": "19.6px",
+                                  "color": "",
+                                  "fontSize": "19.599999999999998px",
                                 }
                               }
                             />
-                          </Icon>
+                          </FontIcon>
                         </div>
                       </Thumb>
                       <div

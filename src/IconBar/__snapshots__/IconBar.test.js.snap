@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <IconBar
+  className=""
   items={
     Immutable.List [
       Object {
@@ -79,14 +80,19 @@ exports[`renders correctly 1`] = `
     ]
   }
   onUpdate={[Function]}
+  style={Object {}}
   value="3nNKyP6h6pMMjAyTMK"
 >
-  <Styled(Scroller)>
+  <Styled(Scroller)
+    className=""
+    style={Object {}}
+  >
     <Scroller
-      className="kGJzbR"
+      className="sc-htpNat bhNIQR"
+      style={Object {}}
     >
       <div
-        className="kGJzbR"
+        className="sc-htpNat bhNIQR"
         onTouchMove={[Function]}
         onTouchStart={[Function]}
         style={
@@ -108,12 +114,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/BC6B8Bc.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -139,12 +152,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/N2LoYmv.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -170,23 +190,33 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <SelectIndicator
               className="color:neutral-faded"
+              style={Object {}}
             >
               <styled.div
                 className="color:neutral-faded"
+                style={Object {}}
               >
                 <div
-                  className="color:neutral-faded iscjpC"
+                  className="color:neutral-faded sc-bdVaJa gDTDPc"
+                  style={Object {}}
                 />
               </styled.div>
             </SelectIndicator>
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/abQ9EaG.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -212,12 +242,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/UmS4Irj.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -243,12 +280,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/BC6B8Bc.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -274,12 +318,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/N2LoYmv.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -305,12 +356,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/abQ9EaG.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -336,12 +394,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/UmS4Irj.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -367,12 +432,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/BC6B8Bc.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -398,12 +470,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/N2LoYmv.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -429,12 +508,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/abQ9EaG.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div
@@ -460,12 +546,19 @@ exports[`renders correctly 1`] = `
           onClick={[Function]}
         >
           <div
-            className="jtcEbk"
+            className="sc-bwzfXH eGZhf"
             onClick={[Function]}
           >
             <Thumb
+              className=""
+              color="transparent"
               height={35}
+              icon=""
+              iconColor="neutral-light"
+              iconGroup=""
               image="http://imgur.com/UmS4Irj.png"
+              localImg=""
+              offlineEnabled={false}
               width={35}
             >
               <div

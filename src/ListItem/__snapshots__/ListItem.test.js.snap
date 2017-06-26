@@ -3,26 +3,45 @@
 exports[`renders correctly 1`] = `
 <ListItem
   _id="1nNKyP6h6pMMjAyTMK"
+  className=""
+  hidePicture={false}
   icon="user"
+  iconColor=""
+  iconGroup=""
+  image=""
   onClick={[Function]}
+  pictureBgColor=""
+  pictureHeight={60}
+  pictureWidth={60}
+  style={Object {}}
   subtitle1="Ox2 Limited"
   subtitle2="Marketing Manager"
   title="Jane Sanders"
+  widget={[Function]}
+  widgetBottom={[Function]}
 >
   <div
     className="border:bottom border:2 border-color:neutral-faded"
+    style={Object {}}
   >
     <div
       className="font:roboto-condensed display:flex flex:items-center color:white padding:10 select:none cursor:pointer"
       onClick={[Function]}
     >
       <Thumb
+        className=""
+        color=""
         height={60}
         icon="user"
+        iconColor=""
+        iconGroup=""
+        image=""
+        localImg=""
+        offlineEnabled={false}
         width={60}
       >
         <div
-          className="display:flex flex:items-center flex:content-center border:rounded color:transparent"
+          className="display:flex flex:items-center flex:content-center border:rounded color:"
           style={
             Object {
               "WebkitFlex": "0 0 60px",
@@ -32,21 +51,24 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <Icon
-            className="text-color:neutral-light"
+          <FontIcon
+            className="text-color:"
+            color=""
+            group=""
             icon="user"
             size="42px"
+            style={Object {}}
           >
             <span
-              className="icon-user text-color:neutral-light"
+              className="icon-:user text-color:"
               style={
                 Object {
-                  "color": undefined,
+                  "color": "",
                   "fontSize": "42px",
                 }
               }
             />
-          </Icon>
+          </FontIcon>
         </div>
       </Thumb>
       <div
@@ -68,7 +90,11 @@ exports[`renders correctly 1`] = `
           Marketing Manager
         </div>
       </div>
+      <div
+        className="margin-l:auto flex:0-auto"
+      />
     </div>
+    <div />
   </div>
 </ListItem>
 `;

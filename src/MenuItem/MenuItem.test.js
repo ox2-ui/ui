@@ -10,6 +10,7 @@ it('renders correctly', () => {
     <MenuItem
       icon={'cog'}
       iconColor={'brand'}
+      iconGroup={'linear'}
       onClick={handler}
       pictureBgColor={'white'}
       title={'Settings'}

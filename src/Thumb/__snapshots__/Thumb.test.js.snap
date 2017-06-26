@@ -2,8 +2,15 @@
 
 exports[`renders correctly as landscape 1`] = `
 <Thumb
+  className=""
+  color="transparent"
   height={60}
+  icon=""
+  iconColor="neutral-light"
+  iconGroup=""
   image="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rohde_%26_Schwarz_Logo.svg/800px-Rohde_%26_Schwarz_Logo.svg.png"
+  localImg=""
+  offlineEnabled={false}
   width={120}
 >
   <div
@@ -27,8 +34,15 @@ exports[`renders correctly as landscape 1`] = `
 
 exports[`renders correctly as square 1`] = `
 <Thumb
+  className=""
+  color="transparent"
   height={60}
+  icon=""
+  iconColor="neutral-light"
+  iconGroup=""
   image="https://randomuser.me/api/portraits/women/50.jpg"
+  localImg=""
+  offlineEnabled={false}
   width={60}
 >
   <div

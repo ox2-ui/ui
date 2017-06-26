@@ -2,11 +2,14 @@
 
 exports[`renders correctly 1`] = `
 <HeaderButton
+  className=""
   label="Add"
   onClick={[Function]}
+  style={Object {}}
 >
   <Button
     btn="header-button small raised"
+    className=""
     onClick={[Function]}
     style={
       Object {
@@ -15,6 +18,7 @@ exports[`renders correctly 1`] = `
     }
   >
     <button
+      className=""
       data-btn="header-button small raised"
       onClick={[Function]}
       style={

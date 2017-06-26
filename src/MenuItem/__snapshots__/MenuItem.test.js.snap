@@ -2,23 +2,42 @@
 
 exports[`renders correctly 1`] = `
 <MenuItem
+  className=""
+  hidePicture={false}
   icon="cog"
   iconColor="brand"
+  iconGroup="linear"
+  image=""
+  module=""
+  moduleGroup=""
+  moduleId=""
   onClick={[Function]}
   pictureBgColor="white"
+  pictureHeight={28}
+  pictureWidth={28}
+  style={Object {}}
+  textColor="backdrop-alt"
   title="Settings"
   value="/system/status"
 >
-  <div>
+  <div
+    className=""
+    style={Object {}}
+  >
     <div
       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
       onClick={[Function]}
     >
       <Thumb
+        className=""
         color="white"
         height={28}
         icon="cog"
         iconColor="brand"
+        iconGroup="linear"
+        image=""
+        localImg=""
+        offlineEnabled={false}
         width={28}
       >
         <div
@@ -32,21 +51,24 @@ exports[`renders correctly 1`] = `
             }
           }
         >
-          <Icon
+          <FontIcon
             className="text-color:brand"
+            color=""
+            group="linear"
             icon="cog"
-            size="19.6px"
+            size="19.599999999999998px"
+            style={Object {}}
           >
             <span
-              className="icon-cog text-color:brand"
+              className="icon-linear:cog text-color:brand"
               style={
                 Object {
-                  "color": undefined,
-                  "fontSize": "19.6px",
+                  "color": "",
+                  "fontSize": "19.599999999999998px",
                 }
               }
             />
-          </Icon>
+          </FontIcon>
         </div>
       </Thumb>
       <div
