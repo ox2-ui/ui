@@ -1,6 +1,7 @@
 export const items = [
   // System
   {
+    _id: 'XxLPFMmmSW5hEQBxX',
     value: '/system/status',
     iconGroup: 'linear',
     icon: 'speed-fast',
@@ -9,6 +10,7 @@ export const items = [
     moduleGroup: 'system',
   },
   {
+    _id: '98uxp5y9GSHqrTbFC',
     value: '/system/apps',
     iconGroup: 'linear',
     icon: 'laptop-phone',
@@ -17,6 +19,7 @@ export const items = [
     moduleGroup: 'system',
   },
   {
+    _id: 'joSBz8tdp3T5QNRx2',
     value: '/system/servers',
     iconGroup: 'linear',
     icon: 'server',
@@ -25,6 +28,7 @@ export const items = [
     moduleGroup: 'system',
   },
   {
+    _id: 'NdAhGQgsSMFeSx6oW',
     value: '/system/versions',
     iconGroup: 'linear',
     icon: 'site-map',
@@ -33,6 +37,7 @@ export const items = [
     moduleGroup: 'system',
   },
   {
+    _id: '4mkgbqvSbq2FD3nkr',
     value: '/system/roles',
     iconGroup: 'linear',
     icon: 'user-lock',
@@ -42,6 +47,7 @@ export const items = [
   },
   // Business
   {
+    _id: 'RtSRaHwxTLkcotjYj',
     value: '/business/status',
     iconGroup: 'linear',
     icon: 'chart-growth',
@@ -50,6 +56,7 @@ export const items = [
     moduleGroup: 'business',
   },
   {
+    _id: 'hz2ZADmHDxeK5GjeM',
     value: '/business/reports',
     iconGroup: 'linear',
     icon: 'file-charts',
@@ -58,6 +65,7 @@ export const items = [
     moduleGroup: 'business',
   },
   {
+    _id: 'tCjFbLAmFKpdbjz8k',
     value: '/business/clients',
     iconGroup: 'linear',
     icon: 'briefcase',
@@ -66,6 +74,7 @@ export const items = [
     moduleGroup: 'business',
   },
   {
+    _id: 'qtx26TBKrD2JzgATW',
     value: '/business/accounting',
     iconGroup: 'linear',
     icon: 'cashier',
@@ -74,6 +83,7 @@ export const items = [
     moduleGroup: 'business',
   },
   {
+    _id: 'oS2sEHbXWBvBfMkmK',
     value: '/business/partners',
     iconGroup: 'linear',
     icon: 'feather2',
@@ -83,6 +93,7 @@ export const items = [
   },
   // Templates
   {
+    _id: 'sBTpq5Jk97fsTM74b',
     value: '/templates/themes',
     iconGroup: 'linear',
     icon: 'palette',
@@ -91,6 +102,7 @@ export const items = [
     moduleGroup: 'templates',
   },
   {
+    _id: 'qmpJSZ8byimAEAn6z',
     value: '/templates/screens',
     iconGroup: 'linear',
     icon: 'screen',
@@ -99,6 +111,7 @@ export const items = [
     moduleGroup: 'templates',
   },
   {
+    _id: 'wduRhZzkjPFETNist',
     value: '/templates/badges',
     iconGroup: 'moon',
     icon: 'qrcode',
@@ -108,6 +121,7 @@ export const items = [
   },
   // App
   {
+    _id: 'FfgtgHdcDoZS6dJdp',
     value: '/app/settings',
     iconGroup: 'linear',
     icon: 'cog',
@@ -116,6 +130,7 @@ export const items = [
     moduleGroup: 'app',
   },
   {
+    _id: '6kSfP4d6ro2YFa7WG',
     value: '/app/assets',
     iconGroup: 'linear',
     icon: 'file-charts',
@@ -124,6 +139,7 @@ export const items = [
     moduleGroup: 'app',
   },
   {
+    _id: 'zB62e4WhCjZFwXeAJ',
     value: '/app/themes',
     iconGroup: 'linear',
     icon: 'palette',
@@ -132,6 +148,7 @@ export const items = [
     moduleGroup: 'app',
   },
   {
+    _id: 'mjLFZWRLfdjm9SxMk',
     value: '/app/screens',
     iconGroup: 'linear',
     icon: 'screen',
@@ -140,6 +157,7 @@ export const items = [
     moduleGroup: 'app',
   },
   {
+    _id: 'bAzLx6eHi6RPxpr6s',
     value: '/app/badges',
     iconGroup: 'moon',
     icon: 'qrcode',
@@ -149,6 +167,7 @@ export const items = [
   },
   // Client
   {
+    _id: 'yzQAow5BeyHoC84hs',
     value: '/client/invoices',
     iconGroup: 'linear',
     icon: 'receipt',
@@ -157,6 +176,7 @@ export const items = [
     moduleGroup: 'client',
   },
   {
+    _id: 'uW6CZodEQY93m8A62',
     value: '/client/contacts',
     iconGroup: 'linear',
     icon: 'profile',
@@ -165,6 +185,7 @@ export const items = [
     moduleGroup: 'client',
   },
   {
+    _id: 'P47DYtByMWSZFxPia',
     value: '/client/branding',
     iconGroup: 'linear',
     icon: 'cube',
@@ -173,6 +194,7 @@ export const items = [
     moduleGroup: 'client',
   },
   {
+    _id: 'nwPJTnPedC67ePMGR',
     value: '/client/apps',
     iconGroup: 'linear',
     icon: 'smartphone',

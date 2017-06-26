@@ -29,9 +29,6 @@ storiesOf('HeaderBar', module)
         label="Search"
         onClick={handler}
       />
-      <HeaderButton
-        label="Filter"
-        onClick={handler}
-      />
+      <HeaderButton label="Filter" onClick={handler} />
     </HeaderBar>,
   );

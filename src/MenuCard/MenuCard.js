@@ -107,7 +107,7 @@ const MenuCard = props => {
 MenuCard.defaultProps = {
   className: '',
   image: '',
-  imageLandscape: '',
+  imageLandscape: false,
   moduleId: '',
   onSwitchClick: () => null,
   selectedValue: '',

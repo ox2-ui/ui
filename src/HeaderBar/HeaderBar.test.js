@@ -22,10 +22,7 @@ it('renders with buttons', () => {
         label="Search"
         onClick={handler}
       />
-      <HeaderButton
-        label="Filter"
-        onClick={handler}
-      />
+      <HeaderButton label="Filter" onClick={handler} />
     </HeaderBar>,
   );
 

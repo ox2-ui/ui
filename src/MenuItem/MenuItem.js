@@ -27,11 +27,12 @@ const MenuItem = ({
   <div className={className} style={style}>
     <div
       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
-      onClick={() => onClick(
-        moduleId
-          ? `/${moduleGroup}/${moduleId}/${module}`
-          : value,
-      )}
+      onClick={() =>
+        onClick(
+          moduleId
+            ? `/${moduleGroup}/${moduleId}/${module}`
+            : value,
+        )}
     >
       {!hidePicture &&
         <Thumb

@@ -62,9 +62,9 @@ const HeaderDesktop = props => {
 };
 
 HeaderDesktop.defaultProps = {
-  className: PropTypes.string,
-  onSwitchClick: PropTypes.func,
-  showSwitchMenu: PropTypes.bool,
+  className: '',
+  onSwitchClick: () => null,
+  showSwitchMenu: false,
 };
 
 HeaderDesktop.propTypes = {
