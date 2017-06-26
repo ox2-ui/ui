@@ -139,7 +139,7 @@ exports[`renders correctly 1`] = `
                     color=""
                     group="linear"
                     icon="speed-fast"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -147,7 +147,7 @@ exports[`renders correctly 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -221,7 +221,7 @@ exports[`renders correctly 1`] = `
                     color=""
                     group="linear"
                     icon="laptop-phone"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -229,7 +229,7 @@ exports[`renders correctly 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -303,7 +303,7 @@ exports[`renders correctly 1`] = `
                     color=""
                     group="linear"
                     icon="server"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -311,7 +311,7 @@ exports[`renders correctly 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -385,7 +385,7 @@ exports[`renders correctly 1`] = `
                     color=""
                     group="linear"
                     icon="site-map"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -393,7 +393,7 @@ exports[`renders correctly 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -467,7 +467,7 @@ exports[`renders correctly 1`] = `
                     color=""
                     group="linear"
                     icon="user-lock"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -475,7 +475,7 @@ exports[`renders correctly 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -639,7 +639,7 @@ exports[`renders selected 1`] = `
                     color=""
                     group="linear"
                     icon="speed-fast"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -647,7 +647,7 @@ exports[`renders selected 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -721,7 +721,7 @@ exports[`renders selected 1`] = `
                     color=""
                     group="linear"
                     icon="laptop-phone"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -729,7 +729,7 @@ exports[`renders selected 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -803,7 +803,7 @@ exports[`renders selected 1`] = `
                     color=""
                     group="linear"
                     icon="server"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -811,7 +811,7 @@ exports[`renders selected 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -885,7 +885,7 @@ exports[`renders selected 1`] = `
                     color=""
                     group="linear"
                     icon="site-map"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -893,7 +893,7 @@ exports[`renders selected 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -967,7 +967,7 @@ exports[`renders selected 1`] = `
                     color=""
                     group="linear"
                     icon="user-lock"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -975,7 +975,7 @@ exports[`renders selected 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -1139,7 +1139,7 @@ exports[`renders with context switch 1`] = `
                     color=""
                     group="linear"
                     icon="speed-fast"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -1147,7 +1147,7 @@ exports[`renders with context switch 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -1221,7 +1221,7 @@ exports[`renders with context switch 1`] = `
                     color=""
                     group="linear"
                     icon="laptop-phone"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -1229,7 +1229,7 @@ exports[`renders with context switch 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -1303,7 +1303,7 @@ exports[`renders with context switch 1`] = `
                     color=""
                     group="linear"
                     icon="server"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -1311,7 +1311,7 @@ exports[`renders with context switch 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -1385,7 +1385,7 @@ exports[`renders with context switch 1`] = `
                     color=""
                     group="linear"
                     icon="site-map"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -1393,7 +1393,7 @@ exports[`renders with context switch 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />
@@ -1467,7 +1467,7 @@ exports[`renders with context switch 1`] = `
                     color=""
                     group="linear"
                     icon="user-lock"
-                    size="19.599999999999998px"
+                    size="20px"
                     style={Object {}}
                   >
                     <span
@@ -1475,7 +1475,7 @@ exports[`renders with context switch 1`] = `
                       style={
                         Object {
                           "color": "",
-                          "fontSize": "19.599999999999998px",
+                          "fontSize": "20px",
                         }
                       }
                     />

@@ -1435,7 +1435,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="cog"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -1443,7 +1443,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -1517,7 +1517,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="file-charts"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -1525,7 +1525,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -1599,7 +1599,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="palette"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -1607,7 +1607,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -1681,7 +1681,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="screen"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -1689,7 +1689,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -1763,7 +1763,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="moon"
                             icon="qrcode"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -1771,7 +1771,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -1932,7 +1932,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="receipt"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -1940,7 +1940,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2014,7 +2014,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="profile"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2022,7 +2022,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2096,7 +2096,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="cube"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2104,7 +2104,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2178,7 +2178,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="smartphone"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2186,7 +2186,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2356,7 +2356,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="speed-fast"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2364,7 +2364,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2438,7 +2438,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="laptop-phone"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2446,7 +2446,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2520,7 +2520,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="server"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2528,7 +2528,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2602,7 +2602,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="site-map"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2610,7 +2610,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2684,7 +2684,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="user-lock"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2692,7 +2692,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2862,7 +2862,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="chart-growth"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2870,7 +2870,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -2944,7 +2944,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="file-charts"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -2952,7 +2952,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -3026,7 +3026,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="briefcase"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -3034,7 +3034,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -3108,7 +3108,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="cashier"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -3116,7 +3116,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -3190,7 +3190,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="feather2"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -3198,7 +3198,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -3350,7 +3350,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="palette"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -3358,7 +3358,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -3432,7 +3432,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="linear"
                             icon="screen"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -3440,7 +3440,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />
@@ -3514,7 +3514,7 @@ exports[`renders correctly 1`] = `
                             color=""
                             group="moon"
                             icon="qrcode"
-                            size="19.599999999999998px"
+                            size="20px"
                             style={Object {}}
                           >
                             <span
@@ -3522,7 +3522,7 @@ exports[`renders correctly 1`] = `
                               style={
                                 Object {
                                   "color": "",
-                                  "fontSize": "19.599999999999998px",
+                                  "fontSize": "20px",
                                 }
                               }
                             />

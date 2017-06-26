@@ -59,7 +59,7 @@ const Thumb = props => {
               className={`text-color:${iconColor}`}
               group={iconGroup}
               icon={icon}
-              size={`${height * ICON_SCALE}px`}
+              size={`${Math.round(height * ICON_SCALE)}px`}
             />;
           }
         }
