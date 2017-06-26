@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 1.0.0 - 2017-06-26
+### Changed
+- Stable release with package config v2
+
 ## 0.2.0 - 2017-01-23
 ### Added
 - [ListItem] new component
