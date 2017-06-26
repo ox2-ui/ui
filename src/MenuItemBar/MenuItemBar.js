@@ -42,16 +42,20 @@ class MenuItemBar extends Component {
     value: PropTypes.string.isRequired,
   };
 
+  static defaultProps = {
+    className: '',
+    style: {},
+  };
+
   shouldComponentUpdate(nextProps) {
-    if (this.props.items !== nextProps.value) {
+    if (this.props.value !== nextProps.value) {
       return true;
     } else if (
       !Immutable.is(this.props.items, nextProps.items)
     ) {
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 
   render() {
@@ -65,22 +69,22 @@ class MenuItemBar extends Component {
 
     return (
       <StyledScroller className={className} style={style}>
-        {items.map((item, i) => {
+        {items.map(item => {
           return (
             <div
-              key={i}
               className="display:flex pos:relative padding-l:7"
+              key={item._id}
             >
               {value === item._id &&
                 <SelectIndicator className="color:neutral-dim" />}
               <MenuItem
-                value={item._id}
-                title={item.title}
                 image={item.logo}
-                pictureWidth={35}
-                pictureHeight={35}
-                pictureBgColor={'white'}
                 onClick={onUpdate}
+                pictureBgColor={'white'}
+                pictureHeight={35}
+                pictureWidth={35}
+                title={item.title}
+                value={item._id}
               />
             </div>
           );

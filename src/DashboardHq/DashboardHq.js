@@ -28,9 +28,9 @@ const DashboardHq = props => {
     <div className={className} style={style}>
       <div className="flex:1 pos:relative">
         <MenuItemBar
-          value={activeApp}
           items={recentApps}
           onUpdate={onAppItemClick}
+          value={activeApp}
         />
       </div>
       <div className="flex:3 display:flex flex:wrap">
@@ -39,13 +39,13 @@ const DashboardHq = props => {
           style={{ width: '330px' }}
         >
           <MenuCard
-            title={'App'}
-            selectedValue={currentPath}
-            onItemClick={onMenuItemClick}
-            moduleId={activeApp}
             items={menuItems.filter(
               x => x.moduleGroup === 'app',
             )}
+            moduleId={activeApp}
+            onItemClick={onMenuItemClick}
+            selectedValue={currentPath}
+            title={'App'}
           />
         </div>
         <div
@@ -53,12 +53,12 @@ const DashboardHq = props => {
           style={{ width: '330px' }}
         >
           <MenuCard
-            title={'Client'}
-            selectedValue={currentPath}
-            onItemClick={onMenuItemClick}
             items={menuItems.filter(
               x => x.moduleGroup === 'client',
             )}
+            onItemClick={onMenuItemClick}
+            selectedValue={currentPath}
+            title={'Client'}
           />
         </div>
         <div
@@ -66,13 +66,13 @@ const DashboardHq = props => {
           style={{ width: '220px' }}
         >
           <MenuCard
-            title={'System'}
-            selectedValue={currentPath}
-            onItemClick={onMenuItemClick}
-            moduleId={activeApp}
             items={menuItems.filter(
               x => x.moduleGroup === 'system',
             )}
+            moduleId={activeApp}
+            onItemClick={onMenuItemClick}
+            selectedValue={currentPath}
+            title={'System'}
           />
         </div>
         <div
@@ -80,13 +80,13 @@ const DashboardHq = props => {
           style={{ width: '220px' }}
         >
           <MenuCard
-            title={'Business'}
-            selectedValue={currentPath}
-            onItemClick={onMenuItemClick}
-            moduleId={activeApp}
             items={menuItems.filter(
               x => x.moduleGroup === 'business',
             )}
+            moduleId={activeApp}
+            onItemClick={onMenuItemClick}
+            selectedValue={currentPath}
+            title={'Business'}
           />
         </div>
         <div
@@ -94,12 +94,12 @@ const DashboardHq = props => {
           style={{ width: '220px' }}
         >
           <MenuCard
-            title={'Templates'}
-            selectedValue={currentPath}
-            onItemClick={onMenuItemClick}
             items={menuItems.filter(
               x => x.moduleGroup === 'templates',
             )}
+            onItemClick={onMenuItemClick}
+            selectedValue={currentPath}
+            title={'Templates'}
           />
         </div>
       </div>
@@ -110,10 +110,12 @@ const DashboardHq = props => {
   );
 };
 
+DashboardHq.defaultProps = {
+  className: '',
+  style: {},
+};
+
 DashboardHq.propTypes = {
-  /**
-   * The css class name of the root element.
-   */
   activeApp: PropTypes.string.isRequired,
   className: PropTypes.string,
   currentPath: PropTypes.string.isRequired,

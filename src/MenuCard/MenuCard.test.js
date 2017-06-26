@@ -9,9 +9,9 @@ const handler = () => true;
 it('renders correctly', () => {
   const wrapper = mount(
     <MenuCard
-      title={'System'}
-      onItemClick={handler}
       items={items.filter(x => x.moduleGroup === 'system')}
+      onItemClick={handler}
+      title={'System'}
     />,
   );
 
@@ -21,10 +21,10 @@ it('renders correctly', () => {
 it('renders selected', () => {
   const wrapper = mount(
     <MenuCard
-      title={'System'}
+      items={items.filter(x => x.moduleGroup === 'system')}
       onItemClick={handler}
       selectedValue={'/system/apps'}
-      items={items.filter(x => x.moduleGroup === 'system')}
+      title={'System'}
     />,
   );
 
@@ -34,11 +34,12 @@ it('renders selected', () => {
 it('renders with context switch', () => {
   const wrapper = mount(
     <MenuCard
-      title={'System'}
-      onItemClick={handler}
-      items={items.filter(x => x.moduleGroup === 'system')}
       image={'http://imgur.com/abQ9EaG.png'}
+      items={items.filter(x => x.moduleGroup === 'system')}
+      onItemClick={handler}
       onSwitchClick={handler}
+      switchEnabled={true}
+      title={'System'}
     />,
   );
 

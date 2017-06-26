@@ -8,7 +8,7 @@ import Button from '@ox2/button/Button';
  */
 const Dashboard = ({ onDismiss }) =>
   <Scroller className="padding-b:40">
-    <Button onClick={() => onDismiss()} btn="raised action">
+    <Button btn="raised action" onClick={onDismiss}>
       Done
     </Button>
     <div>

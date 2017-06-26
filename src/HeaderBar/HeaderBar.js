@@ -60,6 +60,16 @@ const HeaderBar = props => {
   );
 };
 
+HeaderBar.defaultProps = {
+  children: null,
+  className: '',
+  hideBorder: false,
+  icon: '',
+  image: '',
+  onIconClick: () => null,
+  title: '',
+};
+
 HeaderBar.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,

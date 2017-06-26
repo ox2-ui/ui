@@ -10,7 +10,7 @@ const logo1 =
 
 it('renders correctly as square', () => {
   const wrapper = mount(
-    <Thumb image={image1} width={60} height={60} />,
+    <Thumb height={60} image={image1} width={60} />,
   );
 
   expect(wrapper).toMatchSnapshot();
@@ -18,7 +18,7 @@ it('renders correctly as square', () => {
 
 it('renders correctly as landscape', () => {
   const wrapper = mount(
-    <Thumb image={logo1} width={120} height={60} />,
+    <Thumb height={60} image={logo1} width={120} />,
   );
 
   expect(wrapper).toMatchSnapshot();

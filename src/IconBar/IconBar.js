@@ -51,6 +51,11 @@ class IconBar extends Component {
     value: PropTypes.string.isRequired,
   };
 
+  static defaultProps = {
+    className: '',
+    style: {},
+  };
+
   shouldComponentUpdate(nextProps) {
     if (this.props.items !== nextProps.value) {
       return true;
@@ -58,9 +63,8 @@ class IconBar extends Component {
       !Immutable.is(this.props.items, nextProps.items)
     ) {
       return true;
-    } else {
-      return false;
     }
+    return false;
   }
 
   render() {
@@ -74,18 +78,18 @@ class IconBar extends Component {
 
     return (
       <StyledScroller className={className} style={style}>
-        {items.map((item, i) => {
+        {items.map(item => {
           return (
             <Item
-              key={i}
+              key={item._id}
               onClick={() => onUpdate(item._id)}
             >
               {value === item._id &&
                 <SelectIndicator className="color:neutral-faded" />}
               <Thumb
+                height={35}
                 image={item.logo}
                 width={35}
-                height={35}
               />
             </Item>
           );

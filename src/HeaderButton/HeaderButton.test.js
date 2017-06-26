@@ -7,7 +7,7 @@ const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-conso
 
 it('renders correctly', () => {
   const wrapper = mount(
-    <HeaderButton onClick={handleOnClick} label="Add" />,
+    <HeaderButton label="Add" onClick={handleOnClick} />,
   );
 
   expect(wrapper).toMatchSnapshot();

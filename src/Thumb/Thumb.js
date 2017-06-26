@@ -23,9 +23,11 @@ const Thumb = props => {
 
   const className = classNames(
     'display:flex flex:items-center flex:content-center border:rounded',
-    `color:${color || 'transparent'}`,
+    `color:${color}`,
     classNameProp,
   );
+
+  const ICON_SCALE = 0.7;
 
   return (
     <div
@@ -42,23 +44,22 @@ const Thumb = props => {
           if (image) {
             if (offlineEnabled && localImg) {
               <ImageOffline
-                remoteLink={image}
-                localImg={localImg}
                 className="w:100p border:rounded"
+                localImg={localImg}
+                remoteLink={image}
               />;
             } else {
               <img
-                src={image}
                 className="w:100p border:rounded"
+                src={image}
               />;
             }
           } else {
             <FontIcon
-              icon={icon}
+              className={`text-color:${iconColor}`}
               group={iconGroup}
-              size={`${height - height * 0.3}px`}
-              className={`text-color:${iconColor ||
-                'neutral-light'}`}
+              icon={icon}
+              size={`${height * ICON_SCALE}px`}
             />;
           }
         }
@@ -68,7 +69,14 @@ const Thumb = props => {
 };
 
 Thumb.defaultProps = {
+  className: '',
+  color: 'transparent',
   iconGroup: '',
+  iconColor: 'neutral-light',
+  icon: '',
+  image: '',
+  localImg: '',
+  offlineEnabled: false,
 };
 
 Thumb.propTypes = {
@@ -83,7 +91,7 @@ Thumb.propTypes = {
   /**
    * Thumb height in pixels
    */
-  height: PropTypes.number,
+  height: PropTypes.number.isRequired,
   /**
    * Icon id
    */
@@ -92,6 +100,10 @@ Thumb.propTypes = {
    * Icon color
    */
   iconColor: PropTypes.string,
+  /**
+   * Icon group
+   */
+  iconGroup: PropTypes.string,
   /**
    * Image url
    */
@@ -107,7 +119,7 @@ Thumb.propTypes = {
   /**
    * Thumb width in pixels
    */
-  width: PropTypes.number,
+  width: PropTypes.number.isRequired,
 };
 
 export default Thumb;

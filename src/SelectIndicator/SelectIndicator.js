@@ -18,7 +18,12 @@ const Indicator = styled.div`
 const SelectIndicator = props => {
   const { className, style } = props;
 
-  return <Indicator style={style} className={className} />;
+  return <Indicator className={className} style={style} />;
+};
+
+SelectIndicator.defaultProps = {
+  className: '',
+  style: {},
 };
 
 SelectIndicator.propTypes = {

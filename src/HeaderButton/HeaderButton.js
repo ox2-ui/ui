@@ -25,8 +25,8 @@ const HeaderButton = ({
   return (
     <Button
       btn="header-button small raised"
-      onClick={onClick}
       className={className}
+      onClick={onClick}
       style={mergedStyles}
     >
       {label}
@@ -34,16 +34,15 @@ const HeaderButton = ({
   );
 };
 
+HeaderButton.defaultProps = {
+  className: '',
+  style: {},
+};
+
 HeaderButton.propTypes = {
-  /**
-   * The css class name of the root element.
-   */
   className: PropTypes.string,
-  label: PropTypes.string,
-  onClick: PropTypes.func,
-  /**
-   * Override the inline-styles of the root element.
-   */
+  label: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
   style: PropTypes.object,
 };
 

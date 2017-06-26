@@ -3,35 +3,35 @@ import { storiesOf } from '@storybook/react';
 import HeaderBar from './HeaderBar';
 import HeaderButton from '../HeaderButton';
 
-const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-console
+const handler = () => console.log('🍇'); // eslint-disable-line no-console
 
 storiesOf('HeaderBar', module)
   .add('with image', () =>
     <HeaderBar
-      title="Linda Sanders"
       image="https://randomuser.me/api/portraits/women/21.jpg"
+      title="Linda Sanders"
     />,
   )
   .add('with icon', () =>
-    <HeaderBar title="Cactus settings" icon="server" />,
+    <HeaderBar icon="server" title="Cactus settings" />,
   )
   .add('no border', () =>
     <HeaderBar
-      title="Cactus settings"
-      icon="server"
       hideBorder={true}
+      icon="server"
+      title="Cactus settings"
     />,
   )
   .add('with buttons', () =>
-    <HeaderBar title="Cactus settings" icon="server">
+    <HeaderBar icon="server" title="Cactus settings">
       <HeaderButton
-        onClick={handleOnClick}
         className="margin-r:7"
         label="Search"
+        onClick={handler}
       />
       <HeaderButton
-        onClick={handleOnClick}
         label="Filter"
+        onClick={handler}
       />
     </HeaderBar>,
   );

@@ -26,27 +26,27 @@ const MenuItem = ({
 }) =>
   <div className={className} style={style}>
     <div
-      onClick={() =>
-        moduleId
-          ? onClick(`/${moduleGroup}/${moduleId}/${module}`)
-          : onClick(value)}
       className="display:flex flex:items-center color:white padding:5 select:none cursor:pointer"
+      onClick={() => onClick(
+        moduleId
+          ? `/${moduleGroup}/${moduleId}/${module}`
+          : value,
+      )}
     >
       {!hidePicture &&
         <Thumb
           color={pictureBgColor}
-          height={pictureHeight || 28}
+          height={pictureHeight}
           icon={icon}
           iconColor={iconColor}
           iconGroup={iconGroup}
           image={image}
-          width={pictureWidth || 28}
+          width={pictureWidth}
         />}
       {/* class min-w:0 added to fix Flex child truncate issue */}
       <div className="display:flex flex:column flex:content-center margin-l:5 min-w:0 line-h:130p font:roboto-condensed">
         <div
-          className={`select:text size:16 line-h:120p text:truncate text-color:${textColor ||
-            'backdrop-alt'}`}
+          className={`select:text size:16 line-h:120p text:truncate text-color:${textColor}`}
         >
           {title}
         </div>
@@ -54,11 +54,30 @@ const MenuItem = ({
     </div>
   </div>;
 
+MenuItem.defaultProps = {
+  className: '',
+  hidePicture: false,
+  icon: '',
+  iconColor: '',
+  iconGroup: '',
+  image: '',
+  module: '',
+  moduleGroup: '',
+  moduleId: '',
+  pictureBgColor: '',
+  pictureHeight: 28,
+  pictureWidth: 28,
+  style: {},
+  textColor: 'backdrop-alt',
+  title: '',
+};
+
 MenuItem.propTypes = {
   className: PropTypes.string,
   hidePicture: PropTypes.bool,
   icon: PropTypes.string,
   iconColor: PropTypes.string,
+  iconGroup: PropTypes.string,
   image: PropTypes.string,
   module: PropTypes.string,
   moduleGroup: PropTypes.string,

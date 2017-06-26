@@ -5,5 +5,5 @@ import HeaderButton from './HeaderButton';
 const handleOnClick = () => console.log('🍇'); // eslint-disable-line no-console
 
 storiesOf('HeaderButton', module).add('default', () =>
-  <HeaderButton onClick={handleOnClick} label="Add" />,
+  <HeaderButton label="Add" onClick={handleOnClick} />,
 );

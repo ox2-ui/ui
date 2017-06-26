@@ -10,11 +10,11 @@ storiesOf('HeaderDesktop', module)
       <HeaderDesktop
         className="color:backdrop-alt"
         image={'http://imgur.com/abQ9EaG.png'}
-        title={'Some title'}
         onHomeClick={handler}
         onSwitchClick={handler}
         onUserClick={handler}
         showSwitchMenu={true}
+        title={'Some title'}
       />
     </div>,
   )
@@ -22,10 +22,10 @@ storiesOf('HeaderDesktop', module)
     <div style={{ height: '64px', position: 'relative' }}>
       <HeaderDesktop
         className="color:backdrop-alt"
-        title={'Some title'}
         image={'http://imgur.com/abQ9EaG.png'}
         onHomeClick={handler}
         onUserClick={handler}
+        title={'Some title'}
       />
     </div>,
   );

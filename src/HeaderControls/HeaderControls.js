@@ -24,8 +24,13 @@ const HeaderControls = props => {
   );
 };
 
+HeaderControls.defaultProps = {
+  className: '',
+  style: {},
+};
+
 HeaderControls.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
   /**
    * The css class name of the root element.
    */

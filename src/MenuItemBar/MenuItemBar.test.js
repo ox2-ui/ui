@@ -12,9 +12,9 @@ const list = Immutable.List.of(...items);
 it('renders correctly', () => {
   const wrapper = mount(
     <MenuItemBar
-      value="3nNKyP6h6pMMjAyTMK"
       items={list}
       onUpdate={handler}
+      value="3nNKyP6h6pMMjAyTMK"
     />,
   );
 

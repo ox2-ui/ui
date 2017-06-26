@@ -10,8 +10,8 @@ const list = Immutable.List.of(...items);
 
 storiesOf('MenuItemBar', module).add('default', () =>
   <MenuItemBar
-    value="3nNKyP6h6pMMjAyTMK"
     items={list}
     onUpdate={handler}
+    value="3nNKyP6h6pMMjAyTMK"
   />,
 );

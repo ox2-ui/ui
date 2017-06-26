@@ -7,7 +7,7 @@ import Button from '@ox2/button/Button';
  */
 const UserMenu = ({ onDismiss }) =>
   <div className="padding-b:40">
-    <Button onClick={() => onDismiss()} btn="raised action">
+    <Button btn="raised action" onClick={onDismiss} >
       Done
     </Button>
     <div>

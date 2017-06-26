@@ -10,35 +10,37 @@ const handlerSwitch = () => console.log('🐸'); // eslint-disable-line no-conso
 storiesOf('MenuCard', module)
   .add('default', () =>
     <MenuCard
-      title={'System'}
-      onItemClick={handler}
       items={items.filter(x => x.moduleGroup === 'system')}
+      onItemClick={handler}
+      title={'System'}
     />,
   )
   .add('selected', () =>
     <MenuCard
-      title={'System'}
-      onItemClick={handler}
       items={items.filter(x => x.moduleGroup === 'system')}
+      onItemClick={handler}
       selectedValue={'/system/apps'}
+      title={'System'}
     />,
   )
   .add('with context switch - app', () =>
     <MenuCard
-      title={'System'}
-      onItemClick={handler}
-      items={items.filter(x => x.moduleGroup === 'system')}
       image={'http://imgur.com/abQ9EaG.png'}
+      items={items.filter(x => x.moduleGroup === 'system')}
+      onItemClick={handler}
       onSwitchClick={handlerSwitch}
+      switchEnabled={true}
+      title={'System'}
     />,
   )
   .add('with context switch - client', () =>
     <MenuCard
-      title={'System'}
-      onItemClick={handler}
-      items={items.filter(x => x.moduleGroup === 'system')}
-      imageLandscape={true}
       image={'https://imgur.com/BCWOb1Y.jpg'}
+      imageLandscape={true}
+      items={items.filter(x => x.moduleGroup === 'system')}
+      onItemClick={handler}
       onSwitchClick={handlerSwitch}
+      switchEnabled={true}
+      title={'System'}
     />,
   );

@@ -35,18 +35,18 @@ const ListItem = props => {
   return (
     <div className={className} style={style}>
       <div
-        onClick={() => onClick(_id)}
         className="font:roboto-condensed display:flex flex:items-center color:white padding:10 select:none cursor:pointer"
+        onClick={() => onClick(_id)}
       >
         {!hidePicture &&
           <Thumb
-            image={image}
-            icon={icon}
-            iconGroup={iconGroup}
-            width={pictureWidth | 60}
-            height={pictureHeight | 60}
             color={pictureBgColor}
+            height={pictureHeight}
+            icon={icon}
             iconColor={iconColor}
+            iconGroup={iconGroup}
+            image={image}
+            width={pictureWidth}
           />}
         {/* class min-w:0 added to fix Flex child truncate issue */}
         <div className="display:flex flex:column flex:content-center margin-l:10 min-w:0 line-h:130p">
@@ -76,6 +76,24 @@ const ListItem = props => {
   );
 };
 
+ListItem.defaultProps = {
+  className: '',
+  hidePicture: false,
+  icon: '',
+  iconColor: '',
+  iconGroup: '',
+  image: '',
+  pictureBgColor: '',
+  pictureHeight: 60,
+  pictureWidth: 60,
+  style: {},
+  subtitle1: '',
+  subtitle2: '',
+  title: '',
+  widget: () => null,
+  widgetBottom: () => null,
+};
+
 ListItem.propTypes = {
   /**
    * The css class name of the root element.
@@ -85,6 +103,7 @@ ListItem.propTypes = {
   hidePicture: PropTypes.bool,
   icon: PropTypes.string,
   iconColor: PropTypes.string,
+  iconGroup: PropTypes.string,
   image: PropTypes.string,
   onClick: PropTypes.func.isRequired,
   pictureBgColor: PropTypes.string,

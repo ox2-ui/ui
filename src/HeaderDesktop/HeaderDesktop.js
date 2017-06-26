@@ -28,22 +28,22 @@ const HeaderDesktop = props => {
     <div className={className}>
       <div className="flex:2 display:flex flex:items-center flex:content-start">
         <Button
-          onClick={onHomeClick}
           btn="large raised brand"
           className="margin-r:10"
+          onClick={onHomeClick}
         >
           <FontIcon group="linear" icon="cactus" />
         </Button>
         {showSwitchMenu &&
           <div className="display:flex flex:items-center">
-            <Thumb image={image} width={35} height={35} />
+            <Thumb height={35} image={image} width={35} />
             <div className="size:14 text-color:white font:roboto margin-l:10">
               {title}
             </div>
             <Button
-              onClick={onSwitchClick}
               btn="tiny neutral-dark"
               className="margin-l:10"
+              onClick={onSwitchClick}
             >
               Switch
             </Button>
@@ -51,8 +51,8 @@ const HeaderDesktop = props => {
       </div>
       <div className="flex:1 display:flex flex:items-center flex:content-end">
         <Button
-          onClick={onUserClick}
           btn="transparent large white"
+          onClick={onUserClick}
         >
           <FontIcon group="linear" icon="user" />
         </Button>
@@ -61,10 +61,13 @@ const HeaderDesktop = props => {
   );
 };
 
+HeaderDesktop.defaultProps = {
+  className: PropTypes.string,
+  onSwitchClick: PropTypes.func,
+  showSwitchMenu: PropTypes.bool,
+};
+
 HeaderDesktop.propTypes = {
-  /**
-   * The css class name of the root element.
-   */
   className: PropTypes.string,
   image: PropTypes.string.isRequired,
   onHomeClick: PropTypes.func.isRequired,

@@ -8,12 +8,12 @@ const handler = () => true;
 it('renders correctly', () => {
   const wrapper = mount(
     <MenuItem
-      value={'/system/status'}
-      title={'Settings'}
       icon={'cog'}
       iconColor={'brand'}
-      pictureBgColor={'white'}
       onClick={handler}
+      pictureBgColor={'white'}
+      title={'Settings'}
+      value={'/system/status'}
     />,
   );
 

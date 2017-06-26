@@ -9,11 +9,11 @@ it('renders correctly', () => {
   const wrapper = mount(
     <ListItem
       _id={'1nNKyP6h6pMMjAyTMK'}
-      title={'Jane Sanders'}
-      subtitle1={'Ox2 Limited'}
-      subtitle2={'Marketing Manager'}
       icon={'user'}
       onClick={handler}
+      subtitle1={'Ox2 Limited'}
+      subtitle2={'Marketing Manager'}
+      title={'Jane Sanders'}
     />,
   );
 

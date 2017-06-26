@@ -46,9 +46,16 @@ const SearchBar = ({
   );
 };
 
+SearchBar.defaultProps = {
+  className: '',
+  placeholder: 'Search...',
+  style: {},
+  value: '',
+};
+
 SearchBar.propTypes = {
   className: PropTypes.string,
-  onChange: PropTypes.func,
+  onChange: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   style: PropTypes.object,
   value: PropTypes.string,
