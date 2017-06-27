@@ -3,7 +3,7 @@ import React from 'react';
 import classNames from 'classnames';
 import Button from '@ox2/button/Button';
 import FontIcon from '@ox2/icon/FontIcon';
-import Thumb from '../Thumb';
+import Thumb from '@ox2/thumb/Thumb';
 
 /**
  * HeaderDesktop Component

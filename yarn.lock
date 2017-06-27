@@ -76,6 +76,14 @@
   dependencies:
     jss "^5.5.6"
 
+"@ox2/thumb@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ox2/thumb/-/thumb-1.0.0.tgz#379f43470f593be03fe694956d443b637cf1fb04"
+  dependencies:
+    "@ox2/icon" "^3.1.1"
+    "@ox2/image" "^1.0.0"
+    prop-types "^15.5.10"
+
 "@ox2/ycss@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@ox2/ycss/-/ycss-1.6.0.tgz#a4c6aa038411fd288602467656ef5ee3e3f16c7f"

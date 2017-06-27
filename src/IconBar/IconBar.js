@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Thumb from '../Thumb';
+import Thumb from '@ox2/thumb/Thumb';
 import SelectIndicator from '../SelectIndicator';
 import Scroller from '@ox2/scroller/Scroller';
 import styled from 'styled-components';

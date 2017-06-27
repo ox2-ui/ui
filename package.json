@@ -75,6 +75,7 @@
     "@ox2/icon": "^3.1.1",
     "@ox2/image": "^1.0.0",
     "@ox2/scroller": "^1.2.1",
+    "@ox2/thumb": "^1.0.0",
     "classnames": "^2.2.5",
     "immutable": "^3.8.1",
     "prop-types": "^15.5.10",

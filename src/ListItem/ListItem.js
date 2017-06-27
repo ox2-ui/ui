@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
-import Thumb from '../Thumb';
+import Thumb from '@ox2/thumb/Thumb';
 
 /**
  * ListItem Component

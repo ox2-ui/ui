@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Thumb from '../Thumb';
+import Thumb from '@ox2/thumb/Thumb';
 
 /**
  * MenuItem Component
