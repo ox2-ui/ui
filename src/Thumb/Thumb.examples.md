@@ -1,3 +1,0 @@
-### Thumb
-
-    <Thumb/>
