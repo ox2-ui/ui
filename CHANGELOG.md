@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## 2.0.0 - 2017-06-27
+### Changed
+- [Thumb] moved to a separate package
+
 ## 1.0.0 - 2017-06-26
 ### Changed
 - Stable release with package config v2
