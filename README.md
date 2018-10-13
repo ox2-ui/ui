@@ -1,4 +1,4 @@
-**Warning** Pagacke no longer mantained.
+### Package is no longer maintaned.
 
 # @ox2/ui
 ![NPM version](https://img.shields.io/badge/npm-private-orange.svg?style=flat)
